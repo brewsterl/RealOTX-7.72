@@ -1,13 +1,5 @@
-Compatible AAC:
-
-[Gesior2012](https://github.com/gesior/Gesior2012/tree/TFS-0.4_rev_3703%2B).
-
-[ZnoteAAC](https://github.com/Znote/ZnoteAAC).
-
-[BitAAC](https://github.com/bitaac/bitaac).
-
 Features
-
+=
     - Engine: OTX 2.X.S.4 LORD ZEDD: https://github.com/mattyx14/otxserver/tree/otxserv2/path_7_x
     - Real Map 7.72
     - Real Npcs 7.72
@@ -26,13 +18,24 @@ Features
     - Bank system
     - All functions introduced since 7.4 at 9.85 - And many more....
 
-How To Compile
+Compatible AAC:
+=
 
-a) Windows:
+    [Gesior2012](https://github.com/gesior/Gesior2012/tree/TFS-0.4_rev_3703%2B).
+
+    [ZnoteAAC](https://github.com/Znote/ZnoteAAC).
+
+    [BitAAC](https://github.com/bitaac/bitaac).
+
+
+How To Compile
+=
+A. Windows:
 
 COMPILING IN WINDOWS OTX SERVER 2.X.S.4
-    1. Download the required software
-    To compile The OTX Server on Windows, you will need:
+
+   1. Download the required software
+   To compile The OTX Server on Windows, you will need:
      
 Visual Studio 2015 Enterprise: [VS2015](https://go.microsoft.com/fwlink/?LinkId=691979&clcid=0x409/)
 
@@ -61,7 +64,7 @@ Once you have downloaded the software listed in the step above, begin by install
 
    4. Open up ..\sources\msvc\TheOTXServer.sln, change from "Debug" to "Release or Release GUI" and simply build the project.
 
-b) Linux:
+B. Linux:
 A detailed and always up-to-date tutorial may be found here:
 	Download required packages
         Launch a terminal, and paste in the following commands:
