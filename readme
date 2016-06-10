@@ -32,7 +32,16 @@ Boost C++ libraries
         2. Install the required software
 Once you have downloaded the software listed in the step above, begin by installing Visual Studio and Boost C++ libraries. Extract "tfs-sdk-2.1" anywhere on your computer and run the file "registerenv.bat" to set the PATH environment variable for "SQK-NOBOOST", so that the compiler can find the libraries once we get to compiling the source code. Move the file "register_boost_env.bat" from "SQK-NOBOOST" to the directory where you installed Boost C++ libraries and run it there (it should be in the directory called for example: C:\local\boost_1_60_0).
 
-        3. Open up ..\sources\msvc\TheOTXServer.sln, change from "Debug" to "Release or Release GUI" and simply build the project.
+        3. Download the source code
+        If you have a Git client installed, you can clone the latest copy with this command:
+
+            CodeGit:
+            $ git clone https://github.com/brewsterl/RealOTX7.72.git
+			
+            Source RealOTX 7.72 (OTX Server 2):
+            https://github.com/brewsterl/RealOTX7.72/archive/master.zip
+
+        4. Open up ..\sources\msvc\TheOTXServer.sln, change from "Debug" to "Release or Release GUI" and simply build the project.
 
 b) Linux:
 A detailed and always up-to-date tutorial may be found here:
@@ -43,7 +52,7 @@ A detailed and always up-to-date tutorial may be found here:
 
         Compiling
         Download sources - Launch a terminal, and paste in this command:
-            git clone https://github.com/RealOTX7.72/RealOTX7.72.git
+            git clone https://github.com/brewsterl/RealOTX7.72.git
 
         Launch a terminal, and type this:
 Into Folder run:
