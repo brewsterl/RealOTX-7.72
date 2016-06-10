@@ -1,7 +1,8 @@
 Features:
+    Engine: OTX 2.X.S.4 LORD ZEDD: https://github.com/mattyx14/otxserver/tree/otxserv2/path_7_x
     Real Map 7.72
     Real Npcs 7.72
-     Real Monsters
+    Real Monsters
     Real Spells
     CastSystem (Reqired create account with number "10")
     AntiDupe Items
@@ -18,7 +19,7 @@ Features:
 
 How To Compile
 a) Windows:
-	COMPILING IN WINDOWS OTX SERVER 2.X.S.4(2-3)
+	COMPILING IN WINDOWS OTX SERVER 2.X.S.4
         1. Download the required software
         To compile The OTX Server on Windows, you will need:
 
