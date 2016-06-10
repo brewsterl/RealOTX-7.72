@@ -57,9 +57,6 @@
 
 	<!-- REQUIRE ADD
 	<action uniqueid="10024" script="edron/Triple UH Rune Quest/triple uh.lua"/> -->
-
-	<!-- Darashia -->
-	<action uniqueid="10100" script="darashia/Plate Armor Quest/plate_armor.lua"/>
 		
 	<!-- jakundaf desert -->
 	<action uniqueid="3301" script="jakundaf desert/The Outlaw Camp Quest/3301.lua"/>
