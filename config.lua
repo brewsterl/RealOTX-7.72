@@ -60,15 +60,6 @@
 	fragsThirdToRedSkull = 10
 	redSkullLength = 3 * 24 * 60 * 60
 
-	-- Black Skull Config
-	fragsToBlackSkull = 6
-	fragsSecondToBlackSkull = 10
-	fragsThirdToBlackSkull = 20
-	blackSkulledDeathHealth = 40
-	blackSkulledDeathMana = 0
-	blackSkullLength = 6 * 24 * 60 * 60
-	useBlackSkull = true
-
 	-- Banishment Config
 	-- killsBanLength works only if useBlackSkull option is disabled.
 	notationsToBan = 3
@@ -240,12 +231,12 @@
 	-- Map
 	-- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
 	-- houseDataStorage usage may be found at how-use-internal-functions.log
-	mapAuthor = "Mattyx14"
+	mapAuthor = "BrewsterL"
 	randomizeTiles = true
 	houseDataStorage = "binary-tilebased"
 	storeTrash = true
 	cleanProtectedZones = true
-	mapName = "map.otbm"
+	mapName = "World.otbm"
 
 	-- Mailbox
 	mailMaxAttempts = 5
