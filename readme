@@ -1,24 +1,31 @@
 HOW TO COMPILE:
 Windows:
-	Open up ..\sources\msvc\TheOTXServer.sln, change from "Debug" to "Release or Release GUI" and simply build the project.
-	If you want to switch the protocol version, go to Project Properties -> C/C++ -> Preprocessor and edit _PROTOCOL77 definition with either 74 or 76.
+	COMPILING IN WINDOWS OTX SERVER 2.X.S.4(2-3) AND OTX SERVER 3.2+
+		1. Download the required software
+		To compile The OTX Server on Windows, you will need:
 
-	_MULTIPLATFORM77
-	_MULTIPLATFORM76
+			Visual Studio 2015 Enterprise : https://go.microsoft.com/fwlink/?LinkId=691979&clcid=0x409/
+			Libs (libraries) 2.1 : https://mega.nz/#!ocIyHZxI!jMVyKCpsofbuuNbdsLhblHhJRbsZrz4u5_JHPGXKJuE/
+			Boost C++ libraries
+				32-bit download : http://sourceforge.net/projects/boost/files/boost-binaries/1.60.0/boost_1_60_0-msvc-14.0-32.exe/download/
+				64-bit download : http://sourceforge.net/projects/boost/files/boost-binaries/1.60.0/boost_1_60_0-msvc-14.0-64.exe/download/
 
+		2. Install the required software
+Once you have downloaded the software listed in the step above, begin by installing Visual Studio and Boost C++ libraries. Extract "tfs-sdk-2.1" anywhere on your computer and run the file "registerenv.bat" to set the PATH environment variable for "SQK-NOBOOST", so that the compiler can find the libraries once we get to compiling the source code. Move the file "register_boost_env.bat" from "SQK-NOBOOST" to the directory where you installed Boost C++ libraries and run it there (it should be in the directory called for example: C:\local\boost_1_60_0).
+
+	    3. Open up ..\sources\msvc\TheOTXServer.sln, change from "Debug" to "Release or Release GUI" and simply build the project.
 
 Linux:
-	Same as every other OTX:
+A detailed and always up-to-date tutorial may be found here:
+	Download required packages
+		Launch a terminal, and paste in the following commands:
+			apt-get install update
+            apt-get install git subversion autoconf build-essential pkg-config libboost-dev libgmp3-dev libxml2-dev liblua5.1-0-dev libmysqlclient-dev ccache libboost-filesystem-dev libboost-regex-dev libboost-system-dev libboost-thread-dev screen libssl-dev
 
-	Libs:
-	apt-get install subversion autoconf build-essential pkg-config libboost-dev libgmp3-dev libxml2-dev liblua5.1-0-dev libmysqlclient-dev ccache libboost-filesystem-dev libboost-regex-dev libboost-system-dev libboost-thread-dev screen libssl-dev
+	Compiling
+		Download sources - Launch a terminal, and paste in this command:
+			git clone https://github.com/RealOTX7.72/RealOTX7.72.git
 
-	Compile:
+		Launch a terminal, and type this:
+Into Folder run:
 	sh ./autogen.sh && ./configure --enable-server-diag --enable-mysql --enable-groundcache --enable-root-permission && make -j 2
-
-	Protocol version can be changed in the Makefile.am - $(OPTIONAL_FLAGS), just add -D_MULTIPLATFORM7X where X is 6 or 7.
-
-	-D_MULTIPLATFORM77
-	-D_MULTIPLATFORM76
-
-If you no use this flags the compilation for default is 7.4
