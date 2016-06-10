@@ -58,7 +58,7 @@
 	fragsToRedSkull = 3
 	fragsSecondToRedSkull = 5
 	fragsThirdToRedSkull = 10
-	redSkullLength = 3 * 24 * 60 * 60
+	redSkullLength = 3 * 24 * 60 * 60 -- Dont edit!! If you edit this, the players will don't get the red skull!
 
 	-- Banishment Config
 	-- killsBanLength works only if useBlackSkull option is disabled.
@@ -77,7 +77,7 @@
 	-- NOTE: showHealth/ManaChangeForMonsters inherites from showHealth/ManaChange.
 	protectionLevel = 1
 	pvpTileIgnoreLevelAndVocationProtection = true
-	allowFightback = true
+	allowFightback = false
 	pzLocked = 60 * 1000
 	huntingDuration = 60 * 1000
 	criticalHitMultiplier = 1
@@ -89,10 +89,10 @@
 	advancedFragList = true
 	useFragHandler = true
 	noDamageToSameLookfeet = false
-	showHealthChange = true
-	showManaChange = true
-	showHealthChangeForMonsters = true
-	showManaChangeForMonsters = true
+	showHealthChange = false
+	showManaChange = false
+	showHealthChangeForMonsters = false
+	showManaChangeForMonsters = false
 	fieldOwnershipDuration = 5 * 1000
 	stopAttackingAtExit = true
 	loginProtectionPeriod = 10 * 1000
@@ -129,7 +129,7 @@
 		-- Rook System
 		rookLevelTo = 5
 		rookLevelToLeaveRook = 8
-		rookTownId = 1
+		rookTownId = 11
 		useRookSystem = true
 
 		-- Paralyze delay
@@ -191,7 +191,7 @@
 	-- Deathlist
 	deathListEnabled = true
 	deathListRequiredTime = 1 * 60 * 1000
-	deathAssistCount = 20
+	deathAssistCount = 2
 	maxDeathRecords = 5
 	multipleNames = false
 
@@ -268,7 +268,7 @@
 	disableOutfitsForPrivilegedPlayers = false
 	bankSystem = true
 	spellNameInsteadOfWords = false
-	emoteSpells = true
+	emoteSpells = false
 	unifiedSpells = true
 	promptExceptionTracerErrorBox = true
 	storePlayerDirection = false
@@ -282,8 +282,6 @@
 	-- Outfits
 	allowChangeOutfit = true
 	allowChangeColors = true
-	allowChangeAddons = true
-	addonsOnlyPremium = true
 
 	-- Ghost mode
 	ghostModeInvisibleEffect = false
