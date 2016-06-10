@@ -15,8 +15,8 @@ Features:
 How To Compile
 a) Windows:
 	COMPILING IN WINDOWS OTX SERVER 2.X.S.4(2-3) AND OTX SERVER 3.2+
-	    1. Download the required software
-	    To compile The OTX Server on Windows, you will need:
+        1. Download the required software
+        To compile The OTX Server on Windows, you will need:
 
 Visual Studio 2015 Enterprise : https://go.microsoft.com/fwlink/?LinkId=691979&clcid=0x409/
 Libs (libraries) 2.1 : https://mega.nz/#!ocIyHZxI!jMVyKCpsofbuuNbdsLhblHhJRbsZrz4u5_JHPGXKJuE/
