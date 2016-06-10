@@ -32,7 +32,7 @@ Once you have downloaded the software listed in the step above, begin by install
 b) Linux:
 A detailed and always up-to-date tutorial may be found here:
 	Download required packages
-		Launch a terminal, and paste in the following commands:
+        Launch a terminal, and paste in the following commands:
             apt-get install update
             apt-get install git subversion autoconf build-essential pkg-config libboost-dev libgmp3-dev libxml2-dev liblua5.1-0-dev libmysqlclient-dev ccache libboost-filesystem-dev libboost-regex-dev libboost-system-dev libboost-thread-dev screen libssl-dev
 
