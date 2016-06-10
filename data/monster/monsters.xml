@@ -117,6 +117,7 @@
 	<monster name="Terror Bird" file="terror bird.xml"/>
 	<monster name="Tiger" file="tiger.xml"/>
 	<monster name="Troll" file="troll.xml"/>
+	<monster name="Training Monk" file="training monk.xml"/>
 	<monster name="Valkyrie" file="valkyrie.xml"/>
 	<monster name="Vampire" file="vampire.xml"/>
 	<monster name="War Wolf" file="war wolf.xml"/>
