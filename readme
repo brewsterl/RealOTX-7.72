@@ -2,6 +2,7 @@ Features:
     Real Map 7.72 with all Npcs (Based on Avesta Map)
     Real Spells (Based on OTHire Spells)
     CastSystem (Reqired create account with number "10")
+    AntiDupe Items
     WarSystem (Withouth Shields)
     AutoStack
     Stamina (Work with !stamina)
@@ -38,7 +39,7 @@ A detailed and always up-to-date tutorial may be found here:
 
         Compiling
         Download sources - Launch a terminal, and paste in this command:
-	        git clone https://github.com/RealOTX7.72/RealOTX7.72.git
+            git clone https://github.com/RealOTX7.72/RealOTX7.72.git
 
         Launch a terminal, and type this:
 Into Folder run:
