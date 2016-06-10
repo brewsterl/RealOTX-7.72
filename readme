@@ -1,13 +1,14 @@
 FEATURES:
+    Real Map 7.72 with all Npcs
     CastSystem (Reqired create account with number "10")
     WarSystem 
     AutoStack
-	Stamina (work with !stamina)
-	Stacked Parcels/Boxes/Crates etc is blocking movement
-	Loot message on screen
-	PartyShared Exp
-	Spells unlocked by reaching required magic level for specific spell
-	Bank system
+    Stamina (work with !stamina)
+    Stacked Parcels/Boxes/Crates etc is blocking movement
+    Loot message on screen
+    PartyShared Exp
+    Spells unlocked by reaching required magic level for specific spell
+    Bank system
     All functions introduced since 7.4 at 9.85 - And many more....
 
 How To Compile
