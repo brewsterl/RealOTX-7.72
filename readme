@@ -1,9 +1,10 @@
-FEATURES:
-    Real Map 7.72 with all Npcs
+Features:
+    Real Map 7.72 with all Npcs (Based on Avesta Map)
+    Real Spells (Based on OTHire Spells)
     CastSystem (Reqired create account with number "10")
-    WarSystem 
+    WarSystem (Withouth Shields)
     AutoStack
-    Stamina (work with !stamina)
+    Stamina (Work with !stamina)
     Stacked Parcels/Boxes/Crates etc is blocking movement
     Loot message on screen
     PartyShared Exp
