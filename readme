@@ -1,11 +1,13 @@
 Features:
-    Real Map 7.72 with all Npcs (Based on Avesta Map)
-    Real Spells (Based on OTHire Spells)
+    Real Map 7.72
+	Real Npcs 7.72
+	Real Monsters
+    Real Spells
     CastSystem (Reqired create account with number "10")
     AntiDupe Items
     WarSystem (Withouth Shields)
     AutoStack
-    Offiline Training (If you wan :P)
+    Offiline Training
     Stamina (Work with !stamina)
     Stacked Parcels/Boxes/Crates etc is blocking movement
     Loot message on screen
@@ -16,7 +18,7 @@ Features:
 
 How To Compile
 a) Windows:
-	COMPILING IN WINDOWS OTX SERVER 2.X.S.4(2-3) AND OTX SERVER 3.2+
+	COMPILING IN WINDOWS OTX SERVER 2.X.S.4(2-3)
         1. Download the required software
         To compile The OTX Server on Windows, you will need:
 
