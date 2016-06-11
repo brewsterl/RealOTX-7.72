@@ -2375,12 +2375,6 @@ void ProtocolGame::AddPlayerStats(NetworkMessage_ptr msg)
 	msg->put<uint16_t>(int32_t(player->getFreeCapacity()));
 
 	uint32_t experience = player->getExperience();
-/*
-	if(experience > 0x7FFFFFFF) // client debugs after 2,147,483,647 exp
-		msg->put<uint32_t>(0x7FFFFFFF);
-	else
-		msg->put<uint32_t>(0x00);
-*/
 	msg->put<uint32_t>(experience);
 
 #ifdef _MULTIPLATFORM76
