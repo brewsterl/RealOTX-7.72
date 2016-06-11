@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="First Items" version="1.0" author="The Forgotten Server" contact="otland.net" enabled="yes">
+<config name="firstitems_config"><![CDATA[
+config = {
+storage = 30001,
+items = {2050, 2382}
+}
+]]></config>
+<event type="login" name="FirstItems" event="buffer"><![CDATA[
+domodlib('firstitems_config')
+if(getPlayerStorageValue(cid, config.storage) > 0) then
+return
+end
+
+for _, id in ipairs(config.items) do
+doPlayerAddItem(cid, id, 1)
+end
+
+if(getPlayerSex(cid) == PLAYERSEX_FEMALE) then
+doPlayerAddItem(cid, 2651, 1)
+else
+doPlayerAddItem(cid, 2650, 1)
+end
+
+doAddContainerItem(doPlayerAddItem(cid, 1987, 1), 2674, 1)
+setPlayerStorageValue(cid, config.storage, 1)
+]]></event>
+</mod>
