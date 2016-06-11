@@ -278,9 +278,6 @@
 	<!-- Helmets -->
 		<!-- Hat of the Mad -->
 		<movevent type="Equip" itemid="2323" slot="head" event="function" value="onEquipItem">
-			<vocation name="Sorcerer"/>
-			<vocation name="Druid"/>
-			<vocation id="5;6" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2323" slot="head" event="function" value="onDeEquipItem"/>
 		<!-- Helmet of the Ancients -->
@@ -296,43 +293,26 @@
 	<!-- Armors -->
 		<!-- Golden Armor -->
 		<movevent type="Equip" itemid="2466" slot="armor" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2466" slot="armor" event="function" value="onDeEquipItem"/>
 		<!-- Magic Plate Armor -->
 		<movevent type="Equip" itemid="2472" slot="armor" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2472" slot="armor" event="function" value="onDeEquipItem"/>
 		<!-- Knight Armor -->
 		<movevent type="Equip" itemid="2476" slot="armor" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2476" slot="armor" event="function" value="onDeEquipItem"/>
 		<!-- Crown Armor -->
 		<movevent type="Equip" itemid="2487" slot="armor" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2487" slot="armor" event="function" value="onDeEquipItem"/>
 		<!-- Dragon Scale Mail -->
 		<movevent type="Equip" itemid="2492" slot="armor" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2492" slot="armor" event="function" value="onDeEquipItem"/>
 		<!-- Amazon Armor -->
 		<movevent type="Equip" itemid="2500" slot="armor" level="60" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation id="7" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2500" slot="armor" event="function" value="onDeEquipItem"/>
 		<!-- Dwarven Armor -->
@@ -340,31 +320,20 @@
 		<movevent type="DeEquip" itemid="2503" slot="armor" event="function" value="onDeEquipItem"/>
 		<!-- Ranger's Cloak -->
 		<movevent type="Equip" itemid="2660" slot="armor" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation id="7" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2660" slot="armor" event="function" value="onDeEquipItem"/>
 
 	<!-- Legs -->
 		<!-- Golden Legs -->
 		<movevent type="Equip" itemid="2470" slot="legs" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2470" slot="legs" event="function" value="onDeEquipItem"/>
 		<!-- Knight Legs -->
 		<movevent type="Equip" itemid="2477" slot="legs" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2477" slot="legs" event="function" value="onDeEquipItem"/>
 		<!-- Crown Legs -->
 		<movevent type="Equip" itemid="2488" slot="legs" event="function" value="onEquipItem">
-			<vocation name="Paladin"/>
-			<vocation name="Knight"/>
-			<vocation id="7;8" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2488" slot="legs" event="function" value="onDeEquipItem"/>
 		<!-- Dwarven Legs -->
@@ -374,9 +343,6 @@
 	<!-- Shields -->
 		<!-- Spellbook -->
 		<movevent type="Equip" itemid="2175" slot="shield" event="function" value="onEquipItem">
-			<vocation name="Sorcerer"/>
-			<vocation name="Druid"/>
-			<vocation id="5;6" showInDescription="0"/>
 		</movevent>
 		<movevent type="DeEquip" itemid="2175" slot="shield" event="function" value="onDeEquipItem"/>
 
