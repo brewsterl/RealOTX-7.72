@@ -6,6 +6,7 @@
 	<globalevent name="init" type="startup" event="script" value="init.lua"/>
 	<globalevent name="globalsave" type="globalsave" event="script" value="init.lua"/>
 	<globalevent name="record" type="record" event="script" value="record.lua"/>
+	<globalevent name="raids" interval="15000" event="script" value="raids.lua"/>
 
 	<!-- Examples -->
 	<!-- <globalevent name="timer_example" time="21:35:11" event="script" value="my_script.lua"/> -->
