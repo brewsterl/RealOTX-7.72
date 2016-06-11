@@ -47,8 +47,6 @@
 	<!-- Swords -->
 		<!-- Two Handed Sword -->
 		<melee id="2377" level="20" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Fire Sword -->
 		<melee id="2392" level="30" unproperly="1" event="function" value="default"/>
@@ -56,27 +54,19 @@
 		<melee id="2407" level="30" unproperly="1" event="function" value="default"/>
 		<!-- Broadsword -->
 		<melee id="2413" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Epee -->
 		<melee id="2438" level="30" unproperly="1" event="function" value="default"/>
 		<!-- Magic Longsword -->
 		<melee id="2390" level="140" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Giant Sword -->
 		<melee id="2393" level="55" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Magic Sword -->
 		<melee id="2400" level="80" unproperly="1" event="function" value="default"/>
 		<!-- Warlord Sword -->
 		<melee id="2408" level="120" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Pharaoh Sword -->
 		<melee id="2446" level="45" unproperly="1" event="function" value="default"/>
@@ -94,13 +84,9 @@
 		<melee id="2435" level="20" unproperly="1" event="function" value="default"/>
 		<!-- Battle Axe -->
 		<melee id="2378" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Double Axe -->
 		<melee id="2387" level="25" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Halberd -->
 		<melee id="2381" level="25" unproperly="1" event="function" value="default"/>
@@ -108,8 +94,6 @@
 		<melee id="2414" level="60" unproperly="1" event="function" value="default"/>
 		<!-- Great Axe -->
 		<melee id="2415" level="95" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Guardian Halberd -->
 		<melee id="2427" level="55" unproperly="1" event="function" value="default"/>
@@ -125,13 +109,9 @@
 		<melee id="2443" level="70" unproperly="1" event="function" value="default"/>
 		<!-- Twin Axe -->
 		<melee id="2447" level="50" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- War Axe -->
 		<melee id="2454" level="65" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Beastslayer Axe -->
 		<melee id="3962" level="30" unproperly="1" event="function" value="default"/>
@@ -139,8 +119,6 @@
 	<!-- Clubs -->
 		<!-- War Hammer -->
 		<melee id="2391" level="50" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Thunder Hammer -->
 		<melee id="2421" level="85" unproperly="1" event="function" value="default"/>
@@ -156,15 +134,11 @@
 		<melee id="2437" level="80" unproperly="1" event="function" value="default"/>
 		<!-- Hammer of Wrath -->
 		<melee id="2444" level="65" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Crystal Mace -->
 		<melee id="2445" level="35" unproperly="1" event="function" value="default"/>
 		<!-- Heavy Mace -->
 		<melee id="2452" level="70" unproperly="1" event="function" value="default">
-			<vocation name="Knight"/>
-			<vocation id="8" showInDescription="0"/>
 		</melee>
 		<!-- Arcane Staff -->
 		<melee id="2453" level="75" unproperly="1" event="function" value="default"/>
