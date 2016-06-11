@@ -7,7 +7,7 @@
 			-- also don't forget to add this unique id few lines bottom in "<action" tag when adding new quests
 			[30015] = {
 				-- daily limit (one team only) like in global Tibia?
-				daily = "no",
+				daily = "yes",
 
 				minLevel = 100, -- level required
 
@@ -19,18 +19,18 @@
 				-- you can use as many you wish, just be sure that playerPositions size is same as newPositions, otherwise there many be problems when teleporting players
 				playerPositions =
 				{
-					{x = 2858, y = 651, z = 13},
-					{x = 2859, y = 651, z = 13},
-					{x = 2860, y = 651, z = 13},
-					{x = 2861, y = 651, z = 13}
+					{x = 33225, y = 31671, z = 13},
+					{x = 33224, y = 31671, z = 13},
+					{x = 33223, y = 31671, z = 13},
+					{x = 33222, y = 31671, z = 13}
 				},
 
 				newPositions =
 				{
-					{x = 2859, y = 641, z = 13},
-					{x = 2860, y = 641, z = 13},
-					{x = 2861, y = 641, z = 13},
-					{x = 2862, y = 641, z = 13}
+					{x = 33222, y = 31659, z = 13},
+					{x = 33221, y = 31659, z = 13},
+					{x = 33220, y = 31659, z = 13},
+					{x = 33219, y = 31659, z = 13}
 				},
 
 				-- Following options are available only when you have enabled 'daily' option, if you didn't - just ignore them
@@ -39,17 +39,17 @@
 				-- these positions are used to automatically clean unkilled monsters when new team arrives
 				monsters =
 				{
-					{{x = 2859, y = 639, z = 13}, "Demon"},
-					{{x = 2861, y = 639, z = 13}, "Demon"},
-					{{x = 2863, y = 641, z = 13}, "Demon"},
-					{{x = 2864, y = 641, z = 13}, "Demon"},
-					{{x = 2860, y = 643, z = 13}, "Demon"},
-					{{x = 2862, y = 643, z = 13}, "Demon"}
+					{{x = 33219, y = 31657, z = 13}, "Demon"},
+					{{x = 33220, y = 31661, z = 13}, "Demon"},
+					{{x = 33222, y = 31661, z = 13}, "Demon"},
+					{{x = 33221, y = 31657, z = 13}, "Demon"},
+					{{x = 33223, y = 31659, z = 13}, "Demon"},
+					{{x = 33224, y = 31659, z = 13}, "Demon"}
 				},
 
 				-- Position and ID of doors, which will be auto-closed
-				doorPosition = {x = 2865, y = 641, z = 13},
-				doorId = 1219
+				doorPosition = {x = 33225, y = 31659, z = 13},
+				doorId = 1210
 			}
 		}
 	]]></config>
