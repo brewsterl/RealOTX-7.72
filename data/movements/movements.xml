@@ -16,6 +16,16 @@
 	<movevent event="StepIn" actionid="50121" script="ankrahmun/Ancient Ruins Tomb.lua" />
 	<movevent event="StepIn" actionid="50122" script="ankrahmun/Tarpit Tomb.lua" />
 	<movevent event="StepIn" actionid="50123" script="ankrahmun/Tarpit Tomb.lua" />
+	<movevent event="StepIn" actionid="50101" script="town/Thais.lua" />
+	<movevent event="StepIn" actionid="50102" script="town/Carlin.lua" />
+	<movevent event="StepIn" actionid="50103" script="town/ab.lua" />
+	<movevent event="StepIn" actionid="50104" script="town/kazordoon.lua" />
+	<movevent event="StepIn" actionid="50105" script="town/Venore.lua" />
+	<movevent event="StepIn" actionid="50106" script="town/Edron.lua" />
+	<movevent event="StepIn" actionid="50107" script="town/Darashia.lua" />
+	<movevent event="StepIn" actionid="50108" script="town/ankrahmun.lua" />
+	<movevent event="StepIn" actionid="50109" script="town/port_hope.lua" />
+	<movevent event="StepIn" actionid="50100" script="town/venoretp.lua" />
 	<movevent event="StepIn" actionid="4010" script="rook/leveltwopassage.lua" />
 	<movevent event="StepIn" actionid="4011" script="rook/leveltwopassage.lua" />
 	<movevent event="StepIn" actionid="4012" script="rook/premiumrook.lua" />
