@@ -54,9 +54,6 @@
     <action uniqueid="10822" script="edron/Demon Helmet Quest/leverdh.lua" />
 	<action uniqueid="10023" script="edron/Parchment Room Quest/bag.lua"/>
 	<action uniqueid="10014" script="edron/The Behemoth Quest/behemoth_lever.lua"/>
-
-	<!-- REQUIRE ADD
-	<action uniqueid="10024" script="edron/Triple UH Rune Quest/triple uh.lua"/> -->
 		
 	<!-- jakundaf desert -->
 	<action uniqueid="3301" script="jakundaf desert/The Outlaw Camp Quest/3301.lua"/>
