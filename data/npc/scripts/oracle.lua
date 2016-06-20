@@ -2,160 +2,101 @@ local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
 
-local Topic, vocation, town, destination = {}, {}, {}, {}
-local TOWN_ISLANDOFDESTINY = 16
-local islandOfDestinyEnabled = false
+function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid)			end
+function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid)			end
+function onCreatureSay(cid, type, msg) 			npcHandler:onCreatureSay(cid, type, msg)		end
+function onThink() 					npcHandler:onThink()					end
 
-        function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid) end
-        function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid) end
-        function onCreatureSay(cid, type, msg) 	npcHandler:onCreatureSay(cid, type, msg) end
-        function onThink() 						npcHandler:onThink() end
+function oracle(cid, message, keywords, parameters, node)
+	if(not npcHandler:isFocused(cid)) then
+		return false
+	end
+
+	local cityNode = node:getParent():getParent()
+	local vocNode = node:getParent()
+
+	local destination = cityNode:getParameters().destination
+	local town = cityNode:getParameters().town
+	local vocation = vocNode:getParameters().vocation
+
+	if(destination ~= nil and vocation ~= nil and town ~= nil) then
+		if(getPlayerLevel(cid) < parameters.level) then
+			npcHandler:say('You must first reach level ' .. parameters.level .. '!', cid)
+			npcHandler:resetNpc()
+		else
+			if(getPlayerVocation(cid) > 0) then
+				npcHandler:say('Sorry, You already have a vocation!')
+				npcHandler:resetNpc()
+			else
+				doPlayerSetVocation(cid, vocation)
+				doPlayerSetTown(cid, town)
+				npcHandler:resetNpc()
+
+				local tmp = getCreaturePosition(cid)
+				doTeleportThing(cid, destination)
+				doSendMagicEffect(tmp, CONST_ME_POFF)
+				doSendMagicEffect(destination, CONST_ME_TELEPORT)
+			end
+		end
+	end
+
+	return true
+end
 
 function greetCallback(cid)
-if(getPlayerLevel(cid) < 8) then
-npcHandler:say("CHILD! COME BACK WHEN YOU HAVE GROWN UP!", cid)
-return false
-elseif(getPlayerLevel(cid) > 9) then
-npcHandler:say(getCreatureName(cid) .. ", I CAN'T LET YOU LEAVE - YOU ARE TOO STRONG ALREADY! YOU CAN ONLY LEAVE WITH LEVEL 9 OR LOWER.", cid)
-return false
-else
-local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-Topic[talkUser], vocation[talkUser], town[talkUser], destination[talkUser] = 0, 0, 0, 0
-return true
+	if(getPlayerLevel(cid) < 8) then
+		npcHandler:say('COME BACK WHEN YOU GROW UP, CHILD!')
+		return false
+	else
+		return true
+	end
 end
-end
-
-function creatureSayCallback(cid, type, msg)
-local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
-if(not npcHandler:isFocused(cid)) then
-return false
-elseif msgcontains(msg, "yes") and Topic[talkUser] == 0 then
-npcHandler:say(islandOfDestinyEnabled and "I WILL BRING YOU TO THE ISLAND OF DESTINY AND YOU WILL BE UNABLE TO RETURN HERE! ARE YOU SURE?" or "IN WHICH TOWN DO YOU WANT TO LIVE: {CARLIN}, {AB'DENDRIEL}, {KAZORDOON}" .. (isPremium(cid) == TRUE and ", {THAIS}, {VENORE}, {DARASHIA}, {ANKRAHMUN}, {EDRON} OR {PORT HOPE}?" or " OR {THAIS}?"), cid)
-Topic[talkUser] = islandOfDestinyEnabled and 4 or 1
-elseif Topic[talkUser] == 0 then
-npcHandler:unGreet(cid)
-elseif msgcontains(msg, "carlin") and Topic[talkUser] == 1 then
-npcHandler:say("IN CARLIN! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 2
-destination[talkUser] = {x=32360, y=31782, z=7}
-elseif msgcontains(msg, "ab'dendriel") and Topic[talkUser] == 1 then
-npcHandler:say("IN AB'DENDRIEL! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 3
-destination[talkUser] = {x=32732, y=31634, z=7}
-elseif msgcontains(msg, "kazordoon") and Topic[talkUser] == 1 then
-npcHandler:say("IN KAZORDOON! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 4
-destination[talkUser] = {x=32649, y=31925, z=11}
-elseif msgcontains(msg, "thais") and Topic[talkUser] == 1 then
-npcHandler:say("IN THAIS! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 5
-destination[talkUser] = {x=32369, y=32241, z=7}
-elseif msgcontains(msg, "venore") and Topic[talkUser] == 1 then
-npcHandler:say("IN VENORE! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 6
-destination[talkUser] = {x=32957, y=32076, z=7}
-elseif msgcontains(msg, "darashia") and Topic[talkUser] == 1 then
-if isPremium(cid) == TRUE then
-npcHandler:say("IN DARASHIA! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 7
-destination[talkUser] = {x=33213, y=32454, z=1}
-else
-npcHandler:say("YOU NEED A PREMIUM ACCOUNT IN ORDER TO GO THERE!", cid)
-Topic[talkUser] = 1
-end
-elseif msgcontains(msg, "ankrahmun") and Topic[talkUser] == 1 then
-if isPremium(cid) == TRUE then
-npcHandler:say("IN ANKRAHMUN! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 8
-destination[talkUser] = {x=33194, y=32853, z=8}
-else
-npcHandler:say("YOU NEED A PREMIUM ACCOUNT IN ORDER TO GO THERE!", cid)
-Topic[talkUser] = 1
-end
-elseif msgcontains(msg, "edron") and Topic[talkUser] == 1 then
-if isPremium(cid) == TRUE then
-npcHandler:say("IN EDRON! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 9
-destination[talkUser] = {x=33217, y=31814, z=8}
-else
-npcHandler:say("YOU NEED A PREMIUM ACCOUNT IN ORDER TO GO THERE!", cid)
-Topic[talkUser] = 1
-end
-elseif msgcontains(msg, "port") and msgcontains(msg, "hope") and Topic[talkUser] == 1 then
-if isPremium(cid) == TRUE then
-npcHandler:say("IN PORT HOPE! AND WHAT PROFESSION HAVE YOU CHOSEN: {KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-town[talkUser] = 10
-destination[talkUser] = {x=32595, y=32744, z=6}
-else
-npcHandler:say("YOU NEED A PREMIUM ACCOUNT IN ORDER TO GO THERE!", cid)
-Topic[talkUser] = 1
-end
-elseif Topic[talkUser] == 1 then
-npcHandler:say("{CARLIN}, {AB'DENDRIEL}, {KAZORDOON}" .. (isPremium(cid) == TRUE and ", {THAIS}, {VENORE}, {DARASHIA}, {ANKRAHMUN}, {EDRON} OR {PORT HOPE}?" or " OR {THAIS}?"), cid)
-Topic[talkUser] = 1
-elseif msgcontains(msg, "sorcerer") and Topic[talkUser] == 2 then
-npcHandler:say("A SORCERER! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!", cid)
-Topic[talkUser] = 3
-vocation[talkUser] = 1
-elseif msgcontains(msg, "druid") and Topic[talkUser] == 2 then
-npcHandler:say("A DRUID! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!", cid)
-Topic[talkUser] = 3
-vocation[talkUser] = 2
-elseif msgcontains(msg, "paladin") and Topic[talkUser] == 2 then
-npcHandler:say("A PALADIN! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!", cid)
-Topic[talkUser] = 3
-vocation[talkUser] = 3
-elseif msgcontains(msg, "knight") and Topic[talkUser] == 2 then
-npcHandler:say("A KNIGHT! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!", cid)
-Topic[talkUser] = 3
-vocation[talkUser] = 4
-elseif Topic[talkUser] == 2 then
-npcHandler:say("{KNIGHT}, {PALADIN}, {SORCERER}, OR {DRUID}?", cid)
-Topic[talkUser] = 2
-elseif msgcontains(msg, "yes") and Topic[talkUser] == 3 then
-npcHandler:say("SO BE IT!", cid)
-Topic[talkUser] = 0
-doPlayerSetVocation(cid, vocation[talkUser])
-doPlayerSetTown(cid, town[talkUser])
-npcHandler:releaseFocus(cid)
-doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
-doTeleportThing(cid, destination[talkUser])
-doSendMagicEffect(destination[talkUser], CONST_ME_TELEPORT)
-elseif Topic[talkUser] == 3 then
-npcHandler:unGreet(cid)
-elseif Topic[talkUser] == 4 then
-if msgcontains(msg, "yes") then
-npcHandler:say("SO BE IT!", cid)
-Topic[talkUser] = 0
-doPlayerSetTown(cid, TOWN_ISLANDOFDESTINY)
-npcHandler:releaseFocus(cid)
-doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
-doTeleportThing(cid, {x=32091,y=32027,z=7})
-doSendMagicEffect({x=32091,y=32027,z=7}, CONST_ME_TELEPORT)
-doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Welcome to the Island of Destiny. Walk north to find trainers who will help you find a suitable vocation.")
-doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "The surface of this island is a protection zone. You can't attack or regain health here. If you need healing, talk to Yandur.")
-doAddMapMark(cid, {x=32099,y=31996,z=7}, MAPMARK_EXCLAMATION, "Island of Destiny - Training Centre")
-doAddMapMark(cid, {x=32098,y=31986,z=7}, MAPMARK_GREENNORTH, "Ship to Mainland")
-else
-npcHandler:unGreet(cid)
-end
-end
-return TRUE
-end
-
-npcHandler:setMessage(MESSAGE_GREET, "|PLAYERNAME|, ARE YOU PREPARED TO FACE YOUR DESTINY?")
-npcHandler:setMessage(MESSAGE_WALKAWAY, "COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!")
-npcHandler:setMessage(MESSAGE_FAREWELL, "COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!")
-
 npcHandler:setCallback(CALLBACK_GREET, greetCallback)
-npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
+npcHandler:setMessage(MESSAGE_GREET, 'Hello |PLAYERNAME|. Are you prepared to face your destiny?')
+
+local yesNode = KeywordNode:new({'yes'}, oracle, {level = 8})
+local noNode = KeywordNode:new({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, moveup = 1, text = 'Then what vocation do you want to become?'})
+
+local node1 = keywordHandler:addKeyword({'yes'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'What city do you wish to live in? {Thais}, {Carlin} or {Venore}?'})
+	local node2 = node1:addChildKeyword({'carlin'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, town = 5, destination = {x=32360, y=31782, z=7}, text = 'Carlin, eh? So what vocation do you wish to become? {Sorcerer}, {Druid}, {Paladin} or {Knight}?'})
+		local node3 = node2:addChildKeyword({'sorcerer'}, StdModule.say, {npcHandler = npcHandler, vocation = 1, onlyFocus = true, text = 'So, you wish to be a powerful magician? Are you sure about that? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'druid'}, StdModule.say, {npcHandler = npcHandler, vocation = 2, onlyFocus = true, text = 'Are you sure that a druid is what you wish to become? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'paladin'}, StdModule.say, {npcHandler = npcHandler, vocation = 3, onlyFocus = true, text = 'A ranged marksman. Are you sure? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'knight'}, StdModule.say, {npcHandler = npcHandler, vocation = 4, onlyFocus = true, text = 'A mighty warrior. Is that your final decision? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+	node2 = node1:addChildKeyword({'thais'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, town = 3, destination = {x=32369, y=32241, z=7}, text = 'Thais, eh? So what vocation do you wish to become? {Sorcerer}, {druid}, {paladin} or {knight}?'})
+		node3 = node2:addChildKeyword({'sorcerer'}, StdModule.say, {npcHandler = npcHandler, vocation = 1, onlyFocus = true, text = 'So, you wish to be a powerful magician? Are you sure about that? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'druid'}, StdModule.say, {npcHandler = npcHandler, vocation = 2, onlyFocus = true, text = 'Are you sure that a druid is what you wish to become? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'paladin'}, StdModule.say, {npcHandler = npcHandler, vocation = 3, onlyFocus = true, text = 'A ranged marksman. Are you sure? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'knight'}, StdModule.say, {npcHandler = npcHandler, vocation = 4, onlyFocus = true, text = 'A mighty warrior. Is that your final decision? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+	node2 = node1:addChildKeyword({'venore'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, town = 4, destination = {x=32957, y=32076, z=7}, text = 'Venore, eh? So what vocation do you wish to become? {Sorcerer}, {druid}, {paladin} or {knight}?'})
+		node3 = node2:addChildKeyword({'sorcerer'}, StdModule.say, {npcHandler = npcHandler, vocation = 1, onlyFocus = true, text = 'So, you wish to be a powerful magician? Are you sure about that? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'druid'}, StdModule.say, {npcHandler = npcHandler, vocation = 2, onlyFocus = true, text = 'Are you sure that a druid is what you wish to become? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'paladin'}, StdModule.say, {npcHandler = npcHandler, vocation = 3, onlyFocus = true, text = 'A ranged marksman. Are you sure? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+		node3 = node2:addChildKeyword({'knight'}, StdModule.say, {npcHandler = npcHandler, vocation = 4, onlyFocus = true, text = 'A mighty warrior. Is that your final decision? This decision is irreversible!'})
+			node3:addChildKeywordNode(yesNode)
+			node3:addChildKeywordNode(noNode)
+keywordHandler:addKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Then come back when you are ready.'})
+
 npcHandler:addModule(FocusModule:new())

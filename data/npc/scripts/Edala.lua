@@ -9,8 +9,8 @@ function onCreatureSay(cid, type, msg) 		npcHandler:onCreatureSay(cid, type, msg
 function onThink() 							npcHandler:onThink() 						end
 
 
-local node1 = keywordHandler:addKeyword({'fire of the suns'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want to buy the fire of the suns for 10000 gold?'})
-	node1:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, bless = 3, premium = 1, cost = 10000})
+local node1 = keywordHandler:addKeyword({'fire of the suns'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want to buy the Fire of the Suns for 2000 (plus level depending amount) gold?'})
+	node1:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, number = 3, premium = false, baseCost = 2000, levelCost = 200, startLevel = 30, endLevel = 120})
 	node1:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Too expensive, eh?'})
 
 npcHandler:addModule(FocusModule:new())

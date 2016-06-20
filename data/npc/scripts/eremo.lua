@@ -10,10 +10,10 @@ function onCreatureSay(cid, type, msg) 		npcHandler:onCreatureSay(cid, type, msg
 function onThink() 							npcHandler:onThink() 						end
 
 
-local node1 = keywordHandler:addKeyword({'wisdom of solitude'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want to buy the wisdom of solitude for 10000 gold?'})
-	node1:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, bless = 4, premium = 1, cost = 10000})
+	local node1 = keywordHandler:addKeyword({'wisdom of solitude'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want to buy the Wisdom of Solitude for 2000 (plus level depending amount) gold?'})
+	node1:addChildKeyword({'yes'}, StdModule.bless, {npcHandler = npcHandler, number = 4, premium = false, baseCost = 2000, levelCost = 200, startLevel = 30, endLevel = 120})
 	node1:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Too expensive, eh?'})
-	
+
 	 local travelNode = keywordHandler:addKeyword({'edron'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want to get to Edron for free?'})
         	travelNode:addChildKeyword({'yes'}, StdModule.travel, {npcHandler = npcHandler, premium = true, level = 0, cost = 0, destination = {x=33173, y=31764, z=6} })
         	travelNode:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, reset = true, text = 'Then stay here.'})
