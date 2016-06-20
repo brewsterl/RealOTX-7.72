@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<npc name="Wally" script="data/npc/scripts/Wally.lua" walkinterval="7000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="96" body="113" legs="95" feet="115"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Be greeted, traveller." />
+    <parameter key="message_farewell" value="It was a pleasure to help you." />
+	<parameter key="message_walkaway" value="How rude!" />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="name;job;kevin;postner;postmasters guild;join;markwin;santa claus;brassacres;mission;ben;lokur;dove;olrik;liane;wally;advancement;privileges;dress pattern;crowbar;hint;headquarter;bones;banana skin;fur;moldy cheese;noodles;thais;carlin;venore;edron;defection;darama;darashia;ab'dendriel;elf;elven;kazordoon;dwarf;dwarves;dwarfs;big old one;posthorn;cap;mailbox" />
+    
+	<parameter key="keyword_reply1" value="I'm Wally the post officer." />
+	<parameter key="keyword_reply2" value="I am working here at the post office for Kevin." />
+	<parameter key="keyword_reply3" value="Oh, our boss is upstairs. Better only disturb him with important issues though." />
+	<parameter key="keyword_reply4" value="Oh, our boss is upstairs. Better only disturb him with important issues though." />
+	<parameter key="keyword_reply5" value="We are an organization of importance for the whole of Tibia. Even kings tremble before our might." />
+	<parameter key="keyword_reply6" value="You have to talk with the exalted archpostman Kevin Postner if you want to join our prestigeous guild." />
+	<parameter key="keyword_reply7" value="This minotaur is quite moody. Better make sure not to anger him. He's likely to call for his guards as soon as he notices a stranger, so you are on tough luck if you ever find him." />
+	<parameter key="keyword_reply8" value="This old whitebeard lives on some hill on the western coast of Vega as far as I know." />
+	<parameter key="keyword_reply9" value="This guy might be hard to find. Hes likely disguising himself. If you see someone suspicious, try to ask other people who are around about him. That might give you some clue." />
+	<parameter key="keyword_reply10" value="Ask Mr. Postner about your current missions." />
+	<parameter key="keyword_reply11" value="Old Ben lost some of his marbles in some battle long ago. He is still a quite capable postman though ... on second thought thats some disturbing fact." />
+	<parameter key="keyword_reply12" value="Dwarfs make quite good postmen. They are stubborn, strong and ... sturdy. Its a waste that he prefers a job behind the counter." />
+	<parameter key="keyword_reply13" value="Dove is as good as a dozend pigeons. He He He." />
+	<parameter key="keyword_reply14" value="This Olrik was made postman only for convenience. He is quite aware that his attitude and affiliation with the thaian government makes it impossible for him to rise in rank. This leads only to him behaving even worse tough." />
+	<parameter key="keyword_reply15" value="Although I never met her in person we became penpals over the time." />
+	<parameter key="keyword_reply16" value="Yes, thats me, Wally!" />
+	<parameter key="keyword_reply17" value="The exalted archpostman Kevin Postner alone decides about advancement of our members. All ranks come with certain privileges." />
+	<parameter key="keyword_reply18" value="Our privileges are top secret, other people envy us enough already for beeing members in this splendid guild." />
+	<parameter key="keyword_reply19" value="I vaguely remember the last dress pattern of our uniforms was dependend on certain key elements. It had some technical gadgets, a special smell and was uniquely colored." />
+	<parameter key="keyword_reply20" value="Most general stores should sell crowbars. I think the store in Edron sells some for instance." />
+	<parameter key="keyword_reply21" value="I can't help you much with your missions. Of course we tell you everything we know and do't make our missions needlesly difficult." />
+	<parameter key="keyword_reply22" value="Its humble and practical. Considering we have bases all over the known world we don't need a bigger base anyways. On the other hand Mr. Postner is dreaming about a postman academy now and then." />
+	<parameter key="keyword_reply23" value="If I would be looking for bones I'd inspect some skeletons ... If I weren't so affraid of them that is." />
+	<parameter key="keyword_reply24" value="Uh? How disgusting. Look for this rubbish in some places where waste is dumped .. and don't ever tell me what you need it for." />
+	<parameter key="keyword_reply25" value="As far as I heard some of the minor orcs carry a pice of fur as a fetish or lucky charm with them." />
+	<parameter key="keyword_reply26" value="What a disgusting taste you have. Like those Goblins who carry this stuff with them." />
+	<parameter key="keyword_reply27" value="This dog is his majestys most priced possesion and heavily guarded. Anger the dog and you anger the king." />
+	<parameter key="keyword_reply28" value="One of the oldest holdings of humanity that still exist and the heart of the biggest kingdom in the known world." />
+	<parameter key="keyword_reply29" value="Carlin is an upcoming power in theese days. Albeit its ambitions it still dwarfs the old kingdom of thais in power and influence." />
+	<parameter key="keyword_reply30" value="I think no longer is king Tibianus reigning this city, nor are the merchants ruling it, regardless what they might think. The true monarch before whom all there bow is the money." />
+	<parameter key="keyword_reply31" value="I gues Edron isn't the source of wealth and rescources as the thaians hoped. The defection of those knights did cause the expansion and exploitation there to an halt." />
+	<parameter key="keyword_reply32" value="I know nothing special about that story. I only heared that a good part of the knightly order the king sent there succumbed to their lust for wealth and power and turned against their swordbrethren." />
+	<parameter key="keyword_reply33" value="A far away place with strange customs and an even stranger philosophy. One day I might travel there to see it on my own." />
+	<parameter key="keyword_reply34" value="A far away place with strange customs and an even stranger philosophy. One day I might travel there to see it on my own." />
+	<parameter key="keyword_reply35" value="Elven volunteers for becoming a postofficer are quite rare. We had to rely on a human living there to ensure our postsystems function. Most elvish members of the guild prefer to work as courriers." />
+	<parameter key="keyword_reply36" value="Elven volunteers for becoming a postofficer are quite rare. We had to rely on a human living there to ensure our postsystems function. Most elvish members of the guild prefer to work as courriers." />
+	<parameter key="keyword_reply37" value="Elven volunteers for becoming a postofficer are quite rare. We had to rely on a human living there to ensure our postsystems function. Most elvish members of the guild prefer to work as courriers." />
+	<parameter key="keyword_reply38" value="The city of the dwarfs is a bit hidden and new postoficers often get lost while looking for it. Just look for a hidden passage to a western valley in the mountaion called the big old one." />
+	<parameter key="keyword_reply39" value="The city of the dwarfs is a bit hidden and new postoficers often get lost while looking for it. Just look for a hidden passage to a western valley in the mountaion called the big old one." />
+	<parameter key="keyword_reply40" value="The city of the dwarfs is a bit hidden and new postoficers often get lost while looking for it. Just look for a hidden passage to a western valley in the mountaion called the big old one." />
+	<parameter key="keyword_reply41" value="The city of the dwarfs is a bit hidden and new postoficers often get lost while looking for it. Just look for a hidden passage to a western valley in the mountaion called the big old one." />
+	<parameter key="keyword_reply42" value="Its a huge Mountain, north of here, just across the river." />
+	<parameter key="keyword_reply43" value="A posthorn is a postmens bride ... or a postwomans husband. The only true friend a lonly postofficer has in the foregin lands and dangerous places he has to visit." />
+	<parameter key="keyword_reply44" value="A cap is what shows you are a postofficer. But your heart and your state of mind are what you makes a postofficer." />
+	<parameter key="keyword_reply45" value="Our mailboxes are quite reliable but know and then one has to be fixed. Especually in the more rough climates." />
+	
+	
+	
+  </parameters>
+</npc>

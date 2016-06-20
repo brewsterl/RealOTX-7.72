@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Seymour" script="data/npc/scripts/seymour.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="115" body="69" legs="87" feet="116" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello, |PLAYERNAME|. What do you need?" /> 
+		<parameter key="message_placedinqueue" value="|PLAYERNAME|, I am already talking to somebody else! Please wait until it is your turn." />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|! And remember: No running up and down in the academy!" /> 
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|! And remember: No running up and down in the academy!" /> 
+		<parameter key="message_idletimeout" value="Good bye, |PLAYERNAME|! And remember: No running up and down in the academy!" />
+        <parameter key="message_buy" value="Have you brought a dead rat to me to pick up your reward?" />
+		<parameter key="message_onsell" value="Thank you! Here is your reward." />
+		<parameter key="message_nothaveitem" value="HEY! You don't have one! Stop playing tricks on fooling me or I will give you some extra work!" /> 		
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you;sell;job;academy;library;train;center;cellar;oracle;vocation;rookgaard;name;seymour;sir;help;hint;people;advice;monster;sewer;god;gamemaster;counsellor;king;obi;cipfried;amber;willie;hyancith;dallheim;al dee;quentin;life fluid;bug;weapon;magic;tibia;castle;" />
+		
+        <parameter key="keyword_reply1" value="Well, the king doesn't send troops anymore, the academy is dreadfully low on money, and the end of the world is pretty nigh. Apart from that I am reasonably fine, I suppose." />
+        <parameter key="keyword_reply2" value="I sell the Key to Adventure for 5 gold! If you are interested, tell me that you want to buy the key." />
+        <parameter key="keyword_reply3" value="I am the master of this fine academy." />
+        <parameter key="keyword_reply4" value="Our academy has a library, a training center in the cellars and the oracle upstairs." />
+        <parameter key="keyword_reply5" value="Go and read our books. Ignorance may mean death, so be careful." />
+        <parameter key="keyword_reply6" value="You can try some basic things down there, but don't challenge the monsters in our arena if you are inexperienced." />
+		<parameter key="keyword_reply7" value="You can try some basic things down there, but don't challenge the monsters in our arena if you are inexperienced." />
+		<parameter key="keyword_reply8" value="You can try some basic things down there, but don't challenge the monsters in our arena if you are inexperienced." />
+		<parameter key="keyword_reply9" value="You will find the oracle upstairs. Talk to the oracle as soon as you have made level 8. Choose a vocation and a new home town, and you will be sent off to the continent." />
+		<parameter key="keyword_reply10" value="You will find the oracle upstairs. Talk to the oracle as soon as you have made level 8. Choose a vocation and a new home town, and you will be sent off to the continent." />
+		<parameter key="keyword_reply11" value="Here on Rookgaard we have some people, a temple, some shops, a farm and an academy." />
+		<parameter key="keyword_reply12" value="My name is Seymour, but to you I am 'Sir' Seymour." />
+		<parameter key="keyword_reply13" value="My name is Seymour, but to you I am 'Sir' Seymour." />
+		<parameter key="keyword_reply14" value="At least you know how to address a man of my importance." />
+		<parameter key="keyword_reply15" value="I can assist you with my advice." />
+		<parameter key="keyword_reply16" value="I can assist you with my advice." />
+		<parameter key="keyword_reply17" value="Well, there's me, Cipfried, Willie, Obi, Amber, Dallheim, Al Dee, Norma, and Hyacinth." />
+		<parameter key="keyword_reply18" value="Read the blackboard for some hints and visit the training center in the cellar." />
+		<parameter key="keyword_reply19" value="You can learn about Tibia's monsters in our library." />
+		<parameter key="keyword_reply20" value="Our sewers are overrun with rats. If you own some equipment you could go down a sewer grate and fight the vermin." />
+		<parameter key="keyword_reply21" value="You can learn much about Tibia's gods in our library." />
+		<parameter key="keyword_reply22" value="If you have serious problems with the game or with other people who are harassing you, contact a counsellor or a gamemaster using CTRL+R." />
+		<parameter key="keyword_reply23" value="If you have serious problems with the game or with other people who are harassing you, contact a counsellor or a gamemaster using CTRL+R." />
+		<parameter key="keyword_reply24" value="Hail to King Tibianus! Long live our king! Not that he cares for an old veteran who is stuck on this godforsaken island..." />
+		<parameter key="keyword_reply25" value="A cousin of Thais' smith Sam. He has a shop here where you can buy most stuff an adventurer needs." />
+		<parameter key="keyword_reply26" value="A humble monk with healing powers, and a pupil of the great Quentin himself." />
+		<parameter key="keyword_reply27" value="A traveller from the main land. I wonder what brought her here, since no one comes here of his own free will." />
+		<parameter key="keyword_reply28" value="Willie is a fine farmer, although he has short temper." />
+		<parameter key="keyword_reply29" value="A mysterious druid who lives somewhere in the wilderness. He sells precious life fluids." />
+		<parameter key="keyword_reply30" value="Oh good Dallheim! What a fighter he is! Without him we would be doomed." />
+		<parameter key="keyword_reply31" value="He is a shop owner in the northwestern part of the village." />
+		<parameter key="keyword_reply32" value="He is responsible for the temple in Thais." />
+		<parameter key="keyword_reply33" value="A rare magic potion that restores health." />
+		<parameter key="keyword_reply34" value="Nasty little creatures, but once you have a suitable weapon and perhaps a shield they will be no match for you." />
+		<parameter key="keyword_reply35" value="You need fine weapons to fight the tougher beasts. Unfortunately only the most basic weapons and armor are available here. You will have to fight some monsters to get a better weapon." />
+		<parameter key="keyword_reply36" value="The only magic-user on this isle is old Hyacinth." />
+		<parameter key="keyword_reply37" value="Oh, how I miss the crowded streets of Thais. I know one day I will get promoted and get a job at the castle... I must get out of here! The faster the better! It is people like you who are driving me mad." />
+		<parameter key="keyword_reply38" value="The castle of Thais is the greatest achievement in Tibian history." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="dead rat,2813,2" />
+    </parameters>
+</npc>

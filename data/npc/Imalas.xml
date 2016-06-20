@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Imalas" script="data/npc/scripts/default.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="115" body="10" legs="39" feet="114" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello |PLAYERNAME|! What do you need? If it's food, you've come to the right place."/>
+		<parameter key="message_farewell" value="Good bye."/>
+		
+        <parameter key="message_sendtrade" value="Yep, take a good look."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;name;job;offer;food;" />
+        <parameter key="keyword_reply1" value="Hello |PLAYERNAME|! What do you need? If it's food, you've come to the right place." />
+        <parameter key="keyword_reply2" value="My name is Imalas." />
+        <parameter key="keyword_reply3" value="I'm a shopkeeper. You can buy food here." />
+        <parameter key="keyword_reply4" value="I offer quite a lot of food." />
+		<parameter key="keyword_reply5" value="I sell banana, brown bread, carrot, cheese, cherry, cookie, egg, grapes, melon, pumpkin, roll." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="banana,2676,2;brown bread,2691,3;carrot,2684,2;cherry,2679,1;egg,2695,2;grapes,2681,3;melon,2682,8;pumpkin,2683,10;roll,2690,2;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

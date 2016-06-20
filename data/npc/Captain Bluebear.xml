@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Bluebear" script="data/npc/scripts/barco_thais.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="38" body="88" legs="88" feet="88" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome on board, |PLAYERNAME|"/>
+		<parameter key="message_farewell" value="Good bye. Recommend us if you were satisfied with our service."/>
+		<parameter key="message_placedinqueue" value="One moment please |PLAYERNAME|. You're next in line."/>
+		<parameter key="message_walkaway" value="Good bye. Recommend us, if you were satisfied with our service."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;captain;ship;line;company;route;tibia;good;passanger;trip;passage;town;destination;sail;go;ice;senha;folda;vega;darashia;darama;ghost;thais" />
+		
+        <parameter key="keyword_reply1" value="My name is Captain Bluebear from the Royal Tibia Line." />
+        <parameter key="keyword_reply2" value="I am the captain of this sailing-ship." />
+		<parameter key="keyword_reply3" value="I am the captain of this sailing-ship." />
+		<parameter key="keyword_reply4" value="The Royal Tibia Line connects all seaside towns of Tibia." />
+		<parameter key="keyword_reply5" value="The Royal Tibia Line connects all seaside towns of Tibia." />
+		<parameter key="keyword_reply6" value="The Royal Tibia Line connects all seaside towns of Tibia." />
+		<parameter key="keyword_reply7" value="The Royal Tibia Line connects all seaside towns of Tibia." />
+		<parameter key="keyword_reply8" value="The Royal Tibia Line connects all seaside towns of Tibia." />
+		<parameter key="keyword_reply9" value="We can transport everything you want." />
+		<parameter key="keyword_reply10" value="We would like to welcome you on board." />
+		<parameter key="keyword_reply11" value="Where do you want to go? To Carlin, Ab'Dendriel, Venore, Port Hope or Edron?" />
+		<parameter key="keyword_reply12" value="Where do you want to go? To Carlin, Ab'Dendriel, Venore, Port Hope or Edron?" />
+		<parameter key="keyword_reply13" value="Where do you want to go? To Carlin, Ab'Dendriel, Venore, Port Hope or Edron?" />
+		<parameter key="keyword_reply14" value="Where do you want to go? To Carlin, Ab'Dendriel, Venore, Port Hope or Edron?" />
+		<parameter key="keyword_reply15" value="Where do you want to go? To Carlin, Ab'Dendriel, Venore, Port Hope or Edron?" />
+		<parameter key="keyword_reply16" value="Where do you want to go? To Carlin, Ab'Dendriel, Venore, Port Hope or Edron?" />
+		<parameter key="keyword_reply17" value="I'm sorry, but we don't serve the routes to the Ice Islands." />
+		<parameter key="keyword_reply18" value="I'm sorry, but we don't serve the routes to the Ice Islands." />
+		<parameter key="keyword_reply19" value="I'm sorry, but we don't serve the routes to the Ice Islands." />
+		<parameter key="keyword_reply20" value="I'm sorry, but we don't serve the routes to the Ice Islands." />
+		<parameter key="keyword_reply21" value="I'm not sailing there. This route is afflicted by a ghost ship! However I've heard that Captain Fearless from Venore sails there." />
+		<parameter key="keyword_reply22" value="I'm not sailing there. This route is afflicted by a ghost ship! However I've heard that Captain Fearless from Venore sails there." />
+		<parameter key="keyword_reply23" value="Many people who sailed to Darashia never returned because they were attacked by a ghostship! I'll never sail there!" />
+		<parameter key="keyword_reply24" value="This is Thais. Where do you want to go?" />
+
+    </parameters>
+</npc>

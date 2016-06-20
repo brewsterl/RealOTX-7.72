@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sarina" script="data/npc/scripts/default.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="41" body="72" legs="95" feet="96" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. What can I do for you?"/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares. Footballs have to be purchased separately."/>
+        
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;offer;equipment;illumination;" />
+        <parameter key="keyword_reply1" value="I am Sarina. I am selling everything the adventurer needs." />
+        <parameter key="keyword_reply2" value="I sell shovels, picks, scythes, fishing rods, sixpacks of worms, bags, ropes, backpacks, plates, cups, scrolls, documents, parchments, footballs, and watches. I also sell means of illumination." />
+		<parameter key="keyword_reply3" value="I sell shovels, picks, scythes, fishing rods, sixpacks of worms, bags, ropes, backpacks, plates, cups, scrolls, documents, parchments, footballs, and watches. I also sell means of illumination." />
+		<parameter key="keyword_reply4" value="I sell torches, candlesticks, candelabra, and oil." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="candelabrum,2041,8;candlestick,2047,3;document,1968,12;fishing rod,2580,150;parchment,1969,8;pick,2553,50;plate,2035,6;backpack,2001,20;bag,1994,5;rope,2120,50;scroll,1949,5;scythe,2550,50;shovel,2554,50;torch,2050,2;worm,3976,1;oil,2006,20,11;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

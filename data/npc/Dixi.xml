@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Dixi" script="data/npc/scripts/rook_items.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="96" body="99" legs="76" feet="115" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Good day, Sir. How may I help you, |PLAYERNAME|? If you like to see my offers."/>
+		<parameter key="message_farewell" value="Good bye, Sir."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you;selling;job;name;help;stuff;wares;offer;weapons;armors;helmets;shields;equipment;do you sell;do you have;pick" />
+        
+		<parameter key="keyword_reply1" value="I am fine, thank you." />
+        <parameter key="keyword_reply2" value="We're selling many things. Please have a look at the blackboards downstairs to see a list of our inventory." />
+        <parameter key="keyword_reply3" value="I'm helping my grandfather Obi with this shop. Do you want to buy or sell anything?" />
+        <parameter key="keyword_reply4" value="I'm Dixi." />
+        <parameter key="keyword_reply5" value="If you need something, please let me know." />
+        <parameter key="keyword_reply6" value="We sell equipment of all kinds. Please let me know if you need something." />
+        <parameter key="keyword_reply7" value="We sell weapons, shields, armor, helmets, and equipment. For what do you want to ask?" />
+        <parameter key="keyword_reply8" value="We sell weapons, shields, armor, helmets, and equipment. For what do you want to ask?" />
+        <parameter key="keyword_reply9" value="We sell spears, rapiers, sabres, daggers, hand axes, axes, and short swords. Just tell me what you want to buy." />
+        <parameter key="keyword_reply10" value="We sell jackets, coats, doublets, leather armor, leather boots and leather legs. Just tell me what you want to buy." />
+        <parameter key="keyword_reply11" value="We sell leather helmets, studded helmets, and chain helmets. Just tell me what you want to buy." />
+        <parameter key="keyword_reply12" value="We sell wooden shields and studded shields. Just tell me what you want to buy." />
+        <parameter key="keyword_reply13" value="We sell torches, bags, scrolls, shovels, picks, backpacks, sickles, scythes, ropes and fishing rods and worms. Just tell me what you want to buy." />
+        <parameter key="keyword_reply14" value="What do you need? We sell weapons, armor, helmets, shields, and equipment." />
+        <parameter key="keyword_reply15" value="What do you need? We sell weapons, armor, helmets, shields, and equipment." />
+		<parameter key="keyword_reply16" value="I am sorry, an agent of Al Dee bought all our picks. Now he has a monopoly on them." />
+		
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

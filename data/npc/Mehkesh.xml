@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mehkesh" script="data/npc/scripts/runes.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="130" head="19" body="92" legs="113" feet="40" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Be mourned pilgrim in flesh."/>
+		<parameter key="message_farewell" value="May enlightenment be your path."/>
+
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;offer;name" />
+		
+        <parameter key="keyword_reply1" value="I am a trader. I sell potions brewed by the foremost alchemists of the land." />
+        <parameter key="keyword_reply2" value="I'm selling life and mana fluids, runes, wands, rods and spellbooks." />
+        <parameter key="keyword_reply3" value="I am the mourned Mehkesh." />
+		
+    </parameters>
+</npc>

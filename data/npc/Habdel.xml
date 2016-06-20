@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Habdel" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="95" body="2" legs="0" feet="97"/>
+<parameters>
+
+	<parameter key="message_greet" value="Welcome |PLAYERNAME|! See the fine weapons I sell."/>
+	<parameter key="message_farewell" value=""/>
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="name;job;offer;" />
+	
+    <parameter key="keyword_reply1" value="My name is Habdel Ibn Haqui." />
+	<parameter key="keyword_reply2" value="I sell weapons that are as lethal as the bite of the desertlion and as quick as the sandwasp." />
+	<parameter key="keyword_reply3" value="My offers are light and heavy weapons." />
+	
+	
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="battle axe,2378,235;battle hammer,2417,350;club,2382,5;dagger,2379,5;mace,2398,90;morning star,2394,430;rapier,2384,15;sabre,2385,25;spear,2389,10;sword,2376,85;two handed sword,2377,950;" />
+        <parameter key="shop_sellable" value="battle axe,2378,75;battle hammer,2417,50;carlin sword,2395,118;club,2382,1;dagger,2379,1;double axe,2387,260;halberd,2381,310;mace,2398,23;morning star,2394,100;rapier,2384,3;sabre,2385,5;short sword,2406,8;spear,2389,1;sword,2376,15;two handed sword,2377,190;war hammer,2391,470;" />
+    </parameters>
+</npc>

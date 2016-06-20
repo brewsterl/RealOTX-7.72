@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Miraia" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="95" body="0" legs="7" feet="115"/>
+   <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,5;ham,2671,8;bread,2689,4;cheese,2696,6" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+
+

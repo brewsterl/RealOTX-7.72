@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<npc name="Baxter" script="data/npc/scripts/Baxter.lua" walkinterval="2000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="96" body="29" legs="29" feet="115"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="LONG LIVE KING TIBIANUS!" />
+    <parameter key="message_farewell" value="LONG LIVE THE KING!." />
+	<parameter key="message_walkaway" value="LONG LIVE THE KING!." />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="news;how;are;you;sell;king;leader;job;army;guard;battlegroup;castle;subject;dogs of war;red guard;secret police;silver guard;city;scum;stutch;harsky;bozo;sam;gorn;benjamin;excalibug;partos;fruit;fruit;chester;tbi;work;mission;quest" />
+    
+	<parameter key="keyword_reply1" value="It is rumoured that Ferumbras is planning a new attack on town." />
+	<parameter key="keyword_reply2" value="I am healthy and vigilant." />
+	<parameter key="keyword_reply3" value="I am healthy and vigilant." />
+	<parameter key="keyword_reply4" value="I am healthy and vigilant." />
+	<parameter key="keyword_reply5" value="Visit Tibia's shopkeepers to buy their fine wares." />
+	<parameter key="keyword_reply6" value="King Tibianus III is our wise and just leader!" />
+	<parameter key="keyword_reply7" value="King Tibianus III is our wise and just leader!" />
+	<parameter key="keyword_reply8" value="I am a proud member of the king's army. It is my duty to guard the castle." />
+	<parameter key="keyword_reply9" value="Our brave army, which protects our city, consists of three battlegroups." />
+	<parameter key="keyword_reply10" value="Our brave army, which protects our city, consists of three battlegroups." />
+	<parameter key="keyword_reply11" value="There are the dogs of war, the red guards, and the silver guards." />
+	<parameter key="keyword_reply12" value="His Royal Highness ordered the castle to be open for all his subjects." />
+	<parameter key="keyword_reply13" value="We all live under the benevolent guidance of our king." />
+	<parameter key="keyword_reply14" value="They are our special forces. Some serve as cityguards, others as secret police." />
+	<parameter key="keyword_reply15" value="Ask a higher offical about that." />
+	<parameter key="keyword_reply16" value="The best sorcerers, paladins, knights, or druids of our forces are choosen to serve as silver guards. They are the bodyguards of the king." />
+	<parameter key="keyword_reply17" value="Now that the king returned, we will clean the city from all scum." />
+	<parameter key="keyword_reply18" value="To much scum roams our streets in our days, the red guards will take care of them." />
+	<parameter key="keyword_reply19" value="He is soldier in the silver guard." />
+	<parameter key="keyword_reply20" value="He is soldier in the silver guard." />
+	<parameter key="keyword_reply21" value="The royal jester. I dont think he is funny." />
+	<parameter key="keyword_reply22" value="He is a fine blacksmith. Almost all our weapons are made by him." />
+	<parameter key="keyword_reply23" value="An old friend of mine. He was once a great warrior and adventurer, now he is running a shop." />
+	<parameter key="keyword_reply24" value="He was one of the king's best generals, now he is a bit ...uhm... forgetful." />
+	<parameter key="keyword_reply25" value="Gorn and I searched for this weapon in the darkest corners of each dungeon, but found nothing." />
+	<parameter key="keyword_reply26" value="He was wanted for a long time and got caught stealing some time ago." />
+	<parameter key="keyword_reply27" value="What has this to do with this Partos guy?" />
+	<parameter key="keyword_reply28" value="This man is paranoid, but I guess that is useful in his job." />
+	<parameter key="keyword_reply29" value="There is almost nothing known about that organization." />
+	<parameter key="keyword_reply30" value="This man is paranoid, but I guess that is useful in his job." />
+	<parameter key="keyword_reply31" value="There is almost nothing known about that organization." />
+	<parameter key="keyword_reply32" value="We have a rat problem in the sewers. In the name of our glorious king I am paying 1 blinking piece of gold for every freshly killed rat you bring to me." />
+	<parameter key="keyword_reply33" value="I understand he was stealing some fruit, he is obsessed with, and got incautious." />
+	<parameter key="keyword_reply34" value="I understand he was stealing some fruit, he is obsessed with, and got incautious." />
+	
+	
+  </parameters>
+</npc>

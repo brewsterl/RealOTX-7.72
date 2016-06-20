@@ -1,0 +1,10 @@
+<!-- This is an example NPC that can be used on Jiddo's NPC system -->
+<!-- It is not in an in-game spawn -->
+
+<!-- This is an example NPC that sells runes and uses parameter callbacks -->
+<npc name="Harkath Bloodblade" script="data/npc/scripts/promotion.lua" walkinterval="0">
+	<health now="150" max="150"/>
+	<look type="131" head="76" body="57" legs="19" feet="76" corpse="2212"/>
+	<parameters>
+	</parameters>
+</npc>

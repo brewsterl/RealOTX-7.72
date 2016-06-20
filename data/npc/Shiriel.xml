@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Shiriel" script="data/npc/scripts/runes.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="62" head="2" body="103" legs="0" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Ashari |PLAYERNAME|. If you need to trade magical equipment, ask me."/>
+		<parameter key="message_farewell" value="Asha Thrazi, |PLAYERNAME|."/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at potions, wands or runes?"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;wands;runes;" />
+        <parameter key="keyword_reply1" value="I am Shiriel Sharaziel." />
+        <parameter key="keyword_reply2" value="I sell mystic runes, spellbooks, wands, rods and potions of health or mana." />
+        <parameter key="keyword_reply3" value="I'm selling health and mana fluids, runes, wands, rods and spellbooks." />
+        <parameter key="keyword_reply4" value="Have a look. You can also look at fluids or runes." />
+        <parameter key="keyword_reply5" value="Have a look. You can also look at wands or fluids." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+    </parameters>
+</npc>

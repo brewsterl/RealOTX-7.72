@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Frans" script="data/npc/scripts/runes.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look typeex="2229"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Beeee Greeeeted |PLAYERNAME|. What is your neeeed?"/>
+		<parameter key="message_farewell" value="Bye."/>
+		
+        <parameter key="message_sendtrade" value="Heeeeeeeeeeeeeere. Or loooook only at wands or runes?"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;wands;runes;rods;" />
+        <parameter key="keyword_reply1" value="I am a FRANS." />
+        <parameter key="keyword_reply2" value="I am selliiiing ruuuunes, wands, roooods and spellbooooooks." />
+        <parameter key="keyword_reply3" value="What do youuuu think I am? A lousy barberrrr? I'm selliiiing ruuuunes, waaaaaands, roooods and spellbooks if youuuuu neeeeed." />
+        <parameter key="keyword_reply4" value="wand of vortex, wand of dragonbreath, wand of plague, wand of cosmic energy and wand of inferno." />
+        <parameter key="keyword_reply5" value="Heeeeeeeeere. Also loooooook all type of runes." />
+        <parameter key="keyword_reply6" value="snakebit rod, moonlight rod, volcanic rod, terra rod and tempest rod." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

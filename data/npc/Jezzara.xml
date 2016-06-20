@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jezzara" script="data/npc/scripts/default.lua" walkinterval="1000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="78" body="101" legs="86" feet="115" addons="0"/>
+    <parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_greet" value="Be mourned pilgrim in flesh."/>
+<parameter key="message_placedinqueue" value="Mourned |PLAYERNAME|, know that I am busy."/>
+<parameter key="message_walkaway" value="May enlightenment be your path."/>
+<parameter key="message_farewell" value="May enlightenment be your path."/>
+<parameter key="message_idletimeout" value="May enlightenment be your path."/>
+
+<parameter key="message_decline" value="Hmm, but next time."/>
+<parameter key="message_needmoremoney" value="Come back, when you have enough money."/>
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,10;fish,2667,6;salmon,2668,7;ham,2671,15;dragon ham,2672,25;orange,2675,9;banana,2676,5;grapes,2681,8;melon,2682,13;pumpkin,2683,10;tomato,2685,10;carrot,2684,8" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+

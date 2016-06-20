@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<npc name="Norma" floorchange="0" walkinterval="2000">
+  <health now="150" max="150"/>
+  <look type="136" head="78" body="76" legs="72" feet="96"/>
+
+  <interaction range="5" idletimeout="30">
+
+    <interact keywords="hi" param="premium" focus="1">
+      <keywords>hello</keywords>
+      <response text="Hello, hello, |NAME|! Please come in, look, and buy!"/>
+    </interact>
+	
+	<interact keywords="hi"  focus="0">
+      <keywords>hello</keywords>
+      <response text="I'm sorry |NAME|, but I only serve premium account customers."/>
+    </interact>
+
+    <interact keywords="bye" focus="0">
+      <keywords>farewell</keywords>
+      <response text="Bye, bye."/>
+    </interact>
+	
+	<interact event="onIdle" time="120" singleevent="1">
+      <response text="Bye, bye." public="1"/>
+    </interact>	
+	
+    <interact event="onPlayerLeave" focus="0">
+      <response text="Bye, bye."/>
+    </interact>	
+
+    <interact event="onBusy" param="premium">
+      <response text="Not now, not now, sorry |NAME|. Please wait a moment.">
+        <action name="addqueue" value="|PLAYER|"/>
+      </response>
+    </interact>
+	
+    <interact event="onBusy" focus="0">
+      <response text="I'm sorry |NAME|, but I only serve premium account customers."/>
+    </interact>	
+
+    <interact keywords="how;are;you">
+      <response text="I am fine. I'm so glad to have you here as my customer."/>
+    </interact>
+
+    <interact keywords="sell">
+      <response text="I sell much. Just read the blackboards for my awesome wares or just ask me."/>
+    </interact>
+
+    <interact keywords="job">
+      <response text="I am a merchant. What can I do for you?"/>
+    </interact>	
+
+    <interact keywords="name">
+      <response text="My name is Norma. Do you want to buy something?"/>
+    </interact>	
+
+    <interact keywords="time">
+		<response>
+				<action name="script">
+						local time = getTibiaTime()
+						selfSay("It is about ".. time.hours .. string.char(58) .. time.minutes ..". I am so sorry, I have no watches to sell. Do you want to buy something else?")
+				</action>
+		</response>
+	</interact>	
+
+    <interact keywords="help">
+      <response text="I sell stuff to prices that low, that all other merchants would mock at my stupidity."/>
+    </interact>	
+
+    <interact keywords="monster">
+      <response text="If you want to challenge the monsters, you need some weapons and armor I sell. You need them definitely!"/>
+    </interact>	
+
+    <interact keywords="dungeon">
+      <response text="If you want to explore the dungeons, you have to equip yourself with the vital stuff I am selling. It's vital in the deepest sense of the word."/>
+    </interact>
+
+    <interact keywords="sewer">
+      <response text="Oh, our sewer system is very primitive; so primitive it's overrun by rats. But the stuff I sell is safe from them. Do you want to buy some of it?"/>
+    </interact>	
+
+    <interact keywords="king">
+      <response text="The king encouraged salesmen to travel here, but only some dared to take the risk, and a risk it was!"/>
+    </interact>	
+
+    <interact keywords="dallheim">
+      <response text="Some call him a hero."/>
+    </interact>	
+
+    <interact keywords="bug">
+      <response text="Bugs plague this isle, but my wares are bugfree, totally bugfree."/>
+    </interact>	
+
+    <interact keywords="stuff">
+      <response text="I sell equipment of all kinds, all kind available on this isle. Just ask me about my wares if you are interested."/>
+    </interact>	
+
+    <interact keywords="tibia">
+      <response text="One day I will return to the continent as a rich, a very rich woman!"/>
+    </interact>	
+
+    <interact keywords="thais">
+      <response text="Thais is a crowded town."/>
+    </interact>
+
+    <interact keywords="wares">
+	<keywords>offer</keywords>
+      <response text="I sell weapons, shields, armor, helmets, and equipment. For what do you want to ask?"/>
+    </interact>	
+
+    <interact keywords="weapon">
+      <response text="I sell spears, rapiers, sabres, daggers, hand axes, axes, and short swords. Just tell me what you want to buy."/>
+    </interact>	
+
+    <interact keywords="armor">
+      <response text="I sell jackets, coats, doublets, leather armor, and leather legs. Just tell me what you want to buy."/>
+    </interact>	
+
+    <interact keywords="helmet">
+      <response text="I sell leather helmets, studded helmets, and chain helmets. Just tell me what you want to buy."/>
+    </interact>	
+
+    <interact keywords="shield">
+      <response text="I sell wooden shields and studded shields. Just tell me what you want to buy."/>
+    </interact>	
+
+    <interact keywords="equipment">
+      <response text="I sell torches, bags, scrolls, shovels, picks, backpacks, sickles, scythes, ropes, fishing rods and sixpacks of worms. Just tell me what you want to buy."/>
+    </interact>	
+
+    <interact keywords="do;you;sell">
+	<keywords>do;you;have</keywords>
+      <response text="What do you need? I sell weapons, armor, helmets, shields, and equipment."/>
+    </interact>
+	
+	<interact keywords="spear" pname="spears">
+		<keywords>|AMOUNT|;spear</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2389"/>
+			<action name="price" value="10"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>
+
+	<interact keywords="rapier" pname="rapiers">
+		<keywords>|AMOUNT|;rapier</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2384"/>
+			<action name="price" value="15"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>
+
+	<interact keywords="sabre" pname="sabres">
+		<keywords>|AMOUNT|;sabre</keywords>
+		<response text="Do you want to buy |AMOUNT| sabre for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2385"/>
+			<action name="price" value="25"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="dagger" pname="daggers">
+		<keywords>|AMOUNT|;dagger</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2379"/>
+			<action name="price" value="5"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="sickle" pname="sickles">
+		<keywords>|AMOUNT|;sickle</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2405"/>
+			<action name="price" value="8"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="hand;axe" pname="hand axes">
+		<keywords>|AMOUNT|;hand;axe</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2380"/>
+			<action name="price" value="8"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="axe" pname="axes">
+		<keywords>|AMOUNT|;axe</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2386"/>
+			<action name="price" value="20"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="short;sword" pname="short swords">
+		<keywords>|AMOUNT|;short;sword</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2406"/>
+			<action name="price" value="30"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="jacket" pname="jackets">
+		<keywords>|AMOUNT|;jacket</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2650"/>
+			<action name="price" value="10"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="coat" pname="coats">
+		<keywords>|AMOUNT|;coat</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2651"/>
+			<action name="price" value="8"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="doublet" pname="doublets">
+		<keywords>|AMOUNT|;doublet</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2485"/>
+			<action name="price" value="16"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="leather;armor" pname="leather armors">
+		<keywords>|AMOUNT|;leather;armor</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2467"/>
+			<action name="price" value="25"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="leather;legs">
+		<keywords>|AMOUNT|;leather;legs</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2649"/>
+			<action name="price" value="10"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="leather;helmet" pname="leather helmets">
+		<keywords>|AMOUNT|;leather;helmet</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2461"/>
+			<action name="price" value="12"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="studded;helmet" pname="studded helmets">
+		<keywords>|AMOUNT|;studded;helmet</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2482"/>
+			<action name="price" value="63"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="chain;helmet" pname="chain helmets">
+		<keywords>|AMOUNT|;chain;helmet</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2458"/>
+			<action name="price" value="52"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="wooden;shield" pname="wooden shields">
+		<keywords>|AMOUNT|;wooden;shield</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2512"/>
+			<action name="price" value="15"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="studded;shield" pname="studded shields">
+		<keywords>|AMOUNT|;studded;shield</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2526"/>
+			<action name="price" value="50"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="torch" pname="torches">
+		<keywords>|AMOUNT|;torch</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2050"/>
+			<action name="price" value="2"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="bag" pname="bags">
+		<keywords>|AMOUNT|;bag</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="1987"/>
+			<action name="price" value="4"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="scroll" pname="scrolls">
+		<keywords>|AMOUNT|;scroll</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="1949"/>
+			<action name="price" value="5"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="shovel" pname="shovels">
+		<keywords>|AMOUNT|;shovel</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2554"/>
+			<action name="price" value="10"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="pick">
+	    <response text="Sorry, I fear Al Dee owns the last ones on this isle."/>
+    </interact>	
+
+
+	<interact keywords="backpack" pname="backpacks">
+		<keywords>|AMOUNT|;backpack</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="1988"/>
+			<action name="price" value="10"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="scythe" pname="scythes">
+		<keywords>|AMOUNT|;scythe</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2550"/>
+			<action name="price" value="12"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact keywords="rope" pname="ropes">
+		<keywords>|AMOUNT|;rope</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2120"/>
+			<action name="price" value="50"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>
+	
+	<interact keywords="rod" pname="fishing rods">
+		<keywords>|AMOUNT|;rod</keywords>
+		<keywords>|AMOUNT|;fishing;rod</keywords>
+		<response text="Do you want to buy |AMOUNT| |ITEMNAME| for |PRICE| gold?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2580"/>
+			<action name="price" value="150"/>
+			<action name="amount" value="|AMOUNT|"/>
+		</response>
+	</interact>	
+
+	<interact topic="1" keywords="yes">
+		<response param="lowmoney" text="Sorry, you do not have enough gold."/>
+		<response text="Thank you. Here it is.">
+			<action name="takemoney" value="|PRICE|"/>
+			<action name="giveitem" value="|ITEM|"/>
+		</response>
+	</interact>	
+	
+	<interact topic="1" keywords="|*|">
+	<keywords>no</keywords>
+		<response text="Maybe you will buy it another time."/>
+	</interact>
+
+	<interact topic="2" keywords="yes">
+		<response param="lowmoney" text="Sorry, you do not have one."/>
+		<response param="lowamount" text="Sorry, you do not have that many."/>
+		<response text="Ok. Here is your money.">
+			<action name="takemoney" value="|PRICE|"/>
+			<action name="giveitem" value="|ITEM|"/>
+		</response>
+	</interact>	
+	
+	<interact topic="2" keywords="|*|">
+	<keywords>no</keywords>
+		<response text="Maybe next time."/>
+	</interact>		
+
+	</interaction>
+  
+</npc>

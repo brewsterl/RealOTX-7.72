@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Uso" script="data/npc/scripts/uso.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="160" head="79" body="39" legs="77" feet="115" addons="0"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, im daughter of fire and i can teach spells for knights." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, berserk, challenge,  find person, great light, haste, light, light healing and magic rope." />
+</parameters>
+</npc>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<npc name="Blind Orc" floorchange="0" walkinterval="1000">
+  <health now="150" max="150"/>
+  <look type="5" head="0" body="0" legs="0" feet="0"/>
+
+  <interaction range="1" idletimeout="30">
+
+    <interact keywords="charach" focus="1">
+      <response text="Ikem Charach maruk."/>
+    </interact>
+
+    <interact keywords="futchi" focus="0">
+      <response text="Futchi."/>
+    </interact>
+
+    <interact event="onBusy">
+      <response text="Ikem napak aluk.">
+      </response>
+    </interact>
+	
+	<interact event="onIdle" time="120" singleevent="1">
+      <response text="Futchi!" public="1"/>
+    </interact>
+
+    <interact event="onPlayerLeave" focus="0">
+      <response text="Futchi!"/>
+    </interact>
+
+    <interact keywords="ikem;goshak">
+      <response text="Ikem pashak porak, bata, dora. Ba goshak maruk?"/>
+    </interact>
+	
+    <interact keywords="goshak;porak">
+      <response text="Ikem pashak charcha, burka, burka bata, hakhak. Ba goshak maruk?"/>
+    </interact>	
+	
+	<interact keywords="goshak;charcha">
+		<keywords>goshak;charcha</keywords>
+		<response text="Maruk goshak ta?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2385"/>
+			<action name="price" value="25"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>
+	
+	<interact keywords="goshak;burka">
+		<keywords>goshak;burka</keywords>
+		<response text="Maruk goshak ta?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2406"/>
+			<action name="price" value="30"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>	
+	
+	<interact keywords="goshak;burka;bata">
+		<keywords>goshak;burka;bata</keywords>
+		<response text="Maruk goshak ta?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2376"/>
+			<action name="price" value="85"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>
+	
+	<interact keywords="goshak;hakhak">
+		<keywords>goshak;hakhak</keywords>
+		<response text="Maruk goshak ta?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2388"/>
+			<action name="price" value="85"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>
+	
+    <interact keywords="goshak;bata">
+      <response text="Ikem pashak aka bora, tulak bora, grofa. Ba goshak maruk?"/>
+    </interact>
+
+	<interact keywords="goshak;bora">
+		<keywords>goshak;bora</keywords>
+		<response text="Maruk goshak ta?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2467"/>
+			<action name="price" value="25"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>	
+	
+	<interact keywords="goshak;tulak;bora">
+		<keywords>goshak;tulak;bora</keywords>
+		<response text="Maruk goshak ta?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2484"/>
+			<action name="price" value="90"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>
+	
+	<interact keywords="goshak;grofa">
+		<keywords>goshak;grofa</keywords>
+		<response text="Maruk goshak ta?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2482"/>
+			<action name="price" value="60"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>
+
+    <interact keywords="goshak;dora">
+      <response text="Ikem pashak donga. Ba goshak maruk?"/>
+    </interact>
+
+	<interact keywords="goshak;batuk">
+		<response text="Ahhhh, maruk goshak batuk?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2456"/>
+			<action name="price" value="400"/>
+			<action name="amount" value="1"/>
+		</response>
+	</interact>
+
+	<interact keywords="goshak;pixo">
+		<response text="Maruk goshak tefar pixo ul batuk?">
+			<action name="topic" value="1"/>
+			<action name="item" value="2544"/>
+			<action name="subtype" value="0" />
+			<action name="price" value="30"/>
+			<action name="amount" value="10"/>
+		</response>
+	</interact>		
+	
+	<interact topic="1" keywords="mok">
+		<response param="lowmoney" text="Maruk nixda!"/>
+		<response text="Maruk rambo zambo!">
+			<action name="buy" value="|PRICE|"/>
+		</response>
+	</interact>
+	
+	<interact topic="1" keywords="burp">	
+		<response text="Buta maruk klamuk!"/>
+	</interact>
+
+	<interact topic="1" keywords="|*|">	
+		<response text="Buta maruk klamuk!"/>
+	</interact>
+
+	</interaction>
+  
+</npc>

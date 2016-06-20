@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Yberius" script="data/npc/scripts/healer_yberius.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        
+		<parameter key="message_greet" value="Welcome, young |PLAYERNAME|! If you are heavily wounded or poisoned, I can heal you for free."/>
+        <parameter key="message_farewell" value="May the gods bless you, |PLAYERNAME|!"/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wonderful clothes."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;help;gold;Tibia;gods;gold;monsters;" />
+        <parameter key="keyword_reply1" value="I am Brother Yberius." />
+        <parameter key="keyword_reply2" value="I have no job. I just live for the gods of Tibia." />
+        <parameter key="keyword_reply3" value="Earn some gold and upgrade your equipment." />
+        <parameter key="keyword_reply4" value="If you need money, you have to slay monsters and take their gold. Look for swamptrolls in the swamps. But be careful. They use poisoned weapons." />
+        <parameter key="keyword_reply5" value="It's the world of Tibia." />
+        <parameter key="keyword_reply6" value="They are the creators of Tibia and all life on it." />
+        <parameter key="keyword_reply7" value="If you need money, you have to slay monsters and take their gold. Look for swamptrolls in the swamps. But be careful. They use poisoned weapons." />
+        <parameter key="keyword_reply8" value="Even they have their part in the bigger scheme. Even if it eludes us mere mortals." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

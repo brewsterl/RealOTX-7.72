@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Luna" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="137" head="0" body="118" legs="100" feet="115" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Greetings, traveller."/>
+		<parameter key="message_farewell" value="Goodbye, traveller."/>
+		<parameter key="message_placedinqueue" value="Sorry, I'm too busy now"/>
+        
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;offers;" />
+		
+        <parameter key="keyword_reply1" value="I'm called Luna." />
+        <parameter key="keyword_reply2" value="I sell various herbs, mushrooms, and flowers." />
+		
+		        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="white mushroom,2787,6;red mushroom,2788,12;brown mushroom,2789,10;rose,2744,11;tulip,2754,9;stone herb,2799,28;star herb,2800,21;fern,2801,24;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+
+ 

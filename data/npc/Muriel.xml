@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Muriel" script="data/npc/scripts/Muriel.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="115" body="94" legs="97" feet="57" addons="0"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, I can teach spells and spell runes for sorcerers." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells;spell runes" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, create illusion, great light, find person, intense healing, light, light healing, magic shield, summon creature and ultimate healing." />
+<parameter key="keyword_reply2" value="I can teach you, animate dead, create antidote, explosion, heavy magic missile, desintegrate, destroy field, energy field, fire field, light magic missile, poison field and sudden Death." />
+</parameters>
+</npc>

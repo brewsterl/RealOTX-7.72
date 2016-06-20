@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Robin" script="data/npc/scripts/Robin.lua" walkinterval="1000" access="3" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="77" body="118" legs="118" feet="115" />
+<parameters>
+
+<parameter key="message_greet" value="Ah, a visitor. Greetings |PLAYERNAME|!"/>
+<parameter key="message_farewell" value="Farewell."/>
+
+<parameter key="module_keywords" value="1" />
+
+<parameter key="keywords" value="job;name;time;king;tibianus;quentin;lynda;harkath;army;general;ferumbras;sam;gorn;frodo;elane;muriel;sorcerer;gregor;druid;marvik;bozo;baxter;oswald;sherry;donald;mcronald;krunor;lugri;excalibug;news" />
+
+<parameter key="keyword_reply1" value="I am the Chief Huntsman of Thais." />
+<parameter key="keyword_reply2" value="I am Robin. Some call me Rob, others Woody." />
+<parameter key="keyword_reply3" value="Time... it's running that fast when you are as old as me." />
+<parameter key="keyword_reply4" value="I am his Master of the Hunt as I was his father's Master of the Hunt." />
+<parameter key="keyword_reply5" value="I am his Master of the Hunt as I was his father's Master of the Hunt." />
+<parameter key="keyword_reply6" value="My buddy Quentin is getting old, too. Things were different in our youth." />
+<parameter key="keyword_reply7" value="So young and so beautiful! She makes even an old man as me... uhm... feel a bit younger again." />
+<parameter key="keyword_reply8" value="Another one of a few friends of my youth who's still left." />
+<parameter key="keyword_reply9" value="These kids call themselves an army... In the old times we had a REAL army, I tell ya..." />
+<parameter key="keyword_reply10" value="These kids call themselves an army... In the old times we had a REAL army, I tell ya..." />
+<parameter key="keyword_reply11" value="A misguided follower of evil." />
+<parameter key="keyword_reply12" value="I have not much use for heavy armor." />
+<parameter key="keyword_reply13" value="Sells a lot of useful stuff that guy. I rember the days when we were so poor that we could not afford anything the former owner offered." />
+<parameter key="keyword_reply14" value="Ah, I love that hut. I liked it as it was Iwan's hut, I loved it as it was Pridence's hut, and I think I will never stop to love this place." />
+<parameter key="keyword_reply15" value="A master, or better mistress, of the bow. But with her big feet she just chases all game away." />
+<parameter key="keyword_reply16" value="These mages still give me shivers. I remember the first time this Ferumbras guy showed his ugly face here." />
+<parameter key="keyword_reply17" value="These mages still give me shivers. I remember the first time this Ferumbras guy showed his ugly face here." />
+<parameter key="keyword_reply18" value="Can you imagine this youngster handles a guild? Ah, come on." />
+<parameter key="keyword_reply19" value="Druids have their ways with nature, but they would rather cuddle a bear than hunting it." />
+<parameter key="keyword_reply20" value="Druids have their ways with nature, but they would rather cuddle a bear than hunting it." />
+<parameter key="keyword_reply21" value="Such guys don't live long. The grandfather of our king had a new jester every season." />
+<parameter key="keyword_reply22" value="I hardly know him." />
+<parameter key="keyword_reply23" value="Oh, what a charming young man. He's often here asking me about my youth and the people I met in my life." />
+<parameter key="keyword_reply24" value="The farmers are fine fellows." />
+<parameter key="keyword_reply25" value="The farmers are fine fellows." />
+<parameter key="keyword_reply26" value="The farmers are fine fellows." />
+<parameter key="keyword_reply27" value="Crunor gives and takes. That is his way. As long as we don't hunt more then we need we are at balance with Crunor." />
+<parameter key="keyword_reply28" value="Can you imagine his father was such a fine guy? A shame what his son has become." />
+<parameter key="keyword_reply29" value="I don't like swords in general." />
+<parameter key="keyword_reply30" value="News? In the woods I learn nothing of importance to the world." />
+
+
+</parameters>
+</npc>

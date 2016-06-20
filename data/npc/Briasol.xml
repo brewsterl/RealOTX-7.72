@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Briasol" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="63" head="3" body="86" legs="87" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Ashari |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Asha Thrazi."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer" />
+        <parameter key="keyword_reply1" value="I am Briasol Crithanath." />
+        <parameter key="keyword_reply2" value="I exchange money." />
+		<parameter key="keyword_reply3" value="I can sell gems, pearls, and jewels." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="white pearl,2143,160;black pearl,2144,280;small diamond,2145,300;small sapphire,2146,250;small ruby,2147,250;small emerald,2149,250;small amethyst,2150,200" />
+		<parameter key="shop_buyable" value="white pearl,2143,320;black pearl,2144,560;small diamond,2145,600;small sapphire,2146,500;small ruby,2147,500;small emerald,2149,500;small amethyst,2150,400" />
+    </parameters>
+</npc>

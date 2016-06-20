@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<npc name="Timur" script="data/npc/scripts/Timur.lua" walkinterval="1000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="116" legs="102" feet="95"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Hello, |PLAYERNAME|. Come in and buy." />
+    <parameter key="message_farewell" value="Bye, bye." />
+	<parameter key="message_walkaway" value="Bye, bye." />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="job;name;time;fibula;helmet;food;weapon;fluid;equipment;ammo;worm;" />
+    
+	<parameter key="keyword_reply1" value="I am selling equipment. Do you want something?" />
+	<parameter key="keyword_reply2" value="I am Timur. Sorry, I have not much equipment for sale. The business is running low." />
+	<parameter key="keyword_reply3" value="I am sorry, I have no watch." />
+	<parameter key="keyword_reply4" value="It's a very nice isle. But we don't have enough weapons to defeat the many wolves." />
+	<parameter key="keyword_reply5" value="I can sell you a viking helmet in a very good quality." />
+	<parameter key="keyword_reply6" value="If you are looking for food, buy a rod and go fishing." />
+	<parameter key="keyword_reply7" value="At the moment I have no weapons to offer. Weapons are very rare on this isle, so I have to buy a few." />
+	<parameter key="keyword_reply8" value="The inhabitants of Fibula live on fishing, farming, and hunting." />
+	<parameter key="keyword_reply9" value="The magic shops have a monopole on fluids now... argl!" />
+	<parameter key="keyword_reply10" value="I sell torches, scrolls, documents, parchments, ropes, fishing rods, sixpacks of worms, arrows, bolts, and a nice helmet." />
+	<parameter key="keyword_reply11" value="I have arrows and bolts in this shop." />
+	
+  </parameters>
+</npc>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Petros" script="data/npc/scripts/barco_darashia.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="79" body="85" legs="126" feet="126" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Greetings, |PLAYERNAME|. I can take you to Venore, Port Hope or Ankrahmun if you like."/>
+		<parameter key="message_farewell" value="Good bye. Recommend us if you were satisfied with our service."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;ship;boat;passage" />
+        <parameter key="keyword_reply1" value="My name is Petros." />
+        <parameter key="keyword_reply2" value="I take along people to Venore, Port Hope and Ankrahmun." />
+		<parameter key="keyword_reply3" value="My boat is ready to bring you to Venore, Port Hope or Ankrahmun." />
+		<parameter key="keyword_reply4" value="My boat is ready to bring you to Venore, Port Hope or Ankrahmun." />
+		<parameter key="keyword_reply5" value="My boat is ready to bring you to Venore, Port Hope or Ankrahmun." />
+
+    </parameters>
+</npc>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Azil" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="95" body="10" legs="12" feet="119"/>
+<parameters>
+
+	<parameter key="message_greet" value="Be greeted |PLAYERNAME|! See the armors: harder than the scales of a dragon, lighter than a feather."/>
+	<parameter key="message_farewell" value="Good bye, honoured customer. It was a pleasure to talk to you."/>
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="name;job;offer;" />
+	
+    <parameter key="keyword_reply1" value="My name is Azil Ibn Izal." />
+	<parameter key="keyword_reply2" value="I sell various kinds of masterly crafted armor. The wares I offer are as numerous as the sand of the desert." />
+	<parameter key="keyword_reply3" value="My offers are armor, helmets, trousers, and shields." />
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="chain helmet,2458,52;brass helmet,2460,120;leather helmet,2461,12;viking helmet,2473,265;brass legs,2478,195;chain legs,2648,80;chain armor,2464,200;brass armor,2465,450;leather armor,2467,35;brass shield,2511,65;wooden shield,2512,15" />
+        <parameter key="shop_sellable" value="steel helmet,2457,300;chain helmet,2458,12;brass helmet,2460,30;leather helmet,2461,3;viking helmet,2473,70;brass legs,2478,49;chain legs,2648,20;plate armor,2463,240;chain armor,2464,40;brass armor,2465,112;leather armor,2467,5;plate shield,2510,45;brass shield,2511,16;wooden shield,2512,3;battle shield,2513,60" />
+    </parameters>
+</npc>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<npc name="Grizzly Adams" script="KillingInTheNameOf.lua" access="3" walkinterval="2000" lookdir="2">
+  <mana now="800" max="800"/>
+  <health now="200" max="200"/>
+  <look type="144" head="97" body="97" legs="94" feet="97" addons="3"/>
+</npc>

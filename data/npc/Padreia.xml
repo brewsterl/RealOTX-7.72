@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npc name="Padreia" script="data/npc/scripts/Padreia.lua" access="3" lookdir="1" walkinterval="2500">
+	<health now="1" max="1"/>
+	<look type="138" head="0" body="88" legs="86" feet="115" corpse="3128"/>
+ <parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, I can teach spells and spell runes for druids." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells;spell runes" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, create food, create illusion, great light, find person, intense healing, light, light healing, summon creature and ultimate healing." />
+<parameter key="keyword_reply2" value="I can teach you, animate dead, convince creature, create antidote, create ultimate healing, create intense healing, explosion, energy wall, fire wall, heavy magic missile, desintegrate, destroy field, energy field, fire field, fireball, great fireball, light magic missile and poison field." />
+</parameters>
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lola" script="data/npc/scripts/furniture.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="142" head="114" body="0" legs="95" feet="114" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell chairs, tables, plants, containers, pillows, tapestries and more. Everything for 500 gold pieces."/>
+		<parameter key="shop_buyable" value="wooden chair,3901,500;sofa chair,3902,500;red cushioned chair,3903,500;green cushioned chair,3904,500;tusk chair,3905,500;ivory chair,3906,500;big table,3909,500;square table,3910,500;round table,3911,500;small table,3912,500;stone table,3913,500;tusk table,3914,500;bamboo table,3919,500;pink flower,3928,500;green flower,3929,500;christmas tree,3931,500;large trunk,3938,500;drawer,3921,500;dresser,3932,500;locker,3934,500;trough,3935,500;box,3915,500;coal basin,3908,500;birdcage,3918,500;harp,3917,500;piano,3926,500;globe,3927,500;clock,3933,500;lamp,3937,500;blue tapestry,1872,500;green tapestry,1860,500;orange tapestry,1866,500;pink tapestry,1857,500;red tapestry,1869,500;white tapestry,1880,500;yellow tapestry,1863,500;small purple pillow,1678,500;small green pillow,1679,500;small red pillow,1680,500;small blue pillow,1681,500;small orange pillow,1683,500;small turquiose pillow,1684,500;small white pillow,1685,500;heart pillow,1685,500;blue pillow,1686,500;red pillow,1687,500;green pillow,1688,500;yellow pillow,1689,500;round blue pillow,1690,500;round red pillow,1691,500;round purple pillow,1692,500;round turquiose pillow,1693,500;"/>
+	</parameters>
+</npc>

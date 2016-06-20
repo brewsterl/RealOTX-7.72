@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npc name="Alesar" script="data/npc/scripts/alesar.lua" access="3" lookdir="2" walkinterval="2500">
+<mana now="800" max="800" />
+<health now="200" max="200" />
+<look type="80" head="0" body="0" legs="0" feet="0" />
+<parameters>
+
+	<parameter key="message_greet" value="What do you want from me, %N?" />
+	<parameter key="message_farewell" value="Finally." />
+	<parameter key="message_placedinqueue" value="I am already talking to one of you creeps. So shut up until it is your turn, |PLAYERNAME|." />
+	
+</parameters>
+</npc>
+

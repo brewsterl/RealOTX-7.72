@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Shiantis" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="0" body="36" legs="13" feet="76"/>
+	<parameters>
+	
+	    <parameter key="message_greet" value="Welcome |PLAYERNAME|. What is your need today?"/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_placedinqueue" value="Excuse me, |PLAYERNAME|, I am already talking to another customer. Wait just a moment."/>
+        
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name;time;king;tibianus;army;ferumbras;excalibug;news;tax;offer;goods;do you sell;do you have;equipment;containers;illumination;paperware;books;magic;fluids" />
+        <parameter key="keyword_reply1" value="I am selling several kinds of equipment and decoration. What is your need?" />
+        <parameter key="keyword_reply2" value="I am Shiantis." />
+		<parameter key="keyword_reply3" value="I won't tell you for free, but maybe you want to buy a watch?" />
+		<parameter key="keyword_reply4" value="I would love to see the royal taxes lowered." />
+		<parameter key="keyword_reply5" value="I would love to see the royal taxes lowered." />
+		<parameter key="keyword_reply6" value="I think it's needed for protection. We pay enough taxes for this." />
+		<parameter key="keyword_reply7" value="Ferumbras dolls were not the saleshit we expected. Sold all stock to a strange guy who bought a bunch of needles, too." />
+		<parameter key="keyword_reply8" value="Sorry, we run out of stock. I expect another load of wodden excalibug simulacra to arrive next week." />
+		<parameter key="keyword_reply9" value="I heard the merchants will petition the king to lower the taxes." />
+		<parameter key="keyword_reply10" value="I heard the merchants will petition the king to lower the taxes." />
+		<parameter key="keyword_reply11" value="As you can see, our inventory is large, just have a look." />
+		<parameter key="keyword_reply12" value="At this booth we sell containers, decoration, illumination, paperware, footballs, and watches." />
+		<parameter key="keyword_reply13" value="At this booth we sell containers, decoration, illumination, paperware, footballs, and watches." />
+		<parameter key="keyword_reply14" value="At this booth we sell containers, decoration, illumination, paperware, footballs, and watches." />
+		<parameter key="keyword_reply15" value="At this booth we sell containers, decoration, illumination, paperware, footballs, and watches." />
+		<parameter key="keyword_reply16" value="In that department we offer bags, backpacks, and present boxes." />
+		<parameter key="keyword_reply17" value="In that department we offer torches, candlesticks, candelabra, oil and coal basins." />
+		<parameter key="keyword_reply18" value="In that department we offer scrolls, documents, parchments, and books." />
+		<parameter key="keyword_reply19" value="I offer different kind of books: brown, black and small books. Which book do you want?" />
+		<parameter key="keyword_reply20" value="You will have to visit that spooky magic market for that stuff." />
+		<parameter key="keyword_reply21" value="You will have to visit that spooky magic market for that stuff." />
+	
+	<parameter key="module_shop" value="1"/>
+    <parameter key="shop_buyable" value="oil,2006,20,11;torch,2050,2;candelabrum,2041,8;candlestick,2047,2;coal basin,1484,25;bag,1993,5;backpack,2000,20;present,1990,10;scroll,1949,5;document,1952,12;parchment,1948,8;brown book,1971,15;black book,1972,15;small book,1959,15;watch,2036,20;football,2109,111;" />
+    <parameter key="shop_sellable" value="vial,2006,5" />
+	
+	</parameters>
+</npc>

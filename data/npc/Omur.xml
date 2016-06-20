@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Omur" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="128" head="95" body="0" legs="6" feet="116"/>
+<parameters>
+
+	<parameter key="message_greet" value="Welcome at the humble booth of Omur, |PLAYERNAME|."/>
+	<parameter key="message_farewell" value="May your soul flourish like dunegrass after a rainfall."/>
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="name;job;offer;" />
+	
+    <parameter key="keyword_reply1" value="I am called Omur." />
+	<parameter key="keyword_reply2" value="I sell rare fruits and vegatables from our lands and distant places." />
+	<parameter key="keyword_reply3" value="I can offer you fruits and vegetables." />
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="banana,2676,3;grapes,2681,5;melon,2682,10;carrot,2684,4;tomato,2685,5;pumpkin,2683,10;orange,2675,7" />
+        <parameter key="shop_sellable" value="" />
+    
+    </parameters>
+</npc>
+

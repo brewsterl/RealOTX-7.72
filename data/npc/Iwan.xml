@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Iwan" script="data/npc/scripts/default.lua" walkinterval="4000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="0" body="112" legs="88" feet="113" addons="0"/>
+    <parameters>
+	
+        <parameter key="message_greet" value="Feel welcome |PLAYERNAME|."/>
+		<parameter key="message_placedinqueue" value="I am busy here, |PLAYERNAME|. Wait."/>
+		<parameter key="message_farewell" value="Bye, bye."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer" />
+		
+        <parameter key="keyword_reply1" value="I'm Iwan." />
+		<parameter key="keyword_reply2" value="I sell gems of all kind." />
+		<parameter key="keyword_reply3" value="I can offer you various gems, pearls or some wonderful jewels." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="small amethyst,2150,400;small diamond,2145,600;small emerald,2149,500;small ruby,2147,500;small sapphire,2146,500;golden amulet,2130,6600;ruby necklace,2133,3560;wedding ring,2121,990;black pearl,2144,560;white pearl,2143,320;" />
+        <parameter key="shop_sellable" value="wedding ring,2121,100;small amethyst,2150,200;small diamond,2145,300;small emerald,2149,250;small ruby,2147,250;small sapphire,2146,250;black pearl,2144,280;white pearl,2143,160;" />
+    </parameters>
+</npc>
+
+
+
+

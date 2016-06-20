@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Cipfried" script="data/npc/scripts/healer_cipfried.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello, |PLAYERNAME|! Feel free to ask me for help."/>
+		<parameter key="message_farewell" value="Farewell, |PLAYERNAME|!"/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name;monk;tibia;rookgaard;god;life;plant;citizen;obi;al dee;seymour;academy;willie;monster;help;hint;quest;task;what do;gold;money;rat;sewer;equipment;fight;slay;eat;food;time" />
+		
+        <parameter key="keyword_reply1" value="I am just a humble monk. Ask me if you need help or healing." />
+        <parameter key="keyword_reply2" value="My name is Cipfried." />
+        <parameter key="keyword_reply3" value="I sacrifice my life to serve the good gods of Tibia." />
+        <parameter key="keyword_reply4" value="That's where we are. The world of Tibia." />
+        <parameter key="keyword_reply5" value="The gods have chosen this isle as the point of arrival for the newborn souls." />
+        <parameter key="keyword_reply6" value="They created Tibia and all life on it. Visit our library and learn about them." />
+        <parameter key="keyword_reply7" value="The gods decorated Tibia with various forms of life. Plants, the citizens, and even the monsters." />
+        <parameter key="keyword_reply8" value="Just walk around. You will see grass, trees, and bushes." />
+        <parameter key="keyword_reply9" value="Only few people live here. Walk around and talk to them." />
+        <parameter key="keyword_reply10" value="He is a local shop owner." />
+        <parameter key="keyword_reply11" value="He is a local shop owner." />
+        <parameter key="keyword_reply12" value="Seymour is a loyal follower of the king and responsibe for the academy." />
+        <parameter key="keyword_reply13" value="You should visit Seymour in the academy and ask him about a mission." />
+        <parameter key="keyword_reply14" value="He is a fine farmer. The farm is located to the left of the temple." />
+        <parameter key="keyword_reply15" value="They are a constant threat. Learn to fight by hunting rabbits, deers and sheeps. Then try to fight rats, bugs and perhaps spiders." />
+        <parameter key="keyword_reply16" value="First you should try to get some gold and buy better equipment." />
+        <parameter key="keyword_reply17" value="First you should try to get some gold and buy better equipment." />
+        <parameter key="keyword_reply18" value="First you should try to get some gold and buy better equipment." />
+        <parameter key="keyword_reply19" value="First you should try to get some gold and buy better equipment." />
+        <parameter key="keyword_reply20" value="First you should try to get some gold and buy better equipment." />
+        <parameter key="keyword_reply21" value="You have to slay monsters and take their gold. Or sell food at Willie's farm." />
+        <parameter key="keyword_reply22" value="If you need money, you have to slay monsters and take their gold. Look for spiders and rats." />
+        <parameter key="keyword_reply23" value="In the north of this temple you find a sewer grate. Use it to enter the sewers if you feel prepared. Don't forget a torch; you'll need it." />
+        <parameter key="keyword_reply24" value="In the north of this temple you find a sewer grate. Use it to enter the sewers if you feel prepared. Don't forget a torch; you'll need it." />
+        <parameter key="keyword_reply25" value="First you need some armor and perhaps a better weapon or a shield. A real adventurer needs a rope, a shovel, and a fishing pole, too." />
+        <parameter key="keyword_reply26" value="Take a weapon in your hand, activate your combat mode, and select a target. After a fight you should eat something to heal your wounds." />
+        <parameter key="keyword_reply27" value="Take a weapon in your hand, activate your combat mode, and select a target. After a fight you should eat something to heal your wounds." />
+        <parameter key="keyword_reply28" value="If you want to heal your wounds you should eat something. Willie sells excellent meals. But if you are very weak, come to me and ask me to heal you." />
+        <parameter key="keyword_reply29" value="If you want to heal your wounds you should eat something. Willie sells excellent meals. But if you are very weak, come to me and ask me to heal you." />
+        <parameter key="keyword_reply30" value="Now, it is |TIME|, my child." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Beatrice" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="96" body="102" legs="69" feet="95"/>
+	<parameters>
+	
+	    <parameter key="message_greet" value="Hello, hiho, and ashari |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="See you later."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;king;tibianus;army;ferumbras;excalibug;thais;tibia;carlin;edron;news;rumors;offer;goods;equipment" />
+        <parameter key="keyword_reply1" value="I am called Beatrice." />
+        <parameter key="keyword_reply2" value="My job is to sell all kind of useful equipment." />
+        <parameter key="keyword_reply3" value="I have seen him once. What a handsome man he is." />
+        <parameter key="keyword_reply4" value="I have seen him once. What a handsome man he is." />
+        <parameter key="keyword_reply5" value="I supply them with some basic stuff." />
+        <parameter key="keyword_reply6" value="I vaguely remember that name." />
+        <parameter key="keyword_reply7" value="A myth like the screwdriver of Kurik or the endless vial of manafluid." />
+        <parameter key="keyword_reply8" value="We are no longer in need to be supplied from there." />
+        <parameter key="keyword_reply9" value="I don't like travelling much. I prefer to live in the safety of our city." />
+		<parameter key="keyword_reply10" value="Though they rebelled against our king it's said that the city is very lovely." />
+		<parameter key="keyword_reply11" value="It's the best place to live at." />
+		<parameter key="keyword_reply12" value="There are always rumors about the dangers in the far north of Edron." />
+		<parameter key="keyword_reply13" value="There are always rumors about the dangers in the far north of Edron." />
+		<parameter key="keyword_reply14" value="My inventory is large, just have a look at the blackboard." />
+		<parameter key="keyword_reply15" value="My inventory is large, just have a look at the blackboard." />
+		<parameter key="keyword_reply16" value="My inventory is large, just have a look at the blackboard." />
+    
+		<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="closed trap,2578,280;crowbar,2416,260;fishing rod,2580,150;pick,2553,50;rope,2120,50;scythe,2550,50;shovel,2554,50;worm,3976,1;basket,1989,6;bag,1995,5;backpack,2002,20" />
+        <parameter key="shop_sellable" value="closed trap,2578,75;crowbar,2416,50;fishing rod,2580,40;pick,2553,15;rope,2120,15;scythe,2550,10;shovel,2554,8" />
+    </parameters>
+</npc>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sigurd" script="data/npc/scripts/runes.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="69" head="58" body="84" legs="86" feet="114" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome to the magic store, |PLAYERNAME|!"/>
+		<parameter key="message_farewell" value="Good bye. Come back soon."/>
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares. Or do you want to look only at fluids, wands or runes?"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;offer;wands;runes" />
+        <parameter key="keyword_reply1" value="I'm Sigurd Fireworker, brother to Etzel Fireworker, son of Fire of the Molten Rocks." />
+        <parameter key="keyword_reply2" value="I'm selling life and mana fluids, runes, wands, rods and spellbooks." />
+        <parameter key="keyword_reply3" value="Have a look. You can also look at fluids or runes." />
+        <parameter key="keyword_reply4" value="Have a look. You can also look at wands or fluids." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

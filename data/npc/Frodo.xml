@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Frodo" script="data/npc/scripts/Food.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="58" body="68" legs="109" feet="131" addons="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell all kind of food!" />
+		<parameter key="shop_buyable" value="dragon ham,2672,20;brown mushroom,2789,10;bread,2689,4;ham,2671,8;cheese,2696,4;meat,2666,5" />
+	</parameters>
+</npc>

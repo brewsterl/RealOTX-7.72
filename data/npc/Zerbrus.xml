@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zerbrus" script="data/npc/scripts/healer_zerbrus.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="76" body="38" legs="76" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="At your service, |PLAYERNAME|, protecting the village from monsters."/>
+		<parameter key="message_farewell" value="Bye, |PLAYERNAME|."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;monsters;wilderness;dungeons;sewers;wolves;bears;snakes;spiders;rats;sabre;sword;" />
+        <parameter key="keyword_reply1" value="Zerbrus, at your service." />
+        <parameter key="keyword_reply2" value="I'm the guard of this bridge. I defend Rookgaard against the beasts of the wilderness and the dungeons, and even of the stinking sewers." />
+        <parameter key="keyword_reply3" value="Hmm, |PLAYERNAME|. I really don't know if you should go into the wilderness without a shield. You should earn some money by hunting rats under the village first until you can afford at least a wooden shield." />
+        <parameter key="keyword_reply4" value="There are wolves, bears, snakes, deer, and spiders in the wilderness past this bridge." />
+        <parameter key="keyword_reply5" value="I can mark you some dungeons on your map if you ask me about monsters suited for your level." />
+        <parameter key="keyword_reply6" value="The sewers are crowded with rats. They make fine targets for young heroes." />
+        <parameter key="keyword_reply7" value="You need a stronger weapon than the starter club to kill wolves. Maybe a sabre or a short sword will do." />
+        <parameter key="keyword_reply8" value="A bear can easily kill you if you don't pay attention." />
+        <parameter key="keyword_reply9" value="Snakes can poison you, too, but their poison is usually not as dangerous as that of poison spiders. Just be careful and kill them fast." />
+        <parameter key="keyword_reply10" value="There are two types of spiders on this island normal spiders and poison spiders. As their name says, the latter ones can poison you which will cause a constant loss of your health. Beware of them!" />
+        <parameter key="keyword_reply11" value="Did you know that rats are among the most dangerous animals in whole Tibia? Each day, they kill many people who are overestimating their powers. Don't be one of them!" />
+        <parameter key="keyword_reply12" value="Sorry, I don't trade. Ask the shop owners for a trade instead." />
+        <parameter key="keyword_reply13" value="Sorry, I don't trade. Ask the shop owners for a trade instead." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

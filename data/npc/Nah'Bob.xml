@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<npc name="Nah'Bob" script="data/npc/scripts/nahbob.lua" access="3" lookdir="2" walkinterval="2500">
+<mana now="800" max="800" />
+<health now="200" max="200" />
+<look type="104" head="0" body="0" legs="0" feet="0" />
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell and buy different kinds of equipment." />
+</parameters>
+</npc>

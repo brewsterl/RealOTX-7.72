@@ -1,0 +1,5 @@
+<npc name="Ispiro" script="data/npc/scripts/changegold.lua" access="3">
+<mana now="100" max="100"/>
+<health now="100" max="100"/>
+<look type="129" head="115" body="94" legs="79" feet="114" addons="1" />
+</npc>

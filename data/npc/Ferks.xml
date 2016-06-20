@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ferks" script="data/npc/scripts/evabank.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="59" body="71" legs="119" feet="116" addons="0"/>
+	<parameters>
+	
+	    <parameter key="message_greet" value="A good day to you."/>
+		<parameter key="message_farewell" value="Good bye."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;" />
+        <parameter key="keyword_reply1" value="My name is Ferks." />
+        <parameter key="keyword_reply2" value="I am a banker, my job is to exchange coins." />
+		
+</parameters>
+</npc>

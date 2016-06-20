@@ -1,0 +1,17 @@
+<!-- This is an example NPC that can be used on Jiddo's NPC system -->
+<!-- It is not in an in-game spawn -->
+
+<!-- This is an example NPC that sells runes and uses parameter callbacks -->
+<npc name="Wyat" script="data/npc/scripts/default.lua" walkinterval="2500">
+	<health now="150" max="150"/>
+	<look type="129" head="98" body="96" legs="76" feet="132" corpse="2212"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, what bring you to the jail." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="job;offers;" />
+
+<parameter key="keyword_reply1" value="Well, im the sheriff of Thais." />
+<parameter key="keyword_reply2" value="I dont sell nothing, this is a jail." />
+</parameters>
+</npc>

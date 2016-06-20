@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<npc name="Lubo" script="data/npc/scripts/lubo.lua" access="3" lookdir="1" walkinterval="2500">
+	<health now="1" max="1"/>
+	 <look type="128" head="38" body="39" legs="96" feet="118" addons="0"/>
+	<parameters>
+    <parameter key="message_greet" value="Welcome to my adventurer shop, |PLAYERNAME|! What do you need?" />
+	<parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+	
+        <parameter key="message_sendtrade" value="Of course, just browse through my offers."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;maps;" />
+        <parameter key="keyword_reply1" value="I am Lubo, the owner of this shop." />
+        <parameter key="keyword_reply2" value="I am selling equipment for adventurers. If you need anything, let me know." />
+        <parameter key="keyword_reply3" value="I sell torches, fishing rods, worms, ropes, backpacks, apples, and maps." />
+        <parameter key="keyword_reply4" value="Oh! I'm sorry, I sold the last one just five minutes ago." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="backpack,1988,25;crowbar,2416,260;fishing rod,2580,175;red apple,2674,3;rope,2120,60;torch,2050,3;worm,3976,1;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

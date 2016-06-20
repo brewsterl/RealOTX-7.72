@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Svenson" script="data/npc/scripts/svenson.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="77" body="113" legs="68" feet="67" addons="0"/>
+    <parameters>
+        
+		<parameter key="message_greet" value="Ahoi, young man |PLAYERNAME| and welcome to the Nordic Tibia Ferries. If you need a passage, let me know."/>
+        <parameter key="message_farewell" value="Good bye. You are welcome."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;folda;" />
+        <parameter key="keyword_reply1" value="My name is Svenson from the Nordic Tibia Ferries." />
+        <parameter key="keyword_reply2" value="We are ferrymen. We transport goods and passengers to the Ice Islands." />
+        <parameter key="keyword_reply3" value="This island is Folda." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

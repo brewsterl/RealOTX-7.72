@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hugo" script="data/npc/scripts/Hugo.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="14" body="81" legs="80" feet="93" addons="0"/>
+</npc>

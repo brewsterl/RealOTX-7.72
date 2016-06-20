@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fenech" script="data/npc/scripts/runes.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="132" head="59" body="93" legs="120" feet="116" addons="0"/>
+    <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    
+</parameters>
+
+</npc>

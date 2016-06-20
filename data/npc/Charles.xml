@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Charles" script="data/npc/scripts/barco_porthope.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="134" head="57" body="11" legs="95" feet="41" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome on board, Sir |PLAYERNAME|. Where can I sail you today?"/>
+		<parameter key="message_farewell" value="Good bye. Recommend us if you were satisfied with our service."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;trip;route;passage;town;destination;sail;go" />
+        <parameter key="keyword_reply1" value="My name is Charles from the Royal Tibia Line." />
+        <parameter key="keyword_reply2" value="I'm the captain of this sailing ship." />
+		<parameter key="keyword_reply3" value="Where do you want to go? To Thais, Darashia, Venore, Ankrahmun or Edron?" />
+		<parameter key="keyword_reply4" value="Where do you want to go? To Thais, Darashia, Venore, Ankrahmun or Edron?" />
+		<parameter key="keyword_reply5" value="Where do you want to go? To Thais, Darashia, Venore, Ankrahmun or Edron?" />
+		<parameter key="keyword_reply6" value="Where do you want to go? To Thais, Darashia, Venore, Ankrahmun or Edron?" />
+		<parameter key="keyword_reply7" value="Where do you want to go? To Thais, Darashia, Venore, Ankrahmun or Edron?" />
+		<parameter key="keyword_reply8" value="Where do you want to go? To Thais, Darashia, Venore, Ankrahmun or Edron?" />
+		<parameter key="keyword_reply9" value="Where do you want to go? To Thais, Darashia, Venore, Ankrahmun or Edron?" />
+
+    </parameters>
+</npc>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Helor" script="data/npc/scripts/helor.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="134" head="57" body="79" legs="95" feet="98" addons="0"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, I can teach spells and spell runes for paladins." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells;spell runes" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, arrow strike, conjure arrow, conjure bolt, conjure power bolt,  conjure explosive arrow, create food, great light, haste, find person, intense healing, light, light healing, levitate, magic rope, magic shield, power strike and ultimate healing." />
+<parameter key="keyword_reply2" value="I can teach you,  desintegrate, heavy magic missile and light magic missile." />
+</parameters>
+</npc>

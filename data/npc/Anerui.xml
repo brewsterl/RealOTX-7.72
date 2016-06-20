@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Anerui" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="63" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Ashari |PLAYERNAME|. Just came back from my hunt, look at that fine meat."/>
+		<parameter key="message_farewell" value="Asha Thrazi, |PLAYERNAME|."/>
+		
+        <parameter key="message_sendtrade" value="Sure."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;" />
+        <parameter key="keyword_reply1" value="My name is Anerui Mourningleaf." />
+        <parameter key="keyword_reply2" value="I'm the mistress of hunting. At this place you can buy food we get from our hunts." />
+        <parameter key="keyword_reply3" value="I sell meat and ham. If you like to see my offers." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="ham,2671,6;meat,2666,4;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

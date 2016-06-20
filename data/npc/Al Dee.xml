@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Al Dee" script="data/npc/scripts/aldee.lua" walkinterval="2000" access="6" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="97" body="77" legs="87" feet="115" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello, hello, |PLAYERNAME|! Please come in, look, and buy!"/>
+		<parameter key="message_farewell" value="Bye, bye."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you;selling;job;name;help;monster;dungeon;sewer;king;seymour;hyancinth;dallheim;amber;willie;bug;stuff;tibia;sam;thais;wares;offer;weapons;armors;helmets;shields;equipments;do you sell;do you have" />
+		
+        <parameter key="keyword_reply1" value="I am fine, I am fine. I'm so glad to have you here as my customer." />
+        <parameter key="keyword_reply2" value="I sell much, much indeed. Just read the blackboards for my awesome wares or just ask me." />
+        <parameter key="keyword_reply3" value="I am a merchant. What can I do for you?" />
+        <parameter key="keyword_reply4" value="My name is Al Dee, but you can call me Al. Do you want to buy something?" />
+        <parameter key="keyword_reply5" value="I sell stuff to prices that low, that all other merchants would mock at my stupidity." />
+        <parameter key="keyword_reply6" value="If you want to challenge the monsters, you need some weapons and armor I sell. You need them definitely!" />
+        <parameter key="keyword_reply7" value="If you want to explore the dungeons, you have to equip yourself with the vital stuff I am selling. It's vital in the deepest sense of the word." />
+        <parameter key="keyword_reply8" value="Oh, our sewer system is very primitive; so primitive it's overrun by rats. But the stuff I sell is safe from them. Do you want to buy some of it?" />
+        <parameter key="keyword_reply9" value="The king encouraged salesmen to travel here, but only I dared to take the risk, and a risk it was!" />
+        <parameter key="keyword_reply10" value="" />
+        <parameter key="keyword_reply11" value="" />
+        <parameter key="keyword_reply12" value="Some call him a hero." />
+        <parameter key="keyword_reply13" value="" />
+        <parameter key="keyword_reply14" value="This guy does not understand that he should entrust me with the foodbusiness, too. He really should do that and have more time for his farm." />
+        <parameter key="keyword_reply15" value="Bugs plague this isle, but my wares are bugfree, totally bugfree." />
+        <parameter key="keyword_reply16" value="I sell equipment of all kinds, all kind available on this isle. Just ask me about my wares if you are interested." />
+        <parameter key="keyword_reply17" value="One day I will return to the continent as a rich, a very rich man!" />
+        <parameter key="keyword_reply18" value="" />
+        <parameter key="keyword_reply19" value="Thais is a crowded town." />
+        <parameter key="keyword_reply20" value="I sell weapons, shields, armor, helmets, and equipment. For what do you want to ask?" />
+        <parameter key="keyword_reply21" value="I sell weapons, shields, armor, helmets, and equipment. For what do you want to ask?" />
+        <parameter key="keyword_reply22" value="I sell spears, rapiers, sabres, daggers, hand axes, axes, and short swords. Just tell me what you want to buy." />
+        <parameter key="keyword_reply23" value="I sell jackets, coats, doublets, leather armor, leather boots and leather legs. Just tell me what you want to buy." />
+        <parameter key="keyword_reply24" value="I sell leather helmets, studded helmets, and chain helmets. Just tell me what you want to buy." />
+        <parameter key="keyword_reply25" value="I sell wooden shields and studded shields. Just tell me what you want to buy." />
+        <parameter key="keyword_reply26" value="I sell torches, bags, scrolls, shovels, picks, backpacks, sickles, scythes, ropes, fishing rods and worms. Just tell me what you want to buy." />
+        <parameter key="keyword_reply27" value="What do you need? I sell weapons, armor, helmets, shields, and equipment." />
+        <parameter key="keyword_reply28" value="What do you need? I sell weapons, armor, helmets, shields, and equipment." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

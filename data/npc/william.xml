@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<npc name="William" script="data/npc/scripts/new.lua" walkinterval="1000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="115" body="0" legs="67" feet="114"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Oh, hello! hicks" />
+    <parameter key="message_farewell" value="Bye bye hicks" />
+	<parameter key="message_walkaway" value="hicks Damn, I am starting to imagine things... again." />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="how;are;you;sell;job;karl;name;time;help;carlin;thais;sewer;refuge;todd" />
+	<parameter key="keyword_reply1" value="Thanks I am hicks drunk giggles." />
+	<parameter key="keyword_reply2" value="Thanks I am hicks drunk giggles." />
+	<parameter key="keyword_reply3" value="Thanks I am hicks drunk giggles." />
+	<parameter key="keyword_reply4" value="Hey! Thats my drink, buy your own!" />
+	<parameter key="keyword_reply5" value="I forgot hicks what a job I have." />
+	<parameter key="keyword_reply6" value="A good guy with hicks good beer." />
+	<parameter key="keyword_reply7" value="My Name? Uh... Wait! 'Bring down the trash, William you...' William, my name is William!" />
+	<parameter key="keyword_reply8" value="Its precisely hicks after hicks." />
+	<parameter key="keyword_reply9" value="I need another drink, then I'll help you. Promise." />
+	<parameter key="keyword_reply10" value="I whish I'd live in Thais, the city of alcohol." />
+	<parameter key="keyword_reply11" value="I whish I'd live in Thais, the city of alcohol." />
+	<parameter key="keyword_reply12" value="The sewers are our last refuge." />
+	<parameter key="keyword_reply13" value="Yes, refuge from hicks womanhood." />
+	<parameter key="keyword_reply14" value="In Todd we trust! TODD! TODD! TODD!" />
+    
+
+	
+  </parameters>
+</npc>

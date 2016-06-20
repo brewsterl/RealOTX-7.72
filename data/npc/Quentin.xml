@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Quentin" script="data/npc/scripts/healer_quentin.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        
+       <parameter key="message_greet" value="Welcome, adventurer |PLAYERNAME|! If you are new in Tibia, ask me for help."/>
+	   <parameter key="message_farewell" value="Good bye, |PLAYERNAME|!"/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="help;gold;equipment;spiders;rats;name;job;gods;Tibia;monsters;money;" />
+        <parameter key="keyword_reply1" value="First you should try to get some gold to buy better equipment." />
+        <parameter key="keyword_reply2" value="If you need money you should slay monsters and take their gold. Look for spiders and rats." />
+        <parameter key="keyword_reply3" value="First you should buy a bag or backpack. That way your hands will be free to hold a weapon and a shield." />
+        <parameter key="keyword_reply4" value="There are spiders' nests beyond our city near Gorn's shop and at the McRonalds' farm in the east." />
+        <parameter key="keyword_reply5" value="There are sewers underneath the city. They say these sewers are brimming with rats." />
+        <parameter key="keyword_reply6" value="My name is Quentin." />
+        <parameter key="keyword_reply7" value="Job? I have no job. I just live for the gods of Tibia." />
+        <parameter key="keyword_reply8" value="They created Tibia and all life on it." />
+        <parameter key="keyword_reply9" value="That is where we are. The world of Tibia. Admire its beauty." />
+        <parameter key="keyword_reply10" value="There are really too many of them in Tibia. But who am I to challenge the wisdom of the gods?" />
+        <parameter key="keyword_reply11" value="If you need money you should slay monsters and take their gold. Look for spiders and rats." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

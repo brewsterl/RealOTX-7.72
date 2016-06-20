@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Donald McRonald" script="data/npc/scripts/Comida.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="41" body="94" legs="79" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello. How may I help you |PLAYERNAME|? Ask me for an offer."/>
+		<parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|."/>
+		
+        <parameter key="message_sendtrade" value="Of course, take a look at the great food I sell."/>
+        
+       
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="brown bread,2691,8;ham,2671,8;carrot,2684,8;meat,2666,8;apple,2674,8;brown mushroom,2789,8;egg,2695,8;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

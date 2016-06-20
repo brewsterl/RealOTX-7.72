@@ -1495,9 +1495,6 @@
 	<spawn centerx="31665" centery="32933" centerz="5" radius="1">
 		<monster name="dog" x="0" y="0" z="5" spawntime="60" />
 	</spawn>
-	<spawn centerx="31675" centery="32935" centerz="5" radius="1">
-		<npc name="Captain Brewster" x="0" y="0" z="5" spawntime="60" direction="2" />
-	</spawn>
 	<spawn centerx="31638" centery="32936" centerz="5" radius="1" />
 	<spawn centerx="31630" centery="32940" centerz="5" radius="1">
 		<npc name="Soya" x="0" y="0" z="5" spawntime="60" direction="2" />

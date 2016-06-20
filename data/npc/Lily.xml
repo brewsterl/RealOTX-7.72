@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lily" script="data/npc/scripts/rook_rune.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="78" body="101" legs="86" feet="115" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome, |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Take care."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you;offer;job;name;hyancinth;help;monster;creature;poison;life fluid" />
+		
+        <parameter key="keyword_reply1" value="Very well. Thank you." />
+        <parameter key="keyword_reply2" value="I only sell my antidote runes and I'll be happy to buy some blueberries from you." />
+        <parameter key="keyword_reply3" value="I am a druid, bound to the spirit of nature. I'm selling antidote runes that help against poison. Oh, and I buy blueberries, of course." />
+        <parameter key="keyword_reply4" value="My name is Lily." />
+        <parameter key="keyword_reply5" value="Hyacinth lives in the forest. He's never in town so I don't know him very well." />
+        <parameter key="keyword_reply6" value="I can sell you an antidote rune. It's against the poison of so many dangerous creatures." />
+        <parameter key="keyword_reply7" value="Many monsters are poisonous. Don't let them bite you or you will need one of my antidote runes." />
+        <parameter key="keyword_reply8" value="Many monsters are poisonous. Don't let them bite you or you will need one of my antidote runes." />
+        <parameter key="keyword_reply9" value="Many monsters are poisonous. Don't let them bite you or you will need one of my antidote runes." />
+        <parameter key="keyword_reply10" value="I'm sorry, but Hyacinth is the only one on Rookgaard who knows how to brew life fluids." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="blueberry,2677,1" />
+    </parameters>
+</npc>

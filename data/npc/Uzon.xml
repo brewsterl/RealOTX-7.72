@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Uzon" script="data/npc/scripts/uzon.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="130" head="95" body="5" legs="18" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Daraman's blessings, traveller |PLAYERNAME|. Where do you want me to fly you?"/>
+		<parameter key="message_farewell" value="Daraman's blessings."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;" />
+        <parameter key="keyword_reply1" value="I'm known as Uzon Ibn Kalith." />
+        <parameter key="keyword_reply2" value="I'm a licensed Darashian carpet pilot. I can bring you to Darashia or Edron." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

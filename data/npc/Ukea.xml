@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ukea" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="63" head="78" body="58" legs="64" feet="58" addons="0"/>
+<voices>
+<voice text="Welcome to the house of fashion, Iron Sparrow!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hey |PLAYERNAME|, what'cha want?"/>
+        <parameter key="message_farewell" value="Thanks and see ya."/>
+		<parameter key="message_walkaway" value="Thanks and see ya." />
+		<parameter key="message_sendtrade" value="Have a look. Most furniture comes in handy kits. Just use them in your house to assemble the furniture." />
+   
+
+  <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="offers;" />
+        <parameter key="keyword_reply1" value="I sell barrel kit, dresser kit, box kit,large trunk kit, drawer kit, locker kit, trough kit ." />
+	
+
+
+
+
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="barrel,1774,12;dresser,1724,70;box,1739,10;large trunk,1750,18;drawer,1716,18;locker,1732,30;Trough,1728,10;" />
+    </parameters>
+</npc>
+
+
+
+

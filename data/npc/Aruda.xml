@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<npc name="Aruda" script="data/npc/scripts/Aruda.lua" walkinterval="2000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="140" head="77" body="83" legs="79" feet="95"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Oh, hello, handsome! It's a pleasure to meet you |PLAYERNAME|" />
+    <parameter key="message_farewell" value="Good bye. I really hope we'll talk again soon." />
+	<parameter key="message_walkaway" value="Good bye. I really hope we'll talk again soon." />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="news;oswald;thief;yenny" />
+    
+	<parameter key="keyword_reply1" value="You should ask Oswald about news. He loves them." />
+	<parameter key="keyword_reply2" value="As far as I know, he is working in the castle." />
+	<parameter key="keyword_reply3" value="Oh, sorry, I have to hurry, bye!." />
+	<parameter key="keyword_reply4" value="Yenny? I know no Yenny, nor have I ever used that name! You have mistook me with someone else.." />
+	
+  </parameters>
+</npc>

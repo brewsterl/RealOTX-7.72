@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npc name="Zoltan" script="data/npc/scripts/Zoltan.lua" access="3" lookdir="1" walkinterval="2500">
+	<health now="1" max="1"/>
+	<look type="130" head="96" body="114" legs="96" feet="96" corpse="3128"/>
+  <parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, I can teach spells and spell runes for druids." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells;spell runes" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, create food, create illusion, energy explosion, energy strike, flame strike, great light, find person, haste, invisibility, intense healing, levitate, light, light healing, magic rope, magic shield, summon creature, strong haste, undead legion, ultimate healing and wild growth." />
+<parameter key="keyword_reply2" value="I can teach you, animate dead, chameleon, convince creature, create antidote, create ultimate healing, create intense healing, explosion, fire wall, heal friend, heavy magic missile, desintegrate, destroy field, energy field, fire field, fireball, great fireball, light magic missile, mass healing, paralyze, poison storm, poison field, soul fire." />
+</parameters>
+</npc>

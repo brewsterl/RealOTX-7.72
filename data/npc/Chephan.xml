@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Chephan" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="2" body="26" legs="115" feet="76" addons="0"/>
+<voices>
+<voice text="Cooking utensils and kitchen equipment! For pros and starters!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="module_keywords" value="1" />
+ <parameter key="keywords" value="cooking;" />
+ <parameter key="keyword_reply1" value="I offer the best cooking utensils in town. If you like to see my offers, ask me for a {trade}." />
+		<parameter key="shop_buyable" value="pot,2562,2,30;baking tray,2561,20;bottle,2007,1,3;bucket,2005,1,4;cleaver,2568,15;cup,2013,1,2;fork,2564,10;jug,2014,10,1;knife,2566,10;mug,2012,1,4;oven spatula,2569,12;pan,2563,20;plate,2035,6;pot,2562,0,30;rolling pin,2570,12;spoon,2565,10;wooden spoon,2567,5" />
+        <parameter key="message_greet" value="Ah, looking for some cooking utensils today, |PLAYERNAME|? Welcome!"/>
+        <parameter key="message_farewell" value="So long, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="So long, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="Yes, here you are. Choose whatever you need." />
+</parameters>
+</npc>

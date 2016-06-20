@@ -1,0 +1,17 @@
+<!-- This is an example NPC that can be used on Jiddo's NPC system -->
+<!-- It is not in an in-game spawn -->
+
+<!-- This is an example NPC that sells runes and uses parameter callbacks -->
+<npc name="Gregor" script="data/npc/scripts/Gregor.lua" walkinterval="2500">
+	<health now="150" max="150"/>
+	<look type="131" head="19" body="57" legs="19" feet="57" corpse="2212"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, I can teach spells for knights." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells;paladin;" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, find person, great light, light and light healing." />
+<parameter key="keyword_reply2" value="Go to Elane, she can help you." />
+</parameters>
+</npc>

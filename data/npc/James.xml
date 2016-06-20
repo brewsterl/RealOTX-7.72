@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="James" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="115" body="41" legs="45" feet="118" addons="0"/>
+    <parameters>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,5;cheese,2696,5;ham,2671,8;red apple,2674,3;bread,2689,3" />
+        <parameter key="shop_sellable" value="" />
+    
+    </parameters>
+</npc>

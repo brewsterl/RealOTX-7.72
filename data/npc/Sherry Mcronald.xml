@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sherry Mcronald" script="data/npc/scripts/Sherry.lua" walkinterval="2000" access="3" floorchange="0">
+<health now="100" max="100"/>
+<look type="136" head="78" body="94" legs="38" feet="58" />
+<parameters>
+
+<parameter key="message_greet" value="Hello |PLAYERNAME|! Welcome to our humble farm."/>
+<parameter key="message_farewell" value="Grace our home with another visit soon."/>
+
+<parameter key="module_keywords" value="1" />
+
+<parameter key="keywords" value="job;husband;donald;farm;name;time;weather;field;city;crops;mill;spooked;king;tibianus;frodo;oswald;bloodblade;muriel;elane;gregor;marvik;gorn;sam;quentin;spider;monster;help;buy;do you have;food;do you sell" />
+
+<parameter key="keyword_reply1" value="I and my husband run this farm." />
+<parameter key="keyword_reply2" value="My husband Donald is busy on the fields almost all night and day." />
+<parameter key="keyword_reply3" value="My husband Donald is busy on the fields almost all night and day." />
+<parameter key="keyword_reply4" value="It is a hard work, but the city needs us." />
+<parameter key="keyword_reply5" value="I am Sherry McRonald." />
+<parameter key="keyword_reply6" value="Sorry, I don't have a watch." />
+<parameter key="keyword_reply7" value="The weather is the best friend and the worst enemy of a farmer." />
+<parameter key="keyword_reply8" value="The druids helped us by placing a blessing on our fields." />
+<parameter key="keyword_reply9" value="The city needs our crops." />
+<parameter key="keyword_reply10" value="It's hard to harvest it, carry it to the mill in the north and make flour. If you can bake some bread I will buy it for 2 gold." />
+<parameter key="keyword_reply11" value="The miller is a lazy fellow and afraid of his own mill, because he thinks it is spooked." />
+<parameter key="keyword_reply12" value="I don't know for sure. The miller claims that his mill is threatened by some monsters sometimes." />
+<parameter key="keyword_reply13" value="King Tibianus granted us this farm to earn a living." />
+<parameter key="keyword_reply14" value="King Tibianus granted us this farm to earn a living." />
+<parameter key="keyword_reply15" value="He is a friend of my husband." />
+<parameter key="keyword_reply16" value="This lazy fellow has nothing better to do than to spread rumours." />
+<parameter key="keyword_reply17" value="He is an impressive warrior as far as I can tell." />
+<parameter key="keyword_reply18" value="We a mere peasants and don't know much about the guild leaders." />
+<parameter key="keyword_reply19" value="We a mere peasants and don't know much about the guild leaders." />
+<parameter key="keyword_reply20" value="We a mere peasants and don't know much about the guild leaders." />
+<parameter key="keyword_reply21" value="We a mere peasants and don't know much about the guild leaders." />
+<parameter key="keyword_reply22" value="He doesn't talk much to us." />
+<parameter key="keyword_reply23" value="He is too busy to care much about farmers like us." />
+<parameter key="keyword_reply24" value="What a nice person he is." />
+<parameter key="keyword_reply25" value="Spiders infested the sewers beneath our farm. We need some help to exterminate them. My husband pays a reward for killed spiders." />
+<parameter key="keyword_reply26" value="Spiders infested the sewers beneath our farm. We need some help to exterminate them. My husband pays a reward for killed spiders." />
+<parameter key="keyword_reply27" value="Spiders infested the sewers beneath our farm. We need some help to exterminate them. My husband pays a reward for killed spiders." />
+<parameter key="keyword_reply28" value="I can offer you cheese, cherries, and melons." />
+<parameter key="keyword_reply29" value="I can offer you cheese, cherries, and melons." />
+<parameter key="keyword_reply30" value="Are you looking for food? I have cheese, cherries, pumpkins and melons." />
+<parameter key="keyword_reply31" value="I can offer you cheese, cherries, and melons." />
+
+</parameters>
+</npc>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gamel" script="data/npc/scripts/Gamel.lua" walkinterval="1000" access="3" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="79" body="132" legs="115" feet="116" />
+<parameters>
+
+<parameter key="message_greet" value="Pssst! Be silent. Do you wish to buy something?"/>
+<parameter key="message_farewell" value="Bye. Tell others about... my little shop here."/>
+
+<parameter key="module_keywords" value="1" />
+
+<parameter key="keywords" value="job;name;gamel;rebellion;berfasmur;offer;things;help;do you sell;do you have" />
+
+<parameter key="keyword_reply1" value="I am selling some... things." />
+<parameter key="keyword_reply2" value="Names don't matter." />
+<parameter key="keyword_reply3" value="Oh, you know my name. Please don't tell it to the others." />
+<parameter key="keyword_reply4" value="Uhm... who sent you?" />
+<parameter key="keyword_reply5" value="Never heard that name!" />
+<parameter key="keyword_reply6" value="I sell maces, staffs, daggers and brass helmets." />
+<parameter key="keyword_reply7" value="I sell maces, staffs, daggers and brass helmets." />
+<parameter key="keyword_reply8" value="I sell maces, staffs, daggers and brass helmets." />
+<parameter key="keyword_reply9" value="I sell maces, staffs, daggers and brass helmets." />
+<parameter key="keyword_reply10" value="I sell maces, staffs, daggers and brass helmets." />
+
+</parameters>
+</npc>

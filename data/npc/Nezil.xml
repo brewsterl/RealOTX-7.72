@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nezil" script="data/npc/scripts/default.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="160" head="115" body="78" legs="116" feet="57" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hiho |PLAYERNAME|, Nezil at your service. We sell equipment of all kinds."/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares. By the way, there's a deposit of 5 gold on empty vials."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;" />
+        <parameter key="keyword_reply1" value="I'm Nezil Whetstone, son of Fire of the Savage Axes. I and my sis' Bezil are selling stuff, ye' know?" />
+        <parameter key="keyword_reply2" value="We sell equipment of all kinds." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="candelabrum,2041,8;candlestick,2047,2;crowbar,2416,260;document,1968,12;fishing rod,2580,150;backpack,2003,10;bag,1996,4;parchment,1969,8;pick,2553,50;present,1990,10;rope,2120,50;scroll,1949,5;scythe,2550,40;shovel,2554,10;torch,2050,2;worm,3976,1;oil,2006,20,11;" />
+        <parameter key="shop_sellable" value="vial,2006,5;" />
+    </parameters>
+</npc>

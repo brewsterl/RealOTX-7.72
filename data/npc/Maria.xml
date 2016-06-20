@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Maria" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="77" body="79" legs="61" feet="131" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="The Hard Rock Tavern greets you, |PLAYERNAME|. Sit down, have some food and a drink!"/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|. Tell your friends about us and visit us again."/>
+		
+        <parameter key="message_sendtrade" value="Sure, browse through my offers."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;food;drinks;" />
+        <parameter key="keyword_reply1" value="I am Maria." />
+        <parameter key="keyword_reply2" value="I am running this upper part of the Hard Rock Tavern." />
+        <parameter key="keyword_reply3" value="Food and drinks as much as you can pay for. If you'd like to see my offers, ask me for a trade." />
+        <parameter key="keyword_reply4" value="We offer cookies, bread, cheese, ham, and meat, as well as eggs and tomatoes. If you'd like to see my offers, ask me for a trade." />
+        <parameter key="keyword_reply5" value="Do you want beer, wine, lemonade, or water? Ask me for a trade to make your choice." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="bread,2689,4;cheese,8368,6;cookie,8111,5;egg,2695,2;ham,2671,8;meat,2666,5;tomato,2685,5;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

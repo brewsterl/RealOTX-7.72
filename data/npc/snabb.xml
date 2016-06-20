@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="snabb" script="data/npc/scripts/snabb.lua" walkinterval="5000" access="6" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="97" body="77" legs="87" feet="115" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello, hello, |PLAYERNAME|! Please come in, look, and buy!"/>
+		<parameter key="message_farewell" value="Bye, bye."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="how are you" />
+		
+        <parameter key="keyword_reply1" value="I am fine, I am fine. I'm so glad to have you here as my customer." />
+       
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

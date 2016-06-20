@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bonifacius" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="59" body="82" legs="58" feet="95"/>
+    <parameters>
+	
+		<parameter key="message_greet" value="Thousands greetings, |PLAYERNAME|. How may I help you?"/>
+		<parameter key="message_farewell" value="May the gods bless your travels."/>
+		<parameter key="message_placedinqueue" value="I am deeply sorry, I am busy right now. I'll tell you when I'm done |PLAYERNAME|."/>
+		<parameter key="message_decline" value="May the gods bless your travels."/>
+		
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;king;tibianus;army;ferumbras;excalibug;thais;tibia;carlin;edron;news;rumors;buy;offer;food;fruit" />
+        <parameter key="keyword_reply1" value="My name is Bonifacius." />
+		<parameter key="keyword_reply2" value="I sell delicious food. May I be at your service?" />
+		<parameter key="keyword_reply3" value="Our wise king, Tibianus, be praised!" />
+		<parameter key="keyword_reply4" value="Our wise king, Tibianus, be praised!" />
+		<parameter key="keyword_reply5" value="I am glad about their healthy appetite." />
+		<parameter key="keyword_reply6" value="Is that a new, exotic vegetable?" />
+		<parameter key="keyword_reply7" value="Uh, I hate bugs of all kind." />
+		<parameter key="keyword_reply8" value="We recive food from thais with every arriving ship." />
+		<parameter key="keyword_reply9" value="The world provides us with all kinds of delicious food." />
+		<parameter key="keyword_reply10" value="We do not buy any wares there. Our food is of high quality, Thaian origin." />
+		<parameter key="keyword_reply11" value="Our climate is quite rough, so we can only grow wheat here, but no fruits." />
+		<parameter key="keyword_reply12" value="I heard the corn prices in Thais are going to be increased." />
+		<parameter key="keyword_reply13" value="I heard the corn prices in Thais are going to be increased." />
+		<parameter key="keyword_reply14" value="I can offer you meat, salmons, fruits, cookies, rolls, eggs, and cheese." />
+		<parameter key="keyword_reply15" value="I can offer you meat, salmons, fruits, cookies, rolls, eggs, and cheese." />
+		<parameter key="keyword_reply16" value="I can offer you meat, salmons, fruits, cookies, rolls, eggs, and cheese." />
+		<parameter key="keyword_reply17" value="I have oranges, bananas, grapes, pumpkins and melons. What do you want?" />
+        
+		<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="meat,2666,4;salmon,2668,4;orange,2675,5;banana,2676,2;grapes,2681,3;melon,2682,8;pumpkin,2683,10;roll,2690,2;egg,2695,2;cheese,2696,5" />
+        <parameter key="shop_sellable" value="" />
+    
+    </parameters>
+</npc>

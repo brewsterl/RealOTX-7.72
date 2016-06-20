@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gurbasch" script="data/npc/scripts/gurbasch.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="66" head="0" body="0" legs="0" feet="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome, |PLAYERNAME|!"/>
+		<parameter key="message_farewell" value="Until next time."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;thais;ab'dendriel;carlin;venore;senja;folda;vega;ice islands;darama;darashia;cormaya" />
+        <parameter key="keyword_reply1" value="I am Gurbasch Firejuggler, son of the machine, of the Molten Rock." />
+        <parameter key="keyword_reply2" value="As should be quite obvious, I am operating a steamship." />
+		<parameter key="keyword_reply3" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply4" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply5" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply6" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply7" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply8" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply9" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply10" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply11" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply12" value="How do you expect me to go there? Fly? Hm, wait... no, sorry." />
+		<parameter key="keyword_reply13" value="Hey, we ARE at Cormaya! Must be the cavemadness..." />
+		
+    </parameters>
+</npc>

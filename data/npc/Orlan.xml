@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Orlan" script="data/npc/scripts/promotion.lua" walkinterval="2000" floorchange="0">
+ 	<look type="131" head="79" body="79" legs="79" feet="79"/>
+</npc>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Willard" script="data/npc/scripts/willard.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="58" body="104" legs="19" feet="116" addons="0"/>
+  <parameters>
+  
+  	    <parameter key="message_greet" value="Greetings and Banor be with you, |PLAYERNAME|!"/>
+		<parameter key="message_farewell" value="Farewell."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;king;tibianus;army;ferumbras;excalibug;thais;tibia;carlin;edron;news;rumors;offer;buy;weapon;ammunition;helmets;armors;shields;trousers;legs" />
+        <parameter key="keyword_reply1" value="I am Willard, the smith." />
+        <parameter key="keyword_reply2" value="I am the blacksmith of castle Bloodrock." />
+        <parameter key="keyword_reply3" value="Hail to the King! He's our benevolent protector." />
+        <parameter key="keyword_reply4" value="Hail to the King! He's our benevolent protector." />
+        <parameter key="keyword_reply5" value="I supply them with all they need." />
+        <parameter key="keyword_reply6" value="I would be honored if it's one of my blades that one day delivers him his punishment." />
+        <parameter key="keyword_reply7" value="Adventurers search for this blade all over the world. Even here." />
+        <parameter key="keyword_reply8" value="A fine city, but I love the peace of Edron more." />
+        <parameter key="keyword_reply9" value="It's my dream that one day the whole world will profit from the Thaian governance." />
+		<parameter key="keyword_reply10" value="If the king sees the time is right, he will certainly start a campaign to reclaim what belongs to Thais." />
+		<parameter key="keyword_reply11" value="Edron is a fine city to live in." />
+		<parameter key="keyword_reply12" value="Rumors are too sinister things that a true warrior would care for them." />
+		<parameter key="keyword_reply13" value="Rumors are too sinister things that a true warrior would care for them." />
+		<parameter key="keyword_reply14" value="My offers are weapons, ammunition, armors, helmets, legs, and shields." />
+		<parameter key="keyword_reply15" value="What do you need? I sell weapons, armors, helmets, and shields." />
+		<parameter key="keyword_reply16" value="I have hand axes, axes, barbarian axes, spears, maces, clerical maces, battle hammers, swords, rapiers, daggers, sabres, bows, and crossbows. What's your choice?" />
+        <parameter key="keyword_reply17" value="I have arrows for bows and bolts for crossbows. What do you want?" />
+		<parameter key="keyword_reply18" value="I am selling leather helmets and chain helmets. What do you want?" />
+		<parameter key="keyword_reply19" value="I am selling leather, chain, and brass armor. What do you need?" />
+		<parameter key="keyword_reply20" value="I am selling wooden shields, steel shields, and viking shields. What do you want?" />
+		<parameter key="keyword_reply21" value="I am selling chain legs. Do you want to buy any?" />
+		<parameter key="keyword_reply22" value="I am selling chain legs. Do you want to buy any?" />
+
+    </parameters>
+</npc>
+

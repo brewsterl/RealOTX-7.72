@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<npc name="loui" script="data/npc/scripts/loui.lua" walkinterval="7000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="57" head="0" body="0" legs="0" feet="0"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Be greeted, traveller." />
+    <parameter key="message_farewell" value="It was a pleasure to help you." />
+	<parameter key="message_walkaway" value="How rude!" />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="bye;farewell;job;name;monk;tibia;rookgaard;god;life;herb;obi;dee;al'dee;seymour;academy;willie;monster;rabbit;quest;task;gold;money;rat;hole;story;them;heal" />
+	<parameter key="keyword_reply1" value="May the gods protect you! And stay away from that hole!" />
+	<parameter key="keyword_reply2" value="May the gods protect you! And stay away from that hole!" />
+	<parameter key="keyword_reply3" value="I am a monk, collecting healing herbs." />
+	<parameter key="keyword_reply4" value="My name is Loui." />
+	<parameter key="keyword_reply5" value="I am a humble servant of the gods." />
+	<parameter key="keyword_reply6" value="Everything around us, that is Tibia." />
+	<parameter key="keyword_reply7" value="This is the place where everything starts." />
+	<parameter key="keyword_reply8" value="They created Tibia and all lifeforms. Talk to other monks and priests to learn more about them." />
+	<parameter key="keyword_reply9" value="The gods blessed Tibia with abundant forms of life." />
+	<parameter key="keyword_reply10" value="I was looking for some herbs as I foolishly entered this unholy hole." />
+	<parameter key="keyword_reply11" value="He owns a shop in the town." />
+	<parameter key="keyword_reply12" value="He owns a shop in the town." />
+	<parameter key="keyword_reply13" value="He owns a shop in the town." />
+	<parameter key="keyword_reply14" value="Seymour is the headmaster of the local academy." />
+	<parameter key="keyword_reply15" value="Most adventurers take their first steps there." />
+	<parameter key="keyword_reply16" value="The gods may protect me from his foul language." />
+	<parameter key="keyword_reply17" value="There must be an army of them, just down this hole." />
+	<parameter key="keyword_reply18" value="So it must have been some magic wielding beasts using creature illusion. Good thing you escaped." />
+	<parameter key="keyword_reply19" value="I have no quests but to stay away from that hole and I'd recomend you to do the same." />
+	<parameter key="keyword_reply20" value="I have no quests but to stay away from that hole and I'd recomend you to do the same." />
+	<parameter key="keyword_reply21" value="I am pennyless and poor as it is fit for a humble monk like me." />
+	<parameter key="keyword_reply22" value="I am pennyless and poor as it is fit for a humble monk like me." />
+	<parameter key="keyword_reply23" value="The good thing is, those horrible rats stay in the town mostly. The bad thing is, they do so because outside the bigger Monsters devour them." />
+	<parameter key="keyword_reply24" value="While looking for herbs I found that hole. I went down though I had no torch. And then I heard THEM! There must be dozens!" />
+	<parameter key="keyword_reply25" value="While looking for herbs I found that hole. I went down though I had no torch. And then I heard THEM! There must be dozens!" />
+	<parameter key="keyword_reply26" value="They were so many, EVERYWHERE! I could barely escape alive. I have no clue what THEY were but one more second down there and I'd be dead!" />
+	<parameter key="keyword_reply27" value="Sorry I am out of mana and ingredients, please visit Cipfried in the town." />
+
+	
+
+	   
+
+	
+	
+  </parameters>
+  </npc>

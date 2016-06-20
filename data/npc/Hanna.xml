@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hanna" script="data/npc/scripts/Per.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="136" head="113" body="65" legs="0" feet="96"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello. How may I help you |PLAYERNAME|? Ask me for an offer if you want to buy something. I can also explain the mailsystem."/>
+		<parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|."/>
+		
+        
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="black pearl,2144,560;golden amulet,2130,6600;ruby necklace,2133,3560;small amethyst,2150,400;small diamond,2145,600;small sapphire,2146,500;wedding ring,2121,990;white pearl,2143,320;small ruby,2147,500;small emerald,2149,500;" />
+        <parameter key="shop_sellable" value="white pearl,2143,160;black pearl,2144,280;small diamond,2145,300;small sapphire,2146,250;small rubies,2147,250;small emerald,2149,250;small amethyst,2150,200;" />
+    </parameters>
+</npc>
+
+
+
+
+
+
+
+
+
+
+
+

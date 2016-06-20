@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Dane" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="136" head="79" body="58" legs="86" feet="96" addons="0"/>
+<parameters>
+        <parameter key="message_greet" value="Greetings, |PLAYERNAME|. Welcome to the White Wave Cellar ."/>
+		<parameter key="message_farewell" value="Goodbye |PLAYERNAME|, and may the gods be with you."/>
+		
+        <parameter key="message_sendtrade" value="Sure, have a look at my food. Remember, touching means buying it."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="food;name;job;offer;" />
+        <parameter key="keyword_reply1" value="I sell normal and brown bread, meat, ham, cookies, rolls, and cheese made of mushrooms." />
+        <parameter key="keyword_reply2" value="I'm Maryza Firehand, daughter of Earth from the Molten Rock." />
+        <parameter key="keyword_reply3" value="I'm the cook of the Jolly Axeman." />
+		<parameter key="keyword_reply4" value="I sell normal and brown bread, meat, ham, cookies, rolls, and cheese made of mushrooms." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="bread,2689,4;brown bread,2691,3;cheese,8368,6;cookie,8111,2;ham,2671,8;meat,2666,5;roll,2690,2;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zaidal" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="76" body="43" legs="77" feet="76" addons="0"/>
+<voices>
+<voice text="Handmade furniture only available in the jungle. Don't miss it!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="furniture;offer;" />
+        <parameter key="keyword_reply1" value="If you'd like to see msy offers in furniture, ask me for a offer." />
+        <parameter key="keyword_reply2" value="ivory chair kit, trunk chair kit, tusk chair kit, bamboo table kit, stone table kit, trunk table kit, tusk table kit." />
+		<parameter key="shop_buyable" value="ivory chair kit,3906,25;tusk chair kit,3905,25;bamboo table kit,3919,25;stone table kit,3913,30;tusk table kit,3914,25;" />
+		<parameter key="shop_sellable" value="" />
+        <parameter key="message_greet" value="Hello Trunkillo and welcome to my furniture store."/>
+        <parameter key="message_farewell" value="Good bye |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+</parameters>
+</npc>

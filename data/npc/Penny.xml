@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<npc name="Penny" floorchange="0" walkinterval="1000">
+  <health now="150" max="150"/>
+  <look type="137" head="96" body="79" legs="95" feet="96"/>
+
+  <interaction range="2" idletimeout="30">
+
+    <interact keywords="hi" param="male" focus="1">
+      <keywords>hello</keywords>
+      <response text="Welcome home, Sir |NAME|."/>
+    </interact>
+	
+	<interact keywords="hi" param="female" focus="1">
+      <keywords>hello</keywords>
+      <response text="Welcome home, Lady |NAME|."/>
+    </interact>
+
+    <interact keywords="bye" focus="0">
+      <keywords>farewell</keywords>
+      <response text="May Justice be with you!"/>
+    </interact>
+
+    <interact event="onBusy" param="male">
+      <response text="Just a minute, Sir |NAME|.">
+        <action name="addqueue" value="|PLAYER|"/>
+      </response>
+    </interact>
+	
+	    <interact event="onBusy" param="female">
+      <response text="Just a minute, Lady |NAME|.">
+        <action name="addqueue" value="|PLAYER|"/>
+      </response>
+    </interact>
+
+    <interact event="onPlayerLeave" focus="0">
+      <response text="May Justice be with you!"/>
+    </interact>
+
+    <interact keywords="name">
+      <response text="I am miss Penny, your secretary."/>
+    </interact>
+
+	<interact keywords="job">
+      <response text="I'm your secretary. I'm organizing all those criminal records and your mail."/>
+    </interact>
+	
+	<interact keywords="criminal">
+      <response text="It's an evil world, isn't it?"/>
+    </interact>
+	
+	<interact keywords="record">
+      <response text="It's an evil world, isn't it?"/>
+    </interact>
+	
+	<interact keywords="mail">
+      <response text="You can get a letter from me."/>
+    </interact>
+	
+	<interact keywords="letter">
+      <response text="Here you are.">
+	  	  <action name="giveitem" value="2597"/>
+		  </response>
+    </interact>
+
+	</interaction>
+  
+</npc>

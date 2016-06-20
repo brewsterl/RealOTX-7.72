@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Boozer" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="76" body="20" legs="116" feet="76"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome to my humble meat shop, |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Please come and buy again, |PLAYERNAME|."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;food;drink" />
+        <parameter key="keyword_reply1" value="Just call me Boozer. Everyone does that." />
+        <parameter key="keyword_reply2" value="I am the bartender here at the racing track." />
+        <parameter key="keyword_reply3" value="I can offer you food and drinks. Get anything else somewhere else and don't bother me." />
+		<parameter key="keyword_reply4" value="So you are looking for food? We have cookies, bread, cheese, ham, and meat." />
+		<parameter key="keyword_reply5" value="I can offer you beer, wine, lemonade, and water." />
+		
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="ham,2671,8;meat,2666,5;bread,2689,4;chesse,2696,6;cookie,2687,5;water,2006,1,1;beer,2006,2,3;limonade,2006,2,5;wine,2006,3,15;" />
+    </parameters>
+</npc>

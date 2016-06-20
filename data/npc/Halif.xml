@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Halif" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="95" body="2" legs="10" feet="131"/>
+<parameters>
+
+	<parameter key="message_greet" value="Greetings |PLAYERNAME|, you child of wealth and generousity. What wise decision to buy my wares."/>
+	<parameter key="message_farewell" value="Good bye, may Daraman bless your travels."/>
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="name;job;offer;" />
+	
+    <parameter key="keyword_reply1" value="I am Halif Ibn Onor, known as Halif the honest." />
+	<parameter key="keyword_reply2" value="Oh, I guess your cleverness already made the profession of the humble equipment tradesman obvious to you." />
+	<parameter key="keyword_reply3" value="I sell shovels, picks, scythes, bags, ropes, yellow backpacks, plates, cups, scrolls, documents, parchments, watches, fishing rods and worms. Of course, I sell lightsources, too." />
+    
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="crowbar,2416,260;fishing rod,2580,150;pick,2553,50;rope,2120,50;scythe,2550,50;shovel,2554,50;bag,1992,4;backpack,1999,10;worm,3976,1;oil,2006,20,11;" />
+        <parameter key="shop_sellable" value="rope,2120,8" />
+    </parameters>
+</npc>

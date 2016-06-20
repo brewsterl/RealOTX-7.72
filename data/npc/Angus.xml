@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Angus" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="133" head="57" body="113" legs="95" feet="113" addons="0"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="label,4863,750;parcel,4869,500;letter,5022,80;" />
+		<parameter key="shop_sellable" value="label,4850,500;parcel,2321,250;parcel,4842,500;" />
+        <parameter key="message_greet" value="Be greeted, noble |PLAYERNAME| and welcome to the Explorer Society."/>
+        <parameter key="message_farewell" value="Come back soon, noble |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Come back soon, noble." />
+</parameters>
+</npc>

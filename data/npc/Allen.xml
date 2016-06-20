@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Allen" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="76" body="43" legs="38" feet="76" addons="0"/>
+<voices>
+<voice text="Hey, need some furniture for your house? Come to the Plank and Treasurechest Market!" interval2="100" margin="1" yell="no"/>
+</voices>
+ <parameters>
+        <parameter key="message_greet" value="Welcome to the Plank and Treasurechest Market, |PLAYERNAME|! Best offers in town!"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good Bye." />
+		<parameter key="message_sendtrade" value="Have a look. Most furniture comes in handy kits. Just use them in your house to assemble the furniture." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;venore;offers;" />
+        <parameter key="keyword_reply1" value="I run this market and sell furniture." />
+		<parameter key="keyword_reply2" value="This is the best city in the whole world! We don't care about greedy kings or ambitious priests and the like ..." />
+<parameter key="keyword_reply3" value="red cushioned chair kit, green cushioned chair kit, wooden chair kit, rocking chair kit, sofa chair kit." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="red cushioned chair kit,3903,40;green cushioned chair kit,3904,40;wooden chair kit,3901,15;rocking chair kit,3928,25;sofa chair kit,3902,55;" />
+    </parameters>
+
+</npc>

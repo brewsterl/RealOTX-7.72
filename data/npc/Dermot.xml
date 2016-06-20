@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<npc name="Dermot" script="data/npc/scripts/Dermot.lua" walkinterval="2000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="76" body="49" legs="19" feet="95"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Hello, traveller |PLAYERNAME|. How can I help you?" />
+    <parameter key="message_farewell" value="See you again." />
+	<parameter key="message_walkaway" value="See you again." />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="job;equipment;timur;name;time;dermot;magistrate;fibula;wolf;farmer;dungeon;entrance" />
+    
+	<parameter key="keyword_reply1" value="I am the magistrate of this isle." />
+	<parameter key="keyword_reply2" value="I am not selling equipment. You'll have to visit Timur." />
+	<parameter key="keyword_reply3" value="He is the salesman in this village." />
+	<parameter key="keyword_reply4" value="I am Dermot, the magistrate of this isle." />
+	<parameter key="keyword_reply5" value="Time is not important on Fibula." />
+	<parameter key="keyword_reply6" value="I am the magistrate of this isle." />
+	<parameter key="keyword_reply7" value="Thats me." />
+	<parameter key="keyword_reply8" value="You are at Fibula. This isle is not very dangerous. Just the wolves bother outside the village." />
+	<parameter key="keyword_reply9" value="There are a lot of wolves outside the townwall. They disturb our farmers." />
+	<parameter key="keyword_reply10" value="The inhabitants of Fibula live on fishing, farming, and hunting." />
+	<parameter key="keyword_reply11" value="Oh, my god. In the dungeon of Fibula are a lot of monsters. That's why we have sealed it with a solid door." />
+	<parameter key="keyword_reply12" value="The entrance is near here." />
+	
+  </parameters>
+</npc>

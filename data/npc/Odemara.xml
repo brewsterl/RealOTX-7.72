@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Odemara" script="data/npc/scripts/default.lua" walkinterval="4000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="0" body="112" legs="88" feet="113" addons="0"/>
+    <parameters>
+	
+        <parameter key="message_greet" value="Be greeted, dear |PLAYERNAME|. Have a look at our offers."/>
+		<parameter key="message_placedinqueue" value="I am deeply sorry, dear |PLAYERNAME|, but I am busy with a customer. Please wait a moment."/>
+		<parameter key="message_farewell" value="Farewell."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer" />
+		
+        <parameter key="keyword_reply1" value="I am Odemara Taleris, it's a pleasure to meet you." />
+		<parameter key="keyword_reply2" value="I am responsible for buying and selling gems, pearls, and the like." />
+		<parameter key="keyword_reply3" value="We offer a great assortment of gems and pearls." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="white pearl,2143,160;black pearl,2144,280;small diamond,2145,300;small sapphire,2146,250;small ruby,2147,250;small emerald,2149,250;small amethyst,2150,200" />
+		<parameter key="shop_buyable" value="white pearl,2143,320;black pearl,2144,560;small diamond,2145,600;small sapphire,2146,500;small ruby,2147,500;small emerald,2149,500;small amethyst,2150,400" />
+    </parameters>
+</npc>
+
+
+
+

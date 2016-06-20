@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Kroox" script="data/npc/scripts/kroox.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="160" head="0" body="100" legs="105" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome to Kroox Quality Armor, |PLAYERNAME|!"/>
+		<parameter key="message_farewell" value="Good bye. Come back soon."/>
+		
+        <parameter key="message_sendtrade" value="You look, you like, you buy!"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;" />
+        <parameter key="keyword_reply1" value="My name is Kroox Shieldbearer, son of Earth, from the Molten Rock." />
+        <parameter key="keyword_reply2" value="I sell best armor in land. My armor save you life. Better buy much." />
+        <parameter key="keyword_reply3" value="I sell armors, helmets, legs, and shields." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="brass armor,2465,450;brass helmet,2460,120;brass legs,2478,195;brass shield,2511,65;chain armor,2464,200;chain helmet,2458,52;chain legs,2648,80;dwarven shield,2525,500;iron helmet,2459,390;plate armor,2463,1200;plate shield,2510,125;steel helmet,2457,580;steel shield,2509,240;" />
+        <parameter key="shop_sellable" value="battle shield,2513,60;brass armor,2465,112;brass helmet,2460,30;brass legs,2478,49;brass shield,2511,16;chain armor,2464,40;chain helmet,2458,12;chain legs,2648,20;devil helmet,2462,450;dwarven shield,2525,100;iron helmet,2459,145;knight legs,2477,375;plate armor,2463,240;plate legs,2647,115;plate shield,2510,45;steel helmet,2457,293;viking helmet,2473,66;warrior helmet,2475,696;wooden shield,2512,3;" />
+    </parameters>
+</npc>

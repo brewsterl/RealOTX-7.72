@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mugluf" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="95" body="0" legs="0" feet="96"/>
+<parameters>
+
+	<parameter key="message_greet" value="Greetings |PLAYERNAME|, seeker of delicacies."/>
+	<parameter key="message_farewell" value="May Daraman's wisdom enlighten your soul."/>
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="name;job;offer;" />
+	
+    <parameter key="keyword_reply1" value="I am known as Mugluf the younger." />
+	<parameter key="keyword_reply2" value="I sell meat, ham and salmon." />
+	<parameter key="keyword_reply3" value="I can offer you meat, ham, and salmon." />
+	
+	<parameter key="module_shop" value="1"/>
+	<parameter key="shop_buyable" value="meat,2666,5;ham,2671,8;salmon,2668,6" />
+	<parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>
+
+
+

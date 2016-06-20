@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Yanni" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="22" body="22" legs="22" feet="57" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Salutations, |PLAYERNAME|. Welcome to the Ironhouse, warehouse of Abran Ironeye."/>
+		<parameter key="message_farewell" value="Thanks for doing business with us, traveller |PLAYERNAME|!"/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;help;offer;warehouse ;" />
+        <parameter key="keyword_reply1" value="My name is Yanni." />
+        <parameter key="keyword_reply2" value="I work for Abran Ironeye in the armor department." />
+        <parameter key="keyword_reply3" value="If you'd like to help, then buy something, because I'm paid on a commisioned basis." />
+        <parameter key="keyword_reply4" value="If you'd like to see my offers in armor, ask me for a trade." />
+        <parameter key="keyword_reply5" value="If you'd like to see my offers in armor, ask me for a trade." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="brass armor,2465,450;chain armor,2464,200;chain helmet,2458,52;chain legs,2648,80;steel shield,2509,240;wooden shield,2512,15;" />
+        <parameter key="shop_sellable" value="battle shield,2513,95;brass armor,2465,150;chain armor,2464,70;chain helmet,2458,17;chain legs,2648,25;leather armor,2467,12;leather helmet,2461,4;plate armor,2463,400;steel helmet,2457,190;steel shield,2509,80;wooden shield,2512,5;" />
+    </parameters>
+</npc>

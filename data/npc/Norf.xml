@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Norf" script="data/npc/scripts/Norf.lua" walkinterval="50000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="57" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        
+       <parameter key="message_greet" value="Welcome, Pilgrim."/>
+	   <parameter key="message_farewell" value="Good bye, |PLAYERNAME|!"/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name;pilgrimage;ashes;blessing;sacred places;spark;phoenix;embrace;fire;suns;wisdoms;solitude" />
+        <parameter key="keyword_reply1" value="I am here to provide one of the five blessings." />
+        <parameter key="keyword_reply2" value="My name is Norf." />
+        <parameter key="keyword_reply3" value="Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced." />
+        <parameter key="keyword_reply4" value="Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced." />
+        <parameter key="keyword_reply5" value="There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." />
+        <parameter key="keyword_reply6" value="Just ask in which of the five blessings you are interested in." />
+        <parameter key="keyword_reply7" value="The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon." />
+        <parameter key="keyword_reply8" value="The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon." />
+        <parameter key="keyword_reply9" value="The druids north of Carlin will provide you with the embrace of tibia." />
+        <parameter key="keyword_reply10" value="You can ask for the blessing of the two suns in the suntower near Ab'Dendriel." />
+        <parameter key="keyword_reply11" value="You can ask for the blessing of the two suns in the suntower near Ab'Dendriel." />
+		<parameter key="keyword_reply12" value="Talk to the hermit Eremo on the isle of Cormaya about this blessing." />
+		<parameter key="keyword_reply13" value="Talk to the hermit Eremo on the isle of Cormaya about this blessing." />
+		<parameter key="keyword_reply14" value="If you need money you should slay monsters and take their gold. Look for spiders and rats." />
+		<parameter key="keyword_reply15" value="If you need money you should slay monsters and take their gold. Look for spiders and rats." />
+    </parameters>
+</npc>

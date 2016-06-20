@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npc name="Seller" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+ 	<look type="128" head="20" body="30" legs="40" feet="50"/>
+
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell ropes (50gp), shovels (20gp), backpacks (10gp), fishing rods (100gp), amulet of loss (10k), and torches (2gp). I buy vials (10gp)." />
+		<parameter key="shop_buyable" value="vial,2006,10;flask,2006,10" />
+		<parameter key="shop_buyable" value="shovel,2554,20;backpack,1988,10;fishing rod,2580,100;torch,2050,2;rope,2120,50;amulet of loss,2173,10000" />
+	</parameters>
+</npc>

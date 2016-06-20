@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Razan" script="data/npc/scripts/Razan.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+ <look type="129" head="95" body="10" legs="12" feet="119"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, i can teach spells for knights." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, berserk, challenge,  find person, great light, haste, light, light healing and magic rope." />
+</parameters>
+</npc>

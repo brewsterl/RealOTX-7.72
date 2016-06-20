@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Liane" script="data/npc/scripts/default.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="77" body="60" legs="79" feet="114" addons="0"/>
+    <parameters>
+        
+		<parameter key="message_greet" value="How may I help you |PLAYERNAME|?"/>
+        <parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|."/>
+        <parameter key="message_sendtrade" value="Here. Don't forget that you need to buy a label too if you want to send a parcel. Always write the name of the receiver in the first line and the name of the city in the second line."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="mail;parcels;help;city;receiver;offer;" />
+        <parameter key="keyword_reply1" value="With our mail system you can send letters and parcels to other Tibians." />
+        <parameter key="keyword_reply2" value="If you want to buy a letter, just ask me. Or do you want me to explain how letters work?" />
+        <parameter key="keyword_reply3" value="With our mail system you can send letters and parcels to other Tibians. I can either explain how letters and parcels work or sell them to you." />
+        <parameter key="keyword_reply4" value="The depots you can send parcels or letters to are in the following cities Ab'Dendriel, Ankrahmun, Carlin, Darashia, Edron, Kazordoon, Port Hope, Thais and Venore." />
+        <parameter key="keyword_reply5" value="Well, the receiver - or addressee - is the person you want to send mail to. He or she can pick up your mail in the depot of the city you send it to." />
+		<parameter key="keyword_reply6" value="I sell parcels and letters. I can also explain how the mail system works." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="parcel,2595,15;letter,2597,8;label,2599,1;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

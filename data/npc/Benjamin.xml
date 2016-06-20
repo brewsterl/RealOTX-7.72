@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Benjamin" script="data/npc/scripts/default.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="116" body="79" legs="117" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello. How may I help you |PLAYERNAME|? Ask me for an offer if you want to buy something. I can also explain the mailsystem."/>
+		<parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|."/>
+		
+        <parameter key="message_sendtrade" value="Of course, take a look at the great food I sell."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;mail;depots;letters;parcels;help;city;" />
+        <parameter key="keyword_reply1" value="My name is Benjamin." />
+        <parameter key="keyword_reply2" value="I'm working here at the post office. If you have questions about the Royal Tibia Mail System or the depots, ask me." />
+        <parameter key="keyword_reply3" value="I sell parcels and letters. Ask me for a trade if you're interested. I can also explain how the mail system works." />
+        <parameter key="keyword_reply4" value="With our mail system you can send letters and parcels to other Tibians. I can either explain how letters and parcels work or sell them to you if you ask me for a trade." />
+        <parameter key="keyword_reply5" value="Each major city has at least one depot. Just step in front of one of the lockers and you can store items inside. Your mail will also arrive there. Each city has its own storage, don't forget where you store items!" />
+        <parameter key="keyword_reply6" value="If you want to buy a letter, ask me for an offer. Or do you want me to explain how letters work?" />
+        <parameter key="keyword_reply7" value="Well, you can always ask me for help if you need information." />
+        <parameter key="keyword_reply8" value="With our mail system you can send letters and parcels to other Tibians. I can either explain how letters and parcels work or sell them to you if you ask me for a trade." />
+        <parameter key="keyword_reply9" value="The depots you can send parcels or letters to are in the following cities Ab'Dendriel, Ankrahmun, Carlin, Darashia, Edron, Kazordoon, Liberty Bay, Port Hope, Svargrond, Thais, Venore and Yalahar." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="parcel,2595,15;letter,2597,8;label,2599,1;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

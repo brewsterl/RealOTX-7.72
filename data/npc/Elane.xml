@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elane" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="137" head="113" body="63" legs="120" feet="119" addons="3"/>
+
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell crossbow, bow, spear, power bolt, burst arrow, poison arrow and arrow." />
+		<parameter key="shop_sellable" value="crossbow,2455,150;bow,2456,130" />
+		<parameter key="shop_buyable" value="crossbow,2455,360;bow,2456,200;spear,2389,20;power bolt,2547,50;burst arrow,2546,16;poison arrow,2545,18;bolt,2543,3;arrow,2544,2" />
+	</parameters>
+</npc>

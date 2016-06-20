@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ebenizer" script="data/npc/scripts/evabank.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="59" body="95" legs="87" feet="76" addons="0"/>
+	
+	    <parameters>
+	
+		<parameter key="message_greet" value="Yes? What may I do for you, |PLAYERNAME|?"/>
+		<parameter key="message_farewell" value="Have a nice day."/>
+		<parameter key="message_placedinqueue" value="It's not your turn |PLAYERNAME|. Wait please."/>
+		<parameter key="message_decline" value="Have a nice day."/>
+		
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;king;tibianus;army;ferumbras;excalibug;thais;tibia;carlin;edron;news;rumors" />
+        <parameter key="keyword_reply1" value="My name? Ebenizer!" />
+		<parameter key="keyword_reply2" value="I am running this Bank" />
+		<parameter key="keyword_reply3" value="Hail to the king!" />
+		<parameter key="keyword_reply4" value="Hail to the king!" />
+		<parameter key="keyword_reply5" value="Soldiers have not that much money that I would care about." />
+		<parameter key="keyword_reply6" value="A true threat to wealth and trade." />
+		<parameter key="keyword_reply7" value="This weapon, if real, might be worth a lot." />
+		<parameter key="keyword_reply8" value="We are in constant contact with the city of Thais." />
+		<parameter key="keyword_reply9" value="There are countless ways of profit in this world." />
+		<parameter key="keyword_reply10" value="It's underdeveloped and economically insignificant." />
+		<parameter key="keyword_reply11" value="The riches of our isle are its mineral resources." />
+		<parameter key="keyword_reply12" value="I only care about financial news." />
+		<parameter key="keyword_reply13" value="I only care about financial news." />
+        
+    </parameters>
+    
+</npc>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tibra" script="data/npc/scripts/healer_tibra.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="60" body="92" legs="90" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome in the name of the gods, pilgrim |PLAYERNAME|!"/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|. May the gods be with you to guard and guide you, my child!"/>
+       
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="gods;monsters;job;name;ferumbras;excalibug;" />
+        <parameter key="keyword_reply1" value="The gods of good guard us and guide us, the gods of evil want to destroy us and steal our souls!" />
+        <parameter key="keyword_reply2" value="Remind Not everything you call monster is evil to the core!" />
+		<parameter key="keyword_reply3" value="I am a priest of the great pantheon." />
+		<parameter key="keyword_reply4" value="My name is Tibra. Your soul tells me that you are |PLAYERNAME|." />
+		<parameter key="keyword_reply5" value="The fallen one should be mourned, not feared." />
+		<parameter key="keyword_reply6" value="The mythical blade was hidden in ancient times. Its said that powerful wards protect it." />
+		
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

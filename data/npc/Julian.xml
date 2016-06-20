@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Julian" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="55" body="30" legs="23" feet="115" addons="0"/>
+<voices>
+<voice text="A customer? That's music in my ears!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="module_keywords" value="1" />
+ <parameter key="keywords" value="instruments;" />
+ <parameter key="keyword_reply1" value="You can buy a lyre, lute, drum, and simple fanfare. I also sell pianos and harps. If you'd like to see my offers, ask me for a trade." />
+		
+<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="offers;" />
+        <parameter key="keyword_reply1" value="drum, harp kit, lute, lyre, piano kit, simple fanfare." />
+	
+
+<parameter key="shop_buyable" value="drum,2073,140;harp kit,3917,50;lute,2072,195;lyre,2071,120;piano kit,3926,200;simple fanfare,2075,150;" />
+        <parameter key="message_greet" value="Be greeted, |PLAYERNAME|! May I help you? With some instruments, perhaps?"/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="message_sendtrade" value="Of course, just take a look at my instruments." />
+</parameters>
+</npc>

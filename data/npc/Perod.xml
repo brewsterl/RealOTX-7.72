@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Perod" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="39" body="125" legs="29" feet="114" addons="0"/>
+<parameters>
+        <parameter key="message_greet" value="Greetings, dear |PLAYERNAME|. What do you need?"/>
+<parameter key="message_placedinqueue" value="Please wait a moment, |PLAYERNAME|. I am already talking to someone."/>
+<parameter key="message_walkaway" value="Good bye."/>
+<parameter key="message_farewell" value="Good bye."/>
+<parameter key="message_idletimeout" value="Good bye."/>
+
+<parameter key="message_decline" value="Hmm, but next time."/>
+<parameter key="message_needmoremoney" value="Come back when you have enough money."/>
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="backpack,3940,20;bag,3939,5;fishing rod,2580,150;machete,2420,40;pick,2553,50;present,1990,10;rope,2120,50;scroll,1949,5;scythe,2550,50;shovel,2554,50;torch,2050,2;worm,3976,1;bow,2456,400;crossbow,2455,500;spear,2389,10;throwing star,2399,42;arrow,2544,3;" />
+        <parameter key="shop_sellable" value="bow,2456,100;crossbow,2455,120;spear,2389,3" />
+    </parameters>
+</npc>
+

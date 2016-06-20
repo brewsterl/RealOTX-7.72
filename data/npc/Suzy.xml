@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Suzy" script="data/npc/scripts/evabank.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="78" body="10" legs="96" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Welcome |PLAYERNAME|! What can I do for you?"/>
+		<parameter key="message_farewell" value="Good bye."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;" />
+        <parameter key="keyword_reply1" value="I am Suzy" />
+        <parameter key="keyword_reply2" value="I work in this bank. I can change money for you." />
+
+    </parameters>
+</npc>

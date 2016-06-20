@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Aldo" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="40" body="37" legs="116" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Just great, another ... 'customer'. Hello, |PLAYERNAME|. If you want to trade, let's get it over with."/>
+		<parameter key="message_farewell" value="That's music in my ears."/>
+		
+        <parameter key="message_sendtrade" value="Yeah, buy something."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;" />
+        <parameter key="keyword_reply1" value="I'm Aldo. No one calls me 'lucky Aldo' though, guess why!" />
+        <parameter key="keyword_reply2" value="I'm a salesman, I sell headgear ... uhm ... oh well, and shoes." />
+        <parameter key="keyword_reply3" value="I'm damned to sell headgear, trousers, and shoes for the rest of my life. Let's get over with this." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="leather boots,2643,2;leather helmet,2461,12;leather legs,2649,10;sandals,2642,2;studded helmet,2482,63;studded legs,2468,60;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

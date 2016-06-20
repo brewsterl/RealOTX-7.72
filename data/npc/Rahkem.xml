@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rahkem" script="data/npc/scripts/rahkem.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="0" body="77" legs="87" feet="116" addons="0"/>
+	<parameters>
+<parameter key="idletime" value="60"/>
+<parameter key="message_greet" value="Be mourned pilgrim in flesh."/>
+<parameter key="message_placedinqueue" value="Mourned |PLAYERNAME|, know that I am busy."/>
+<parameter key="message_walkaway" value="Accept my thanks for your gift of silence."/>
+<parameter key="message_farewell" value="May enlightenment be your path."/>
+<parameter key="message_idletimeout" value="May enlightenment be your path."/>
+	</parameters>
+</npc>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rudolph" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="23" body="29" legs="77" feet="95"/>
+ <parameters>
+ 
+		<parameter key="message_greet" value="Oh, a customer. Hello |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Oh, good bye."/>
+		<parameter key="message_buy" value="Oh, do you want to buy |ITEMCOUNT| of my wonderful |ITEMNAME| for |TOTALCOST| gold?"/>
+		<parameter key="message_onbuy" value="Oh, here you are."/>
+		<parameter key="message_placedinqueue" value="Oh, so wait a little, |PLAYERNAME|."/>
+		<parameter key="message_decline" value="Oh, but next time."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;king;tibianus;army;ferumbras;excalibug;thais;tibia;carlin;edron;news;rumors;clothes;shoes" />
+        <parameter key="keyword_reply1" value="I'm Rudolph, you know." />
+		<parameter key="keyword_reply2" value="Oh, I am a tailor, can't you see?" />
+		<parameter key="keyword_reply3" value="Oh, the king. What a well dressed man he is." />
+		<parameter key="keyword_reply4" value="Oh, the king. What a well dressed man he is." />
+		<parameter key="keyword_reply5" value="Oh, such handsome guys and such ugly uniforms." />
+		<parameter key="keyword_reply6" value="Oh, dear." />
+		<parameter key="keyword_reply7" value="Oh, that thing must be dangerous. One could hurt himself quite badly with it I guess." />
+		<parameter key="keyword_reply8" value="Oh, what a lovely city it was once." />
+		<parameter key="keyword_reply9" value="Oh, there is not much sense for fashion in this world." />
+		<parameter key="keyword_reply10" value="Oh, these women ... oh, go away." />
+		<parameter key="keyword_reply11" value="Oh, what a lovely city it is." />
+		<parameter key="keyword_reply12" value="Oh, we tailors learn much, but don't talk about it. It's the tailors' code of honor, you know." />
+		<parameter key="keyword_reply13" value="Oh, we tailors learn much, but don't talk about it. It's the tailors' code of honor, you know." />
+		<parameter key="keyword_reply14" value="Oh, I have wonderful clothes and shoes." />
+		<parameter key="keyword_reply15" value="Oh, I have wonderful jackets, capes, tunics, leather legs, and scarfs." />
+		<parameter key="keyword_reply16" value="Oh, I have wonderful leather boots and sandals." />
+        
+		<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="cape,2654,9;green tunic,2652,25;jacket,2650,12;ranger s cloak,2660,550;leather legs,2649,10;leather boots,2643,2;sandals,2642,2;scarf,2661,15" />
+        <parameter key="shop_sellable" value="" />
+    
+</parameters>
+</npc>

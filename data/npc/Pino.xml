@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Pino" script="data/npc/scripts/pino.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="115" body="0" legs="67" feet="114" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Greetings, traveller |PLAYERNAME|."/>
+		<parameter key="message_farewell" value="Good bye!"/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;service;tibia;passage;transport;ride;trip" />
+		
+        <parameter key="keyword_reply1" value="Pino at your service." />
+        <parameter key="keyword_reply2" value="I am a carpetpilot. I can fly you to the Femor Hills or Darashia." />
+		<parameter key="keyword_reply3" value="I am a carpetpilot. I can fly you to the Femor Hills or Darashia." />
+        <parameter key="keyword_reply4" value="What a wonderful world. Especially if you look down on it." />
+		<parameter key="keyword_reply5" value="I can fly you to Darashia on Darama or to the Femor Hills if you like. Where do you want to go?" />
+        <parameter key="keyword_reply6" value="I can fly you to Darashia on Darama or to the Femor Hills if you like. Where do you want to go?" />
+		<parameter key="keyword_reply7" value="I can fly you to Darashia on Darama or to the Femor Hills if you like. Where do you want to go?" />
+        <parameter key="keyword_reply8" value="I can fly you to Darashia on Darama or to the Femor Hills if you like. Where do you want to go?" />
+		
+    </parameters>
+</npc>

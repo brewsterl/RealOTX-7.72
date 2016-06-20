@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<npc name="Oldrak" script="data/npc/scripts/Oldrak.lua" access="3" lookdir="1" walkinterval="2500">
+	<health now="1" max="1"/>
+	<look type="57" head="20" body="30" legs="40" feet="50" corpse="3128"/>
+  <parameters>
+    <parameter key="message_greet" value="Welcome |PLAYERNAME|! Rarely I can welcome visitors in these days." />
+    <parameter key="message_farewell" value="Good bye, |PLAYERNAME|!" />
+  </parameters>
+</npc>

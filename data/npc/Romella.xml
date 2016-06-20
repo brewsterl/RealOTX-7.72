@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Romella" script="data/npc/scripts/romella.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="139" head="79" body="39" legs="77" feet="115" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="I welcome thee, |PLAYERNAME|! I suppose you are looking for a trade in fine weapons!"/>
+		<parameter key="message_farewell" value="Goodbye and please bring more gold next time. I mean, it would be nice to see you again."/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;help;offer;" />
+        <parameter key="keyword_reply1" value="I am Romella and I will be serving you today." />
+        <parameter key="keyword_reply2" value="I am Romella and I will be serving you today." />
+        <parameter key="keyword_reply3" value="The weapons we sell are all help you need." />
+        <parameter key="keyword_reply4" value="I sell and buy weapons." />
+
+    </parameters>
+</npc>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npc name="Dark Rodo" script="data/npc/scripts/runes.lua" walkinterval="2000" floorchange="0">
+	<mana now="800" max="800"/>
+	<health now="800" max="800"/>
+	<look type="128" head="78" body="71" legs="82" feet="114"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want to buy any spell runes, wands, rods?"/>
+	</parameters>
+</npc>
+

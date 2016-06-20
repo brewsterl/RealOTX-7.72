@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<npc name="Albert" script="data/npc/scripts/default.lua" walkinterval="2000">
+
+  <health now="200" max="200" />
+  <look type="130" head="78" body="0" legs="49" feet="95"/>
+  
+</npc>

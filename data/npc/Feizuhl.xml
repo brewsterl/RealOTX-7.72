@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Feizuhl" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="133" head="98" body="116" legs="43" feet="95" addons="0"/>
+<voices>
+<voice text="Welcome to the house of fashion, Iron Sparrow!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Hey |PLAYERNAME|, what'cha want?"/>
+        <parameter key="message_farewell" value="Thanks and see ya."/>
+		<parameter key="message_walkaway" value="Thanks and see ya." />
+		<parameter key="message_sendtrade" value="Have a look. Most furniture comes in handy kits. Just use them in your house to assemble the furniture." />
+   
+
+  <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="offers;" />
+        <parameter key="keyword_reply1" value="I sell barrel kit, dresser kit, box kit,large trunk kit, drawer kit, locker kit, trough kit , blue round pillow, red round pillow, purple round pillow, small turqoise pillow, blue tapestry, green tapestry, orange tapestry, purple tapestry, red tapestry, white tapestry, yellow tapestry." />
+	
+
+
+
+
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="barrel,1774,12;dresser,1724,70;box,1739,10;large trunk,1750,18;drawer,1716,18;locker,1732,30;Trough,1728,10;blue round pillow,1690,25;red round pillow,1691,25;purple round pillow,1692,25;small turqoise pillow,1683,20;blue tapestry,1872,25;green tapestry,1860,25;orange tapestry,1866,25;purple tapestry,1857,25;red tapestry,1869,25;white tapestry,1880,25;yellow tapestry,1863,25;" />
+    </parameters>
+</npc>

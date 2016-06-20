@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elathriel" script="data/npc/scripts/elathriel.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="64" head="115" body="69" legs="87" feet="116" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Be greeted |PLAYERNAME|." /> 
+		<parameter key="message_placedinqueue" value="Shut up! Can't you see that I am talking?!" />
+		<parameter key="message_farewell" value="Asha Thrazi, stranger." /> 
+		<parameter key="message_walkaway" value="Asha Thrazi." /> 	
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;sheriff;executioner;avenger;hellgate;time;carlin;thais;venore;roderick;olrik;king;tibianus;eloise;elves;dwarfs;humans;troll;army;cenath;kuridai;deraisim;abdaisim;teshial;ferumbras;crunor;mortiur;excalibug;news;magic;duid;sorcerer;spellbook;door;sealed" />
+		
+        <parameter key="keyword_reply1" value="Not that I like to talk to you, but I am Elathriel Shadowslayer." />
+        <parameter key="keyword_reply2" value="I am the leader of the Kuridai and the Az'irel of Ab'dendriel. Humans would call it sheriff, executioner, or avenger." />
+        <parameter key="keyword_reply3" value="Sometimes people get imprisoned for some time. True criminals will be cast out and for comitting the worst crimes offenders are thrown into the hellgate." />
+        <parameter key="keyword_reply4" value="Sometimes people get imprisoned for some time. True criminals will be cast out and for comitting the worst crimes offenders are thrown into the hellgate." />
+        <parameter key="keyword_reply5" value="Sometimes people get imprisoned for some time. True criminals will be cast out and for comitting the worst crimes offenders are thrown into the hellgate." />
+        <parameter key="keyword_reply6" value="It was here among other structures, like the depot tower, before our people came here. It's secured by a sealed door." />
+		<parameter key="keyword_reply7" value="I couldn't care less." />
+		<parameter key="keyword_reply8" value="We watch this city and the actions of its inhabitants closely." />
+		<parameter key="keyword_reply9" value="The thain kingdom and we share some enemys, so its only logical to cooperate in a few areas." />
+		<parameter key="keyword_reply10" value="The merchants of venore provide us with some usefull goods. Still I an convinced that they get more out of our bargain then we do." />
+		<parameter key="keyword_reply11" value="He is tolerated here as the spokesman of the thaian king." />
+		<parameter key="keyword_reply12" value="This human is too unimportant to be even mentioned." />
+		<parameter key="keyword_reply13" value="It's hard for some of my people to grasp the true concept of a strong leader." />
+		<parameter key="keyword_reply14" value="A human weakling, not much more." />
+		<parameter key="keyword_reply15" value="A human weakling, not much more." />
+		<parameter key="keyword_reply16" value="My people are divided in castes in these times, until they comprehend that only the way of the Kuridai can save us all." />
+		<parameter key="keyword_reply17" value="We might use the shelter earth and hills provide us, but their obsession for metal is a waste of time." />
+		<parameter key="keyword_reply18" value="They are useful ... and better stay useful." />
+		<parameter key="keyword_reply19" value="Like all inferior races they can be at least used for something good. The other castes are just jealous about our use of them." />
+		<parameter key="keyword_reply20" value="It's one of the more useful concepts we can learn from the other races." />
+		<parameter key="keyword_reply21" value="Arrogant bastards, but they wield quite powerful magics." />
+		<parameter key="keyword_reply22" value="We are the heart of the elven society. We forge, we build, and we don't allow our people to be pushed around." />
+		<parameter key="keyword_reply23" value="Confused cowards. With all their skill they still tend to hide and run. What a waste." />
+		<parameter key="keyword_reply24" value="Even more undecided then the deraisim." />
+		<parameter key="keyword_reply25" value="Dreamers are of no practical use. I don't mourn their demise." />
+		<parameter key="keyword_reply26" value="Even if he'd walk through the town above the other castes won't see the necessity to follow OUR way." />
+		<parameter key="keyword_reply27" value="I have no use for the treething. I worship Mortiur, the ravager, of course." />
+		<parameter key="keyword_reply28" value="The celestial paladin of revenge. He was one of the greatest elven wariors of all times." />
+		<parameter key="keyword_reply29" value="I still doubt it exists." />
+		<parameter key="keyword_reply30" value="News are confidential and not your business." />
+		<parameter key="keyword_reply31" value="I mastered some spells of battle." />
+		<parameter key="keyword_reply32" value="Druids' magic is too peaceful for my taste." />
+		<parameter key="keyword_reply33" value="I have seen human sorcerers doing some impressive things ... before they died." />
+		<parameter key="keyword_reply34" value="I don't sell such stuff." />
+		<parameter key="keyword_reply35" value="For safety we keep the door to the hellgate locked all times. I have the keys to open it when needed." />
+		<parameter key="keyword_reply36" value="For safety we keep the door to the hellgate locked all times. I have the keys to open it when needed." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hyacinth" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="130" head="11" body="123" legs="123" feet="94" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Greetings, traveller |PLAYERNAME|. As you have found the way to my hut, how can I help you?"/>
+		<parameter key="message_farewell" value="May Crunor bless you."/>
+		
+        <parameter key="message_sendtrade" value="Here. Don't forget, if you buy potions, there's a deposit of 5 gold on the empty flask."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;druid;crunor;lily;cipfried;deposit;offers;" />
+        <parameter key="keyword_reply1" value="I'm Hyacinth." />
+        <parameter key="keyword_reply2" value="I'm a druid and healer, a follower of Crunor." />
+        <parameter key="keyword_reply3" value="There are only two other druids on Rookgaard, Lily and Cipfried." />
+        <parameter key="keyword_reply4" value="May Crunor bless you and protect you on your journeys!" />
+        <parameter key="keyword_reply5" value="She's a druid. Since she started selling life fluids, people visit me only rarely. Which is a good thing, but of course I'll help if I'm needed." />
+        <parameter key="keyword_reply6" value="His healing powers equal mine." />
+        <parameter key="keyword_reply7" value="I'll pay you 5 gold for every empty vial." />
+        <parameter key="keyword_reply8" value="I sell life fluid." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="life fluid,2006,60,10;" />
+        <parameter key="shop_sellable" value="vial,2006,5;" />
+    </parameters>
+</npc>

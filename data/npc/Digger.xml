@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Digger" script="data/npc/scripts/digger.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="9" head="4" body="0" legs="0" feet="0" addons="0"/>
+<voices>
+<voice text="Selling potions for humans and poison for undead creatures." interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Oh, |PLAYERNAME| is that you? You look inconveniently healthy."/>
+        <parameter key="message_farewell" value="Bye."/>
+		<parameter key="message_walkaway" value="Bye." />
+		<parameter key="message_sendtrade" value="Sure." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="offers;digger;name;frans;" />
+        <parameter key="keyword_reply1" value="I am selling mana fluids, life fluids and spellbooks." />
+		 <parameter key="keyword_reply2" value="So what?" />
+		  <parameter key="keyword_reply3" value="They call me Digger, that's fine with me." />
+		  <parameter key="keyword_reply4" value="I think the FRANS is bugged." />
+    </parameters>
+
+</npc>

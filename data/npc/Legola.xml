@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Legola" script="data/npc/scripts/legola.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="137" head="72" body="105" legs="105" feet="95" addons="0"/>
+<parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, I can teach spells and spell runes for paladins." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells;spell runes" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, conjure arrow, conjure explosive arrow, create food, great light, find person, intense healing, light, light healing and ultimate healing." />
+<parameter key="keyword_reply2" value="I can teach you, desintegrate, heavy magic missile and light magic missile,." />
+</parameters>
+</npc>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lungelen" script="data/npc/scripts/Lungelen.lua" walkinterval="1000" access="3" floorchange="0">
+<health now="100" max="100"/>
+<look type="138" head="77" body="19" legs="95" feet="115" />
+<parameters>
+
+<parameter key="message_greet" value="Please don't disturb me, I am very busy in my recent researches. Have a nice day!"/>
+<parameter key="message_farewell" value="NOP"/>
+
+</parameters>
+</npc>

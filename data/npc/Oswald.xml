@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Oswald" script="data/npc/scripts/Oswald.lua" walkinterval="2000" access="3" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="115" body="0" legs="67" feet="114" />
+<parameters>
+
+<parameter key="message_greet" value="Oh, hello |PLAYERNAME|. What is it?"/>
+<parameter key="message_farewell" value="Good bye, and don't come back too soon."/>
+
+<parameter key="module_keywords" value="1" />
+
+<parameter key="keywords" value="how are you;sell;harassing;job;durin;important;name;time;help;monster;dungeon;sewer;assistant;annoying;thank you;god;king;sam;benjamin;gorn;quentin;bozo;mud;weapons;magic;power;rebellion;spell;muriel;elane;marvik;gregor;lugri;excalibug;chester;ardua;partos;gamel;sinister;goshnar;necromant;nectar" />
+
+<parameter key="keyword_reply1" value="If there weren't so many people harassing me, life could be great." />
+<parameter key="keyword_reply2" value="Hey, I am not a shopkeeper, I am an important man!" />
+<parameter key="keyword_reply3" value="You need not ask me about that, you are perfect in that." />
+<parameter key="keyword_reply4" value="I am honored to be the assistant of the great, the illustrious, the magnificent Durin!" />
+<parameter key="keyword_reply5" value="Just between you and me, he can be quite a tyrant." />
+<parameter key="keyword_reply6" value="I am honored to be the assistant of the great, the illustrious, the magnificent Durin!" />
+<parameter key="keyword_reply7" value="My name is Oswald, but let's proceed, I am a very busy man." />
+<parameter key="keyword_reply8" value="It is nearly tea time, so please hurry!" />
+<parameter key="keyword_reply9" value="I inform higher officials of your need... sometimes." />
+<parameter key="keyword_reply10" value="AHHHH!!! WHERE??? WHERE???" />
+<parameter key="keyword_reply11" value="If you want to see dungeons just don't pay your taxes." />
+<parameter key="keyword_reply12" value="Our sewer system is very modern, but crowded with rats and wannabe heroes." />
+<parameter key="keyword_reply13" value="I have a job of great responsibility, mostly I keep annoying persons away from my boss." />
+<parameter key="keyword_reply14" value="You better don't ask, you wouldn't like the answer." />
+<parameter key="keyword_reply15" value="You are... uhm... welcome. Are you finished already?" />
+<parameter key="keyword_reply16" value="I think the gods are too busy to care about us mortals, hmm... that makes me feel godlike, too." />
+<parameter key="keyword_reply17" value="Ah, yes, yes, hail to King Tibianus! Long live the king and so on..." />
+<parameter key="keyword_reply18" value="A simple shopkeeper with minor intelligence." />
+<parameter key="keyword_reply19" value="What do you expect from ex-soldiers? He is nuts! Hacked on the head far too often." />
+<parameter key="keyword_reply20" value="He sells his scrolls far too expensive." />
+<parameter key="keyword_reply21" value="I heard he was a ladies' man in younger days. In our days he is rumoured to wear women clothes now and then." />
+<parameter key="keyword_reply22" value="Isn't he the artist formerly known as the prince?" />
+<parameter key="keyword_reply23" value="I heared Sam dated a female mud-wrestler once." />
+<parameter key="keyword_reply24" value="It's rumoured that Sam does not forge all weapons himself, but buys them from his cousin, who is married to a cyclops." />
+<parameter key="keyword_reply25" value="I overheard a conversation of officials, that magic will be forbidden soon." />
+<parameter key="keyword_reply26" value="There are people who talk about a rebellion against King Tibianus." />
+<parameter key="keyword_reply27" value="There are people who talk about a rebellion against King Tibianus." />
+<parameter key="keyword_reply28" value="I was told sometimes that sorcerers are toasted by misfired spells of their own." />
+<parameter key="keyword_reply29" value="He is rumoured to summon kinky demons to... well you know." />
+<parameter key="keyword_reply30" value="They say she killed over a dozen husbands already." />
+<parameter key="keyword_reply31" value="Who knows what this old man is up to in his hideout when no one is watching?" />
+<parameter key="keyword_reply32" value="I was told he lost a body part or two in duels... if you know what I mean." />
+<parameter key="keyword_reply33" value="Some say he is Ferumbras in disguise." />
+<parameter key="keyword_reply34" value="It's beyond all doubt that certain sinister elements in our city have certain knowledge about this myth." />
+<parameter key="keyword_reply35" value="I never found any rumour concerning him, isn't that odd?" />
+<parameter key="keyword_reply36" value="She's a bitch, trust me. She was the girlfriend of the evil Partos some time ago." />
+<parameter key="keyword_reply37" value="What a shame. He claimed to be the king of thiefs and was caught stealing some fruit." />
+<parameter key="keyword_reply38" value="This man lives in the darkness like a rat and is also as handsome as one of them. He surely is up to no good and often consorts with sinister strangers." />
+<parameter key="keyword_reply39" value="Just last week a one eyed man, who had a room at Frodo's, met him in the middle of the night." />
+<parameter key="keyword_reply40" value="They say he isn't truly dead. He was... or is a necromant after all." />
+<parameter key="keyword_reply41" value="You are not the first one to ask about that. Am I the only one that preferes wine to such disgusting stuff?" />
+<parameter key="keyword_reply42" value="You are not the first one to ask about that. Am I the only one that preferes wine to such disgusting stuff?" />
+
+
+
+</parameters>
+</npc>

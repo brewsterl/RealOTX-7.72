@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Muzir" script="data/npc/scripts/evabank.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="95" body="4" legs="11" feet="76"/>
+	<parameters>
+	
+	    <parameter key="message_greet" value="Welcome |PLAYERNAME|! Daraman's blessings."/>
+		<parameter key="message_farewell" value="Daraman's blessings."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;" />
+        <parameter key="keyword_reply1" value="I am Muzir." />
+        <parameter key="keyword_reply2" value="I am honoured to be the grandwezir of the caliph." />
+		
+</parameters>
+</npc>

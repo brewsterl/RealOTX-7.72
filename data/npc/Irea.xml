@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Irea" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="64" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Ashari |PLAYERNAME|, welcome to the distance store."/>
+		<parameter key="message_farewell" value="Asha Thrazi."/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;" />
+        <parameter key="keyword_reply1" value="I am known as Irea." />
+        <parameter key="keyword_reply2" value="I sell bows, arrows, crossbows and bolts." />
+        <parameter key="keyword_reply3" value="I sell distance weapons and ammunition." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="crossbow,2455,500;bow,2456,400;bolt,2543,4;arrow,2544,3;spear,2389,10;" />
+        <parameter key="shop_sellable" value="spear,2389,3;" />
+    </parameters>
+</npc>

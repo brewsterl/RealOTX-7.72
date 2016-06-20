@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lugri" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="57" body="109" legs="94" feet="0" addons="0"/>
+<parameters>
+        <parameter key="message_greet" value="What is it that you want, |PLAYERNAME|?"/>
+        <parameter key="message_farewell" value="Bye."/>
+</parameters>
+</npc>

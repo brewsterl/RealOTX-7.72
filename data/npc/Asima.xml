@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Asima" script="data/npc/scripts/runes.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="97" body="70" legs="94" feet="76"/>
+ <parameters>
+ 
+ 		<parameter key="message_greet" value="Daraman's blessings, |PLAYERNAME|"/>
+        <parameter key="message_farewell" value="Daraman's blessings."/>
+        
+<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    
+</parameters>
+</npc>

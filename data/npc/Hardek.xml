@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hardek" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="96" body="86" legs="63" feet="115" addons="0"/>
+<voices>
+<voice text="Buying all sorts of weapons and armors!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="weapons;armor;" />
+        <parameter key="keyword_reply1" value="I don't have anything for sale, but if you want to sell something, ask me for a {trade} and see if I buy it from you." />
+		<parameter key="keyword_reply2" value="I don't have anything for sale, but if you want to sell something, ask me for a {trade} and see if I buy it from you." />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|! Do you need my services? I buy some {weapons} and {armor}." />
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|. Visit me whenever you want to sell something."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|. Visit me whenever you want to sell something." />
+		<parameter key="shop_sellable" value="coat,2651,1;jacket,2650,1;brass armor,2465,112;knight armor,2476,875;golden armor,2466,1500;brass helmet,2460,30;viking helmet,2473,66;iron helmet,2459,145;leather legs,2649,1;devil helmet,2462,450;warrior helmet,2475,696;chain legs,2648,20;brass legs,2478,49;plate legs,2647,115;knight legs,2477,375;brass shield,2511,15;plate shield,2510,31;battle shield,2513,95;guardian shield,2515,180;dragon shield,2516,360;dagger,2379,1;mace,2398,23;longsword,2397,51;spike sword,2383,225;fire sword,2392,1000;" />
+	</parameters>
+</npc>

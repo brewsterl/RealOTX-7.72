@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rokyn" script="data/npc/scripts/evabank.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="160" head="58" body="87" legs="57" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hiho, Hiho, |PLAYERNAME|! What can I do for you?"/>
+		<parameter key="message_farewell" value="Yeah, bye."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;" />
+        <parameter key="keyword_reply1" value="I am Rokyn Pursesniffer, son of Fire, proud member of the Molten Rock fellowship." />
+        <parameter key="keyword_reply2" value="I can change money for you." />
+
+    </parameters>
+</npc>

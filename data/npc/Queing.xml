@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Queing" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="133" head="35" body="50" legs="35" feet="80"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell chairs, tables, plants, containers, pillows, tapestries and more."/>
+		
+		<parameter key="shop_buyable" value="
+			Wooden chair,3901,15;
+			Sofa chair,3902,30;
+			Red cushioned chair,3903,40;
+			Green cushioned chair,3904,40;
+			Tusk chair,3905,25;
+			Ivory chair,3906,25;
+			Rocking chair,3925,25;
+			trunk chair,3907,20;
+ 
+			armor rack,6115,90;
+			Barrel,3932,12;
+			Box,1738,10;
+			Box2,1741,10;
+			Chest,1740,10;
+			crate,1739,10;
+			Drawer,1714,18;
+			Dresser,3916,25;
+			Locker,3918,30;
+			trough,3937,7;
+			trunk,3938,10;
+			Bird cage,2095,50;
+			Water-pipe,2093,40;
+			Coal basin,3912,25;
+			cuckoo clock,1877,40;
+			Globe,3923,50;
+			Pendelum clock,3917,75;
+			picture(portrait),1852,50;
+			picture(landscape),1853,50;
+			picture(still life),1854,50;
+			rocking horse,3934,30;
+			table lamp,3924,35;
+			telescope,3935,70;
+			Oval Mirror,1845,40;
+			Edged mirror,1848,40;
+			Round mirror,1851,40;
+ 
+			Harp,3921,50;
+			Piano,3926,200;
+ 
+			Indoor plant,3931,8;
+			Potted flower,2104,5;
+			honey flower,2103,5;
+			god flowers,2100,5;
+			flower bowl,2102,6;
+ 
+			small purple pillow,1678,20;
+			small green pillow,1679,20;
+			small red pillow,1680,20;
+			small blue pillow,1681,20;
+			small orange pillow,1682,20;
+			small turquiose pillow,1683,20;
+			small white pillow,1684,20;
+			heart pillow,1685,30;
+			blue pillow,1686,25;
+			red pillow,1687,25;
+			green pillow,1688,25;
+			yellow pillow,1689,25;
+			round blue pillow,1690,25;
+			round red pillow,1691,25;
+			round purple pillow,1692,25;
+			round turquiose pillow,1693,25;
+ 
+			Big table,3909,30;
+			Square table,3910,25;
+			Round table,3911,25;
+			Small table,3908,20;
+			Stone table,3913,30;
+			Tusk table,3914,25;
+			trunk table,3920,20;
+ 
+			blue tapestry,1872,25;
+			green tapestry,1860,25;
+			orange tapestry,1866,25;
+			purple tapestry,1857,25;
+			red tapestry,1869,25;
+			white tapestry,1880,25;
+			yellow tapestry,1863,25;
+ 
+			amphora,2023,4,0;
+			large amphora,3929,50;
+			vase,2008,3,0;
+ 
+			goblin statue,3930,50;
+			knight statue,3927,50;
+			minotaur statue,3928,50
+		" />
+	</parameters>
+</npc>

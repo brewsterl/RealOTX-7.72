@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alia" script="data/npc/scripts/healer_alia.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="138" head="96" body="95" legs="0" feet="95" addons="0"/>
+    <parameters>
+        
+		<parameter key="message_greetings" value="Welcome |PLAYERNAME|! Welcome to the temple of Carlin. If you need healing, I can help you."/>
+        <parameter key="message_farewell" value="May the gods be with you, |PLAYERNAME|!"/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+		
+		<parameter key="keyword_reply1" value="I'm a nun, serving the gods of Tibia in this temple. I also heal wounded adventurers." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

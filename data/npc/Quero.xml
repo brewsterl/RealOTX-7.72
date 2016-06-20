@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Quero" script="data/npc/scripts/Quero.lua" walkinterval="2000" access="3" floorchange="0">
+<health now="100" max="100"/>
+<look type="128" head="55" body="30" legs="23" feet="115" />
+<parameters>
+<parameter key="message_greet" value="Welcome |PLAYERNAME|! Can I help you?"/>
+<parameter key="message_farewell" value="Good bye."/>
+
+<parameter key="module_keywords" value="1" />
+
+<parameter key="keywords" value="job;name;time;music;elf;elves;bard;benjamin;offer;do you sell;goods;do you have;instrument" />
+
+<parameter key="keyword_reply1" value="I make instruments and sometimes I'm wandering through the lands of Tibia as a bard." />
+<parameter key="keyword_reply2" value="My name is Quero." />
+<parameter key="keyword_reply3" value="Sorry, I don't know what time it is." />
+<parameter key="keyword_reply4" value="I love the music of the elves." />
+<parameter key="keyword_reply5" value="They live in the northeast of Tibia." />
+<parameter key="keyword_reply6" value="They live in the northeast of Tibia." />
+<parameter key="keyword_reply7" value="Selling instruments isn't enough to live on and I love music. That's why I wander through the lands from time to time." />
+<parameter key="keyword_reply8" value="He's nice." />
+<parameter key="keyword_reply9" value="You can buy a lyre, lute, drum, and simple fanfare." />
+<parameter key="keyword_reply10" value="You can buy a lyre, lute, drum, and simple fanfare." />
+<parameter key="keyword_reply11" value="You can buy a lyre, lute, drum, and simple fanfare." />
+<parameter key="keyword_reply12" value="You can buy a lyre, lute, drum, and simple fanfare." />
+<parameter key="keyword_reply13" value="You can buy a lyre, lute, drum, and simple fanfare." />
+
+
+</parameters>
+</npc>

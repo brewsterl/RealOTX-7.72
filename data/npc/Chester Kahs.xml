@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npc name="Chester Kahs" script="data/npc/scripts/chester.lua" walkinterval="2000">
+
+  <health now="200" max="200" />
+  <look type="131" head="10" body="28" legs="47" feet="95"/>
+  <parameters>
+  
+  <parameter key="message_greet" value="Salutations, stranger."/>
+  <parameter key="message_farewell" value="Take care out there!"/>
+        
+    
+</parameters>
+
+</npc>

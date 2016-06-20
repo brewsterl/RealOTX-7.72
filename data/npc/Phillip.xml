@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Phillip" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="116" body="54" legs="68" feet="76" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hello, seeker of knowledge |PLAYERNAME|. How may I assist you?"/>
+		<parameter key="message_farewell" value="Go and be careful, |PLAYERNAME|. Remember what you have learned!"/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="help;name;job;monster;gods;excalibug;ferumbras;" />
+        <parameter key="keyword_reply1" value="I will provide you with all knowledge I have." />
+        <parameter key="keyword_reply2" value="My name is Phillip." />
+        <parameter key="keyword_reply3" value="I am honored to be teacher in this school." />
+        <parameter key="keyword_reply4" value="Monsters come in different shape and power. It's said there is a zoo in the dwarves' town." />
+        <parameter key="keyword_reply5" value="To learn about gods, visit the temples and talk to the priests." />
+        <parameter key="keyword_reply6" value="This weapon is said to be very powerful and unique. It was hidden in ancient times and now is thought to be lost." />
+		<parameter key="keyword_reply7" value="He is a follower of evil. His powers were boosted by a sinister force and he is beyond human restrictions now." />
+        
+		<parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

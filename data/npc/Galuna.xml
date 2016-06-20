@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Galuna" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="137" head="40" body="96" legs="95" feet="96" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. What do you need? Distance weapons? I sell lots of them."/>
+		<parameter key="message_farewell" value="Good bye."/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;" />
+        <parameter key="keyword_reply1" value="I am Galuna, paladin and fletcher." />
+        <parameter key="keyword_reply2" value="I am the local fletcher. I am selling bows, crossbows, and ammunition. Do you need anything?" />
+        <parameter key="keyword_reply3" value="My offers are bows, crossbows and ammunition." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="crossbow,2455,500;bow,2456,400;bolt,2543,4;arrow,2544,3;spear,2389,10;" />
+        <parameter key="shop_sellable" value="spear,2389,3;" />
+    </parameters>
+</npc>

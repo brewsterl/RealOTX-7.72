@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gail" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="140" head="77" body="64" legs="52" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Please feel welcome."/>
+		<parameter key="message_placedinqueue" value="Please wait a moment. I'll be with you within a heartbeat."/>
+		<parameter key="message_farewell" value="Good bye."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;jewel" />
+        <parameter key="keyword_reply1" value="My name is Gail, nice to meet you." />
+        <parameter key="keyword_reply2" value="I am buying and selling gems and jewellery." />
+		<parameter key="keyword_reply3" value="I can offer you various gems, pearls or some wonderful jewels." />
+		<parameter key="keyword_reply4" value="Currently you can purchase wedding rings, golden amulets, and ruby necklaces." />
+
+        <parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="weddind ring,2121,990;golden amulet,2130,6600;ruby necklace,2133,3560;white pearl,2143,320;black pearl,2144,560;small diamond,2145,600;small sapphire,2146,500;small ruby,2147,500;small emerald,2149,500;small amethyst,2150,400" />
+        <parameter key="shop_sellable" value="white pearl,2143,160;black pearl,2144,280;small diamond,2145,300;small sapphire,2146,250;small ruby,2147,250;small emerald,2149,250;small amethyst,2150,200" />
+    </parameters>
+</npc>

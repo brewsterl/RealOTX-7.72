@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Timral" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+ 	<look type="129" head="114" body="119" legs="114" feet="114"/>
+
+	<parameters>
+		<parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. If you don't know where to flow, say {travel}."/>
+		<parameter key="travel_destinations" value="venore,33210,31844,7,50;thais,33216,31844,7,50;"/>
+    </parameters>
+</npc>

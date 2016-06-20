@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tandros" script="data/npc/scripts/runes.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="132" head="97" body="79" legs="113" feet="114" addons="0"/>
+<parameters>
+        
+</parameters>
+
+</npc>
+
+

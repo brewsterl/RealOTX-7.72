@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<npc name="Simon the Beggar" script="data/npc/scripts/simon.lua" walkinterval="10000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="116" body="123" legs="32" feet="40"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Hello |PLAYERNAME|. I am a poor man. Please help me." />
+    <parameter key="message_farewell" value="Have a nice day." />
+	<parameter key="message_walkaway" value="Have a nice day." />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="job;beggar;gold;name;simon;dermot;village;key;dungeon;fibula;timur;worlf;flute;minotaurs;minos;treasure;giant spider;monster;jetty;ship;tibia" />
+    
+	<parameter key="keyword_reply1" value="I have no job. I am a beggar." />
+	<parameter key="keyword_reply2" value="I have no gold and no job, so I am a beggar." />
+	<parameter key="keyword_reply3" value="I need gold. I love gold. I need help." />
+	<parameter key="keyword_reply4" value="My name is Simon. I am a very poor man." />
+	<parameter key="keyword_reply5" value="I am Simon. The poorest human all over the continent." />
+	<parameter key="keyword_reply6" value="The magistrate of the village. I heard he is selling something for the Fibula Dungeon." />
+	<parameter key="keyword_reply7" value="To the north is the village Fibula. A very small village." />
+	<parameter key="keyword_reply8" value="Key? There are a lot of keys. Please change the topic." />
+	<parameter key="keyword_reply9" value="I heard a lot about the Fibula Dungeon. But I never was there." />
+	<parameter key="keyword_reply10" value="I hate Fibula. Too many wolves are here." />
+	<parameter key="keyword_reply11" value="I hate Timur. He is too expensive. But sometimes I find maces and hatchets. Timur is buying these items." />
+	<parameter key="keyword_reply12" value="Please kill them ... ALL." />
+	<parameter key="keyword_reply13" value="Har, har. The stupid Dermot lost his flute. I know that some minotaurs have it in their treasure room." />
+	<parameter key="keyword_reply14" value="Very rich monsters. But they are too strong for me. However, there are even stronger monsters." />
+	<parameter key="keyword_reply15" value="Very rich monsters. But they are too strong for me. However, there are even stronger monsters." />
+	<parameter key="keyword_reply16" value="I know there are two rooms. And I know you can pass only the first door. The second door can't be opened." />
+	<parameter key="keyword_reply17" value="I know that terrible monster. It killed the fishers on the isle to the north." />
+	<parameter key="keyword_reply18" value="The strongest monster I know is the giant spider." />
+	<parameter key="keyword_reply19" value="I hate this jetty. I have never seen a ship here." />
+	<parameter key="keyword_reply20" value="There is a large sea-monster outside. I think there is no gritty captain to sail in this quarter." />
+	<parameter key="keyword_reply21" value="Hehe, do you have a shovel? I can sell you a shovel if you want to return to Tibia." />
+		
+	<parameter key="module_shop" value="1"/>
+	<parameter key="shop_buyable" value="shovel,2554,50;"/>	
+		
+  </parameters>
+</npc>

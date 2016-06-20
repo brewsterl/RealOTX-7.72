@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<npc name="avar tar" script="data/npc/scripts/avar.lua" walkinterval="1000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="73" head="0" body="0" legs="0" feet="0"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Greetings, traveler." />
+    <parameter key="message_farewell" value="It was a pleasure to help you." />
+	<parameter key="message_walkaway" value="How rude!" />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="bye;name;job;rdxtfcvhb;king;tibianus;quest;army;ferumbras;excalibug;thais;tibia;carlin;new;rumor;" />
+	<parameter key="keyword_reply1" value="See you later." />
+	<parameter key="keyword_reply2" value="I am Avar Tar, slayer of monsters, saviour of princesses, and defender of the weak." />
+	<parameter key="keyword_reply3" value="I am a professional hero." />
+	<parameter key="keyword_reply4" value="what?" />
+	<parameter key="keyword_reply5" value="I am on a quest for the Thaian king ... as usual, of course." />
+	<parameter key="keyword_reply6" value="I am on a quest for the Thaian king ... as usual, of course." />
+	<parameter key="keyword_reply7" value="I am on a quest for the Thaian king ... as usual, of course." />
+	<parameter key="keyword_reply8" value="Where the army fails a hero like me is needed." />
+	<parameter key="keyword_reply9" value="I fought him serveral times, sometimes he killed me, sometimes I killed him, I would say we are even right now, but I am getting better and more powerful each day." />
+	<parameter key="keyword_reply10" value="I am sure it's hidden in a vault of the Nightmare Knights beneath the Plains of Havoc. I plan an expedition to go there and rout out the Ruthless Seven, but I have to save the world first." />
+	<parameter key="keyword_reply11" value="If I had the time I would restore peace in this once proud city, but there's too much to do before I can start that quest." />
+	<parameter key="keyword_reply12" value="I've seen it all and done it all ... at least twice." />
+	<parameter key="keyword_reply13" value="I saved the women there once or twice." />
+	<parameter key="keyword_reply14" value="There is a great evil lurking beneath this isle ... and beneath the Plains of Havoc and in the ancient necropolis and beneath the Ghostlands ... well everywhere basically." />
+	<parameter key="keyword_reply15" value="There is a great evil lurking beneath this isle ... and beneath the Plains of Havoc and in the ancient necropolis and beneath the Ghostlands ... well everywhere basically." />
+    
+
+	
+  </parameters>
+</npc>

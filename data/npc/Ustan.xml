@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ustan" script="data/npc/scripts/Ustan.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="144" head="0" body="24" legs="13" feet="76" addons="1"/>
+  <parameters>
+<parameter key="message_greet" value="Hello |PLAYERNAME|, I can teach spells and spell runes for druids." />
+
+<parameter key="module_keywords" value="1" />
+<parameter key="keywords" value="spells;spell runes" />
+
+<parameter key="keyword_reply1" value="I can teach you, antidote, create food, create illusion, energy explosion, energy strike, flame strike, great light, find person, intense healing, light, light healing, summon creature, undead legion, ultimate healing and wild growth." />
+<parameter key="keyword_reply2" value="I can teach you, animate dead, chameleon, convince creature, create antidote, create ultimate healing, create intense healing, explosion, fire wall, heal friend, heavy magic missile, desintegrate, destroy field, energy field, fire field, fireball, great fireball, light magic missile, mass healing, paralyze, poison storm, poison field, soul fire." />
+</parameters>
+</npc>

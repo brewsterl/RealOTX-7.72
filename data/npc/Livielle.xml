@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Livielle" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="138" head="114" body="94" legs="132" feet="132" addons="0"/>
+<voices>
+<voice text="Ah, salut! Come 'ere and 'ave some of my delicious fruits!" interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+        <parameter key="message_greet" value="Ah, 'ello, |PLAYERNAME|! I can see you're longing for my delicious {fruits}, cheri."/>
+        <parameter key="message_farewell" value="Bon appetit, and come back soon for your daily dose of vitamins!"/>
+		<parameter key="message_walkaway" value="Aww, I don't even deserve a farewell?" />
+		<parameter key="message_sendtrade" value="Alors 'ere, take a good look!" />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="fruits;job;" />
+        <parameter key="keyword_reply1" value="What's your favorite flavour today? I offer all sorts of exotic fruits as well as juice squeezers to create tasty fruit juice. Just ask for a trade!" />
+        <parameter key="keyword_reply2" value="Alors, guess what my job might be, standing 'ere in the middle of all these juicy exotic fruits?" />
+    </parameters>
+
+</npc>

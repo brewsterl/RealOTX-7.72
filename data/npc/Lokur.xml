@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lokur" script="data/npc/scripts/evabank.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="160" head="57" body="79" legs="98" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hiho Andrewsorcerer. How may I help you |PLAYERNAME|?I can also explain the mail system."/>
+		<parameter key="message_farewell" value="Come back if you need my services, |PLAYERNAME|."/>
+		
+        <parameter key="message_sendtrade" value="Here. Don't forget that you need to buy a label too if you want to send a parcel. Always write the name of the receiver in the first line and the name of the city in the second line."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;offer;receiver;city;mail;letters;parcels;explain;mailboxes;" />
+        <parameter key="keyword_reply1" value="My name is Lokur Stampsmasher, son of Earth of the Dragoneaters." />
+        <parameter key="keyword_reply2" value="I'm the royal post dwarf and I'm really proud of it." />
+        <parameter key="keyword_reply3" value="I sell parcels and letters. I can also explain how the mail system works." />
+        <parameter key="keyword_reply4" value="Well, the receiver - or addressee - is the person you want to send mail to. He or she can pick up your mail in the depot of the city you send it to." />
+        <parameter key="keyword_reply5" value="The depots you can send parcels or letters to are in the following cities Ab'Dendriel, Ankrahmun, Carlin, Darashia, Edron, Kazordoon, Port Hope, Thais and Venore." />
+        <parameter key="keyword_reply6" value="With our mail system you can send letters and parcels to other Tibians. I can either explain how letters and parcels work or sell them to you." />
+        <parameter key="keyword_reply7" value="Then not." />
+        <parameter key="keyword_reply8" value="If you want to buy a parcel, ask me for a trade. Or do you want me to explain how parcels work?" />
+        <parameter key="keyword_reply9" value="In a parcel you can send items to another Tibian's depot. Put your items into the parcel and also place a completed label with the name and the city of the receiver inside. Then drag your parcel on one of the blue mailboxes here to send it." />
+        <parameter key="keyword_reply10" value="With our mail system you can send letters and parcels to other Tibians. I can either explain how letters and parcels work or sell them to you." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="parcel,2595,15;letter,2597,8;label,2599,1;" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

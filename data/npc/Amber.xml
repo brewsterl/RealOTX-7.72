@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<npc name="Amber" script="data/npc/scripts/amber.lua" walkinterval="1000" access="3" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="137" head="59" body="113" legs="132" feet="76"/>
+  <parameters>
+  
+    <parameter key="message_greet" value="Oh hello, nice to see you |PLAYERNAME|." />
+    <parameter key="message_farewell" value="See you later." />
+	
+	<parameter key="module_keywords" value="1" />
+    <parameter key="keywords" value="how are you;job;explore;adventure;sea;time;help;information;dungeon;sewer;assistant;monster;cyclops;minotaur;dragon;raft;quest;mission;seymour;academy;king;thais;cipfried;dallheim;hyancith;willie;obi;weapon;magic;tibia;castle;orc" />
+    
+	<parameter key="keyword_reply1" value="I am recovering from a sea journey." />
+	<parameter key="keyword_reply2" value="I explore and seek adventure." />
+	<parameter key="keyword_reply3" value="I have been almost everywhere in Tibia." />
+	<parameter key="keyword_reply4" value="I fought fierce monsters, climbed the highest mountains, and crossed the sea on a raft." />
+	<parameter key="keyword_reply5" value="My trip over the sea was horrible. The weather was bad, the waves high and my raft quite simple." />
+	<parameter key="keyword_reply6" value="Sorry, I lost my watch in a storm." />
+	<parameter key="keyword_reply7" value="I can't help you much beyond information." />
+	<parameter key="keyword_reply8" value="Just ask and I'll try to answer." />
+	<parameter key="keyword_reply9" value="I have not had the time to explore the dungeons of this isle, but I have seen two big caves in the east, and there is a ruined tower in the northwest." />
+	<parameter key="keyword_reply10" value="I like sewers. I made my very first battle experience in the Thais sewers. The small sewersystem of Rookgaard has some nasty rats to fight." />
+	<parameter key="keyword_reply11" value="I have a job of great responsibility. Mostly I keep annoying persons away from my boss." />
+	<parameter key="keyword_reply12" value="Oh, I fought orcs, cyclopses, minotaurs, and even green dragons." />
+	<parameter key="keyword_reply13" value="Horrible monsters they are." />
+	<parameter key="keyword_reply14" value="Horrible monsters they are." />
+	<parameter key="keyword_reply15" value="Horrible monsters they are." />
+	<parameter key="keyword_reply16" value="I left my raft at the south eastern shore. I forgot my private notebook on it. If you could return it to me I would be very grateful." />
+	<parameter key="keyword_reply17" value="I left my raft at the south eastern shore. I forgot my private notebook on it. If you could return it to me I would be very grateful." />
+	<parameter key="keyword_reply18" value="I left my raft at the south eastern shore. I forgot my private notebook on it. If you could return it to me I would be very grateful." />
+	<parameter key="keyword_reply19" value="I think this poor guy was a bad choice as the head of the academy." />
+	<parameter key="keyword_reply20" value="A fine institution, but it needs definitely more funds from the king." />
+	<parameter key="keyword_reply21" value="King Tibianus is the ruler of Thais." />
+	<parameter key="keyword_reply22" value="A fine city, but the king has some problems enforcing the law." />
+	<parameter key="keyword_reply23" value="A gentle person. You should visit him, if you have problems." />
+	<parameter key="keyword_reply24" value="An extraordinary warrior. He's the first and last line of defense of Rookgaard." />
+	<parameter key="keyword_reply25" value="Hyacinth is a great healer. He lives somewhere hidden on this isle." />
+	<parameter key="keyword_reply26" value="He's funny in his own, gruffy way." />
+	<parameter key="keyword_reply27" value="He's a funny little man." />
+	<parameter key="keyword_reply28" value="The best weapons on this isle are just toothpicks, compared with the weapons warriors of the mainland wield." />
+	<parameter key="keyword_reply29" value="You can learn spells only in the guildhalls of the mainland." />
+	<parameter key="keyword_reply30" value="I try to explore each spot of Tibia, and one day I will succeed." />
+	<parameter key="keyword_reply31" value="If you travel to Thais, you really should visit the marvelous castle." />
+	<parameter key="keyword_reply32" value="Not the nicest guys you can encounter. I had some clashes with them and was prisoner of the orcs for some months." />
+	
+	<parameter key="module_shop" value="1"/>
+	<parameter key="shop_buyable" value=""/>	
+		
+  </parameters>
+</npc>

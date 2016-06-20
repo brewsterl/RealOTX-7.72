@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sam" script="data/npc/scripts/sam.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="131" head="57" body="112" legs="48" feet="95" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="Hi |PLAYERNAME|. Can I do something for you?"/>
+		<parameter key="message_farewell" value="Good bye and come again."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;shop;name;king;tibianus;quentin;lynda;harkath;general;army;ferumbras;sam;gorn;frodo;elane;muriel;gregor;marvik;bozo;baxter;oswald;sherry;donald;mcronald;lugri;excalibug;news;help;monster;dungeon;sewer;passage;thanks;thank you;offer;do you sell;do you have;weapons;helmets;armors;trousers;" />
+		
+        <parameter key="keyword_reply1" value="I am the blacksmith. If you need weapons or armor - just ask me." />
+        <parameter key="keyword_reply2" value="I am the blacksmith. If you need weapons or armor - just ask me." />
+        <parameter key="keyword_reply3" value="My name is Samuel, but you can call me Sam." />
+        <parameter key="keyword_reply4" value="The king supports Tibia's economy a lot." />
+		<parameter key="keyword_reply5" value="The king supports Tibia's economy a lot." />
+		<parameter key="keyword_reply6" value="He is a monk of some kind!" />
+		<parameter key="keyword_reply7" value="Uhm! ---blush---" />
+		<parameter key="keyword_reply8" value="A warrior who is a joy for Banor." />
+		<parameter key="keyword_reply9" value="A warrior who is a joy for Banor." />
+		<parameter key="keyword_reply10" value="I supply the army with weapons and armor." />
+		<parameter key="keyword_reply11" value="A threat for mankind! Buy weapons to be ready to face him." />
+		<parameter key="keyword_reply12" value="I was named after my grandfather." />
+		<parameter key="keyword_reply13" value="He can tell a tale or two about his adventures with baxter in their younger days." />
+		<parameter key="keyword_reply14" value="I don't like crowded places like his bar." />
+		<parameter key="keyword_reply15" value="Oh, I hardly know her." />
+		<parameter key="keyword_reply16" value="Sorcerers seldom need my skills." />
+		<parameter key="keyword_reply17" value="His guild relies heavily on my wares." />
+		<parameter key="keyword_reply18" value="I never visited his ... cave or whatever it's called." />
+		<parameter key="keyword_reply19" value="He is funny now and then." />
+		<parameter key="keyword_reply20" value="A fine warrior." />
+		<parameter key="keyword_reply21" value="Oswald isn't one of the most liked people in this city." />
+		<parameter key="keyword_reply22" value="The McRonalds are the local farmers, aren't they?" />
+		<parameter key="keyword_reply23" value="The McRonalds are the local farmers, aren't they?" />
+		<parameter key="keyword_reply24" value="The McRonalds are the local farmers, aren't they?" />
+		<parameter key="keyword_reply25" value="I just know some rumours that he is a follower of evil." />
+		<parameter key="keyword_reply26" value="It is rumoured to be a weapon beyond mortal craftsmanship." />
+		<parameter key="keyword_reply27" value="I know nothing of interest." />
+		<parameter key="keyword_reply28" value="I sell and buy weapons, armor, helmets, and shields. So you are able to slash the monsters." />
+		<parameter key="keyword_reply29" value="Yeah, these awful beasts. They live in the forests near the city and in the sewers and dungeons." />
+		<parameter key="keyword_reply30" value="Below our city are the sewers and I heard about a passage to the deeper dungeons." />
+		<parameter key="keyword_reply31" value="Below our city are the sewers and I heard about a passage to the deeper dungeons." />
+		<parameter key="keyword_reply32" value="Don't ask me. I have never been there." />
+		<parameter key="keyword_reply33" value="You are welcome." />
+		<parameter key="keyword_reply34" value="You are welcome." />
+		<parameter key="keyword_reply35" value="My offers are weapons, armors, helmets, legs, and shields." />
+		<parameter key="keyword_reply36" value="My offers are weapons, armors, helmets, legs, and shields." />
+		<parameter key="keyword_reply37" value="My offers are weapons, armors, helmets, legs, and shields." />
+		<parameter key="keyword_reply38" value="I have hand axes, axes, spears, maces, battle hammers, swords, rapiers, daggers, and sabres. What's your choice?" />
+		<parameter key="keyword_reply39" value="I am selling leather helmets and chain helmets. What do you want?" />
+		<parameter key="keyword_reply40" value="I am selling leather, chain and brass armors. What do you need?" />
+		<parameter key="keyword_reply41" value="I am selling wooden shields and steel shields. What do you want?" />
+		<parameter key="keyword_reply42" value="I am selling chain legs. Do you want to buy any?" />
+		<parameter key="keyword_reply43" value="I am selling chain legs. Do you want to buy any?" />
+
+    </parameters>
+</npc>
