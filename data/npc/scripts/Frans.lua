@@ -65,17 +65,17 @@ shopModule:addBuyableItemContainer({'bp sd'},     2003, 2268, 6500 ,10, 'bp sd')
 shopModule:addBuyableItemContainer({'bp uh'},     2002, 2274, 3520,3, 'bp uh')
 
 
-shopModule:addBuyableItem({'blue spell wand', 'vortex'}, 2190, 500, 1, 'blue spell wand')
-shopModule:addBuyableItem({'red spell wand', 'dragonbreath'}, 2191, 1000, 1, 'red spell wand')
-shopModule:addBuyableItem({'green spell wand', 'decay'}, 2188, 5000, 1, 'green spell wand')
-shopModule:addBuyableItem({'yellow spell wand', 'cosmic energy'}, 2189, 10000, 1, 'yellow spell wand')
-shopModule:addBuyableItem({'ritual wand', 'ritual'}, 2187, 15000, 1, 'ritual wand')
+shopModule:addBuyableItem({'wand of vortex', 'vortex'}, 2190, 500, 'wand of vortex')
+shopModule:addBuyableItem({'wand of dragonbreath', 'dragonbreath'}, 2191, 1000, 'wand of dragonbreath')
+shopModule:addBuyableItem({'wand of plague', 'plague'}, 2188, 5000, 'wand of plague')
+shopModule:addBuyableItem({'wand of cosmic energy', 'cosmic energy'}, 2189, 10000, 'wand of cosmic energy')
+shopModule:addBuyableItem({'wand of inferno', 'inferno'}, 2187, 15000, 'wand of inferno')
 
-shopModule:addBuyableItem({'golden wand', 'snakebite'}, 2182, 500, 1, 'golden wand')
-shopModule:addBuyableItem({'conjurer wand', 'moonlight'}, 2186, 1000, 1, 'conjurer wand')
-shopModule:addBuyableItem({'wand of might', 'necrotic'}, 2185, 5000, 1, 'wand of might')
-shopModule:addBuyableItem({'wooden wand', 'terra'}, 2181, 10000, 1, 'wooden wand')
-shopModule:addBuyableItem({'elven wand', 'hailstorm'}, 2183, 15000, 1, 'elven wand')
+shopModule:addBuyableItem({'snakebite rod', 'snakebite'}, 2182, 500, 'snakebite rod')
+shopModule:addBuyableItem({'moonlight rod', 'moonlight'}, 2186, 1000, 'moonlight rod')
+shopModule:addBuyableItem({'volcanic rod', 'volcanic'}, 2185, 5000, 'volcanic rod')
+shopModule:addBuyableItem({'quagmire rod', 'quagmire'}, 2181, 10000, 'quagmire rod')
+shopModule:addBuyableItem({'tempest rod', 'tempest'}, 2183, 15000, 'tempest rod')
 
 
 function creatureSayCallback(cid, type, msg)
