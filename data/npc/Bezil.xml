@@ -15,7 +15,7 @@
         <parameter key="keyword_reply3" value="As you can see, we offer quite a lot, such as torches, shovels and the like." />
 
         <parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="candelabrum,2041,8;candlestick,2047,2;crowbar,2416,260;document,1968,12;fishing rod,2580,150;backpack,2003,10;bag,1996,4;parchment,1969,8;pick,2553,50;present,1990,10;rope,2120,50;scroll,1949,5;scythe,2550,40;shovel,2554,10;torch,2050,2;watch,6091,20;worm,3976,1;oil,2006,20,11;" />
+        <parameter key="shop_buyable" value="candelabrum,2041,8;candlestick,2047,2;crowbar,2416,260;document,1968,12;fishing rod,2580,150;backpack,2003,10;bag,1996,4;parchment,1969,8;pick,2553,50;present,1990,10;rope,2120,50;scroll,1949,5;scythe,2550,40;shovel,2554,10;torch,2050,2;;worm,3976,1;oil,2006,20,11;" />
         <parameter key="shop_sellable" value="vial,2006,5;" />
     </parameters>
 </npc>

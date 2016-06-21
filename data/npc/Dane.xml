@@ -15,7 +15,7 @@
 		<parameter key="keyword_reply4" value="I sell normal and brown bread, meat, ham, cookies, rolls, and cheese made of mushrooms." />
 
         <parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="bread,2689,4;brown bread,2691,3;cheese,8368,6;cookie,8111,2;ham,2671,8;meat,2666,5;roll,2690,2;" />
+        <parameter key="shop_buyable" value="bread,2689,4;brown bread,2691,3;ham,2671,8;meat,2666,5;roll,2690,2;" />
         <parameter key="shop_sellable" value="" />
     </parameters>
 </npc>
