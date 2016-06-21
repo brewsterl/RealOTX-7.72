@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Dalbrect" script="data/npc/scripts/dalbrect.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="Dalbrect" script="data/npc/scripts/dalbrect.lua" walkinterval="2000" access="3" floorchange="0">
     <health now="100" max="100"/>
     <look type="129" head="76" body="97" legs="105" feet="76" addons="0"/>
     <parameters>

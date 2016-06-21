@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Gamel" script="data/npc/scripts/Gamel.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="Gamel" script="data/npc/scripts/Gamel.lua" walkinterval="2000" access="3" floorchange="0">
 <health now="100" max="100"/>
 <look type="129" head="79" body="132" legs="115" feet="116" />
 <parameters>

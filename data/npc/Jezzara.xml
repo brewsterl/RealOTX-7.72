@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Jezzara" script="data/npc/scripts/default.lua" walkinterval="1000" floorchange="0">
+<npc name="Jezzara" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
     <health now="100" max="100"/>
     <look type="138" head="78" body="101" legs="86" feet="115" addons="0"/>
     <parameters>

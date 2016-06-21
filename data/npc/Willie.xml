@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Willie" script="data/npc/scripts/willie.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="Willie" script="data/npc/scripts/willie.lua" walkinterval="2000" access="3" floorchange="0">
     <health now="100" max="100"/>
     <look type="130" head="77" body="63" legs="58" feet="115" addons="0"/>
     <parameters>

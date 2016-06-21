@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<npc name="Blind Orc" floorchange="0" walkinterval="1000">
+<npc name="Blind Orc" floorchange="0" walkinterval="2000">
   <health now="150" max="150"/>
   <look type="5" head="0" body="0" legs="0" feet="0"/>
 

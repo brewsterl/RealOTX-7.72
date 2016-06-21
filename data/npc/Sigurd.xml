@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Sigurd" script="data/npc/scripts/runes.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="Sigurd" script="data/npc/scripts/runes.lua" walkinterval="2000" access="3" floorchange="0">
     <health now="100" max="100"/>
     <look type="69" head="58" body="84" legs="86" feet="114" addons="0"/>
     <parameters>

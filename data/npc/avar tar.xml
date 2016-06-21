@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<npc name="avar tar" script="data/npc/scripts/avar.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="avar tar" script="data/npc/scripts/avar.lua" walkinterval="2000" access="3" floorchange="0">
 	<health now="100" max="100"/>
 	<look type="73" head="0" body="0" legs="0" feet="0"/>
   <parameters>

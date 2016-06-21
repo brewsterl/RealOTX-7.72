@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Romella" script="data/npc/scripts/romella.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="Romella" script="data/npc/scripts/romella.lua" walkinterval="2000" access="3" floorchange="0">
     <health now="100" max="100"/>
     <look type="139" head="79" body="39" legs="77" feet="115" addons="0"/>
     <parameters>

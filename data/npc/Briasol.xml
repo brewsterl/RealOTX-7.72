@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Briasol" script="data/npc/scripts/default.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="Briasol" script="data/npc/scripts/default.lua" walkinterval="2000" access="3" floorchange="0">
     <health now="100" max="100"/>
     <look type="63" head="3" body="86" legs="87" feet="76" addons="0"/>
     <parameters>

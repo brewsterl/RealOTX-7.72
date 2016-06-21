@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Charles" script="data/npc/scripts/barco_porthope.lua" walkinterval="1000" access="3" floorchange="0">
+<npc name="Charles" script="data/npc/scripts/barco_porthope.lua" walkinterval="2000" access="3" floorchange="0">
     <health now="100" max="100"/>
     <look type="134" head="57" body="11" legs="95" feet="41" addons="0"/>
     <parameters>
