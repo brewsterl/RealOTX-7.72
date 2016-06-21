@@ -15,7 +15,7 @@
         <parameter key="keyword_reply3" value="What do youuuu think I am? A lousy barberrrr? I'm selliiiing ruuuunes, waaaaaands, roooods and spellbooks if youuuuu neeeeed." />
         <parameter key="keyword_reply4" value="wand of vortex, wand of dragonbreath, wand of plague, wand of cosmic energy and wand of inferno." />
         <parameter key="keyword_reply5" value="Heeeeeeeeere. Also loooooook all type of runes." />
-        <parameter key="keyword_reply6" value="snakebit rod, moonlight rod, volcanic rod, terra rod and tempest rod." />
+        <parameter key="keyword_reply6" value="snakebit rod, moonlight rod, volcanic rod, quagmire rod and tempest rod." />
 
         <parameter key="module_shop" value="1"/>
         <parameter key="shop_buyable" value="" />

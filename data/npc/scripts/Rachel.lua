@@ -256,8 +256,8 @@ shopModule:addBuyableItem({'wand of inferno', 'inferno'}, 2187, 15000, 'wand of 
 
 shopModule:addBuyableItem({'snakebite rod', 'snakebite'}, 2182, 500, 'snakebite rod')
 shopModule:addBuyableItem({'moonlight rod', 'moonlight'}, 2186, 1000, 'moonlight rod')
-shopModule:addBuyableItem({'volcanic rod', 'volcanic'}, 2185, 5000, 'necrotic rod')
-shopModule:addBuyableItem({'terra rod', 'terra'}, 2181, 10000, 'terra rod')
+shopModule:addBuyableItem({'volcanic rod', 'volcanic'}, 2185, 5000, 'volcanic rod')
+shopModule:addBuyableItem({'quagmire rod', 'terra'}, 2181, 10000, 'quagmire rod')
 shopModule:addBuyableItem({'tempest rod', 'tempest'}, 2183, 15000, 'tempest rod')
 
 -- Fluids

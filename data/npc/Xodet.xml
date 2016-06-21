@@ -12,7 +12,7 @@
         <parameter key="keyword_reply2" value="I'm selling life and mana fluids, runes and spellbooks." />
         <parameter key="keyword_reply3" value="Have a look. I sell animate dead rune, blank ,chameleon rune, convince creature rune, desintegrate, destroy field rune, death arrow rune, explosion rune, great fireball rune, heavy magic missile rune, intense healing rune, light magic missile rune, sudden death rune." />
         <parameter key="keyword_reply4" value="Have a look. I sell light wand, wand of vortex, wand of dragonbreath, wand of plague, wand of cosmic energy, wand of inferno." />
-        <parameter key="keyword_reply5" value="Have a look. I sell light wand, snakebite rod, moonlight rod, volcanic rod, terra rod, tempest rod." />
+        <parameter key="keyword_reply5" value="Have a look. I sell light wand, snakebite rod, moonlight rod, volcanic rod, quagmire rod, tempest rod." />
 
         <parameter key="module_shop" value="1"/>
         <parameter key="shop_buyable" value="" />

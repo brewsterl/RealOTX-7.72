@@ -9,7 +9,7 @@
   <parameter key="message_farewell" value="See you."/>
         
 <parameter key="module_shop" value="1"/>
-        <parameter key="shop_buyable" value="life ring,2168,900;snakebite rod,2182,500;wand of vortex,2190,500;wand of dragonbreath,2191,2000;wand of decay,2188,5000;wand of cosmic energy,2189,10000;wand of inferno,2187,15000;moonlight rod,2186,1000;necrotic rod,2185,5000;terra rod,2181,10000;hailstorm rod,2183,15000;" />
+        <parameter key="shop_buyable" value="life ring,2168,900;snakebite rod,2182,500;wand of vortex,2190,500;wand of dragonbreath,2191,2000;wand of plague,2188,5000;wand of cosmic energy,2189,10000;wand of inferno,2187,15000;moonlight rod,2186,1000;volcanic rod,2185,5000;quagmire rod,2181,10000;tempest rod,2183,15000;" />
         <parameter key="shop_sellable" value="" />
     
 </parameters>
