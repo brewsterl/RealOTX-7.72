@@ -1,6 +1,6 @@
 Features
 =
-    - Engine: OTX 2.X.S.4 LORD ZEDD: https://github.com/mattyx14/otxserver/tree/otxserv2/path_7_x
+    - Engine: OTX 2.X.S.5 LORD ZEDD: https://github.com/mattyx14/otxserver/tree/otxserv2/path_7_x
     - Real Map 7.72
     - Real Npcs 7.72
     - Real Monsters
