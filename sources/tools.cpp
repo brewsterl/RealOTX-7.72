@@ -1647,7 +1647,7 @@ std::string getFilePath(FileType_t type, std::string name/* = ""*/)
 			path += name;
 			break;
 		case FILE_TYPE_XML:
-			path += "XML/" + name;
+			path += "xml/" + name;
 			break;
 		case FILE_TYPE_LOG:
 			#ifndef __FILESYSTEM_HIERARCHY_STANDARD__
