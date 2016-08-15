@@ -2,27 +2,27 @@
 <movements>
 
         <!-- RealOTX by BrewsterL -->
-	<movevent event="StepIn" actionid="50110" script="ankrahmun/Peninsula Tomb.lua" />
-	<movevent event="StepIn" actionid="50111" script="ankrahmun/Peninsula Tomb.lua" />
+	<movevent event="StepIn" actionid="50110" script="ankrahmun/peninsula tomb.lua" />
+	<movevent event="StepIn" actionid="50111" script="ankrahmun/peninsula tomb.lua" />
 	<movevent event="StepIn" actionid="50112" script="ankrahmun/stone tomb.lua" />
 	<movevent event="StepIn" actionid="50113" script="ankrahmun/stone tomb.lua" />
 	<movevent event="StepIn" actionid="50114" script="ankrahmun/shadow tomb.lua" />
 	<movevent event="StepIn" actionid="50115" script="ankrahmun/shadow tomb.lua" />
 	<movevent event="StepIn" actionid="50116" script="ankrahmun/gs tomb.lua" />
 	<movevent event="StepIn" actionid="50117" script="ankrahmun/gs tomb.lua" />
-	<movevent event="StepIn" actionid="50118" script="ankrahmun/Oasis Tomb.lua" />
-	<movevent event="StepIn" actionid="50119" script="ankrahmun/Oasis Tomb.lua" />
-	<movevent event="StepIn" actionid="50120" script="ankrahmun/Ancient Ruins Tomb.lua" />
-	<movevent event="StepIn" actionid="50121" script="ankrahmun/Ancient Ruins Tomb.lua" />
-	<movevent event="StepIn" actionid="50122" script="ankrahmun/Tarpit Tomb.lua" />
-	<movevent event="StepIn" actionid="50123" script="ankrahmun/Tarpit Tomb.lua" />
-	<movevent event="StepIn" actionid="50101" script="town/Thais.lua" />
-	<movevent event="StepIn" actionid="50102" script="town/Carlin.lua" />
+	<movevent event="StepIn" actionid="50118" script="ankrahmun/oasis tomb.lua" />
+	<movevent event="StepIn" actionid="50119" script="ankrahmun/oasis tomb.lua" />
+	<movevent event="StepIn" actionid="50120" script="ankrahmun/ancient ruins tomb.lua" />
+	<movevent event="StepIn" actionid="50121" script="ankrahmun/ancient ruins tomb.lua" />
+	<movevent event="StepIn" actionid="50122" script="ankrahmun/tarpit tomb.lua" />
+	<movevent event="StepIn" actionid="50123" script="ankrahmun/tarpit tomb.lua" />
+	<movevent event="StepIn" actionid="50101" script="town/thais.lua" />
+	<movevent event="StepIn" actionid="50102" script="town/carlin.lua" />
 	<movevent event="StepIn" actionid="50103" script="town/ab.lua" />
 	<movevent event="StepIn" actionid="50104" script="town/kazordoon.lua" />
-	<movevent event="StepIn" actionid="50105" script="town/Venore.lua" />
-	<movevent event="StepIn" actionid="50106" script="town/Edron.lua" />
-	<movevent event="StepIn" actionid="50107" script="town/Darashia.lua" />
+	<movevent event="StepIn" actionid="50105" script="town/venore.lua" />
+	<movevent event="StepIn" actionid="50106" script="town/edron.lua" />
+	<movevent event="StepIn" actionid="50107" script="town/darashia.lua" />
 	<movevent event="StepIn" actionid="50108" script="town/ankrahmun.lua" />
 	<movevent event="StepIn" actionid="50109" script="town/port_hope.lua" />
 	<movevent event="StepIn" actionid="50100" script="town/venoretp.lua" />
@@ -52,10 +52,10 @@
 	<movevent event="StepIn" actionid="8013" script="paradox/paradox_questroom.lua"/>
 	<movevent event="StepIn" actionid="8014" script="paradox/paradox_questroom.lua"/>
 	<movevent event="StepIn" actionid="8015" script="paradox/paradox_exit.lua"/>
-	<movevent event="StepIn" actionid="9008" script="banshee/seal_1.lua"/> 
-	<movevent event="StepIn" actionid="9009" script="banshee/seal_2.lua"/> 
-	<movevent event="StepIn" actionid="9010" script="banshee/seal_3.lua"/> 
-	<movevent event="StepIn" actionid="9011" script="banshee/seal_4.lua"/> 
+	<movevent event="StepIn" actionid="9008" script="banshee/seal_1.lua"/>
+	<movevent event="StepIn" actionid="9009" script="banshee/seal_2.lua"/>
+	<movevent event="StepIn" actionid="9010" script="banshee/seal_3.lua"/>
+	<movevent event="StepIn" actionid="9011" script="banshee/seal_4.lua"/>
 	<movevent event="StepIn" actionid="9012" script="banshee/seal_5.lua"/>
 	<movevent event="StepIn" actionid="9013" script="banshee/seal_3.lua"/>
 	<movevent event="StepIn" actionid="9014" script="banshee/seal_3.lua"/>
@@ -67,9 +67,9 @@
 	<movevent event="StepIn" actionid="9028" script="banshee/tpsouth.lua"/>
 	<movevent event="StepIn" uniqueid="9025" script="dhq/beginoff.lua"/>
 	<movevent event="StepOut" uniqueid="9025" script="dhq/beginoff.lua"/>
-	     
+
         <!-- RealOTX by BrewsterL -->
-		
+
 	<!-- Decaying tiles -->
 	<movevent type="StepIn" itemid="293" event="script" value="decay.lua"/>
 	<movevent type="StepIn" itemid="461" event="script" value="decay.lua"/>
