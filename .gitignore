@@ -1,0 +1,17 @@
+# Ignore build files
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h.in
+configure
+depcomp
+install-sh
+missing
+sources/.deps/
+sources/Makefile
+sources/config.h
+sources/config.log
+sources/config.status
+sources/stamp-h1
+sources/theotxserver
+*.o
