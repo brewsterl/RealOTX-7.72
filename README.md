@@ -24,5 +24,3 @@ Compatible AAC:
 [Gesior2012](https://github.com/gesior/Gesior2012/tree/TFS-0.4_rev_3703%2B).
 
 [ZnoteAAC](https://github.com/Znote/ZnoteAAC).
-
-[BitAAC](https://github.com/bitaac/bitaac).
