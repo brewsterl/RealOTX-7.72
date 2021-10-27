@@ -1,24 +1,24 @@
 -- The OTX Server Config
 
 	-- Owner Data
-	ownerName = ""
-	ownerEmail = ""
-	url = ""
-	location = ""
+	ownerName = "MBMB"
+	ownerEmail = "admin@mbmbgaming.xyz"
+	url = "https://mbmbgaming.xyz/global"
+	location = "Brazil"
 
 	-- Messages
-	motd = "Welcome to the OTX Server!"
-	serverName = "OTXSERVER"
-	loginMessage = "Welcome to The OTX Server!"
-	displayGamemastersWithOnlineCommand = false
+	motd = "Welcome to MBMB Retro - TEST SERVER!"
+	serverName = "MBMB"
+	loginMessage = "Welcome to MBMB Retro - TEST SERVER!"
+	displayGamemastersWithOnlineCommand = true
 
 	-- MySql
-	sqlType = "sqlite"
-	sqlHost = "127.0.0.1"
-	sqlPort = 3306
-	sqlUser = "root"
-	sqlPass = ""
-	sqlDatabase = ""
+	sqlType = "mysql"
+	sqlHost = "mysql873.umbler.com"
+	sqlPort = 41890
+	sqlUser = "ot"
+	sqlPass = "DHYJX9fAynpTkUY"
+	sqlDatabase = "ot"
 	sqlFile = "schemas/otxserver.s3db"
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10
@@ -28,7 +28,7 @@
 
 	-- World / Ip / Port
 	worldId = 0
-	ip = "127.0.0.1"
+	ip = "35.198.16.234"
 	worldType = "open"
 	bindOnlyGlobalAddress = false
 	loginPort = 7171
